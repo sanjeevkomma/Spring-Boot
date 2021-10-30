@@ -14,9 +14,9 @@ How to Start :
 
     1. git clone https://github.com/sanjeevkomma/spring-boot.git
 
-    1. mvn spring-boot:run
+    2. mvn spring-boot:run
     
-    2. Access H2 Console ( http://localhost:8080/h2-console/login.jsp ) 
+    3. Access H2 Console ( http://localhost:8080/h2-console/login.jsp ) 
     
 REST API : 
 
