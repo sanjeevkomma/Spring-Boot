@@ -10,7 +10,9 @@ Commands :
 
    3. mvn eclipse:eclipse
 
-How to Start :  
+How to Start : 
+
+    1. git clone https://github.com/sanjeevkomma/spring-boot.git
 
     1. mvn spring-boot:run
     
