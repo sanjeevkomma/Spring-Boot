@@ -2,13 +2,15 @@ Spring Boot Version : 2.3.0.M1
 
 H2 Console :  http://localhost:8080/h2-console/login.jsp
 
-mvn clean install
+Commands : 
 
-mvn eclipse:clean
+   1. mvn clean install
 
-mvn eclipse:eclipse
+   2. mvn eclipse:clean
 
-How to start :  
+   3. mvn eclipse:eclipse
+
+How to Start :  
 
     1. mvn spring-boot:run
     
