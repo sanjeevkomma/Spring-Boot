@@ -25,3 +25,7 @@ REST API :
     3. Delete User : DELETE : http://localhost:8080/user/{id}
     
     4. Save User : POST : http://localhost:8080/user
+    
+cURL ( Client URL ) :
+
+    1. Get All User : GET : curl -v localhost:8080/user
