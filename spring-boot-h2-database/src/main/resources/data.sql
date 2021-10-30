@@ -1,3 +1,3 @@
-INSERT INTO CITY VALUES (11, 'Delhi', 110001);    
-INSERT INTO CITY VALUES (12, 'Kanpur', 208001);    
-INSERT INTO CITY VALUES (13, 'Lucknow', 226001);  
+INSERT INTO User VALUES (11, 10, 'Delhi', 'test@gmail.com');    
+INSERT INTO User VALUES (12, 10, 'Kanpur','test@gmail.com');    
+INSERT INTO User VALUES (13, 10, 'Lucknow', 'test@gmail.com');    
