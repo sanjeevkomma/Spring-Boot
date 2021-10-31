@@ -1,6 +1,12 @@
-Spring Boot Version : 2.3.0.M1
+Technology Stack :    
 
-H2 Console :  http://localhost:8080/h2-console/login.jsp
+   1. Java 8
+
+   2. Spring Boot 2.3.0.M1
+
+   3. H2 DB
+
+Application Design : 
 
 Commands : 
 
