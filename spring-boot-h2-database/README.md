@@ -1,4 +1,4 @@
-Technology Stack :    
+## Technology Stack :    
 
    1. Java 8
 
@@ -6,9 +6,9 @@ Technology Stack :
 
    3. H2 DB
 
-Application Design : 
+## Application Design : 
 
-Commands : 
+## Commands : 
 
    1. mvn clean install
 
@@ -16,7 +16,7 @@ Commands :
 
    3. mvn eclipse:eclipse
 
-How to Start : 
+## How to Start : 
 
     1. git clone https://github.com/sanjeevkomma/spring-boot.git
 
@@ -24,7 +24,7 @@ How to Start :
     
     3. Access H2 Console ( http://localhost:8080/h2-console/login.jsp ) 
     
-REST API : 
+## REST API : 
 
     1. Get All User : GET : http://localhost:8080/user
     
@@ -34,6 +34,6 @@ REST API :
     
     4. Save User : POST : http://localhost:8080/user
     
-cURL ( Client URL ) :
+## cURL ( Client URL ) :
 
     1. Get All User : GET : curl -v localhost:8080/user
