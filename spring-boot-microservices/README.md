@@ -7,5 +7,6 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 * [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/2.0.x/single/spring-cloud-netflix.html)
 * [Create an API Gateway with Load Balancer Using Java](https://dzone.com/articles/create-an-api-gateway-with-load-balancer-in-java)
 * [LOAD-BALANCER-WITH-API-GATEWAY Github Codebase](https://github.com/VishnuViswam/LOAD-BALANCER-WITH-API-GATEWAY)
+* [Setting up ZUUL gateway between micro services](https://stackoverflow.com/questions/64427773/setting-up-zuul-gateway-between-micro-services)
 
 
