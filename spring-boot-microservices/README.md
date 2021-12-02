@@ -12,6 +12,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   5. Hystrix
   6. Sleuth = distributed tracing via logs
   7. Zipkin = distributed tracing system with request visualization
+# Reference
 * [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/2.0.x/single/spring-cloud-netflix.html)
 * [Create an API Gateway with Load Balancer Using Java](https://dzone.com/articles/create-an-api-gateway-with-load-balancer-in-java)
 * [LOAD-BALANCER-WITH-API-GATEWAY :: Github](https://github.com/VishnuViswam/LOAD-BALANCER-WITH-API-GATEWAY)
@@ -19,5 +20,6 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 * [Setting up ZUUL gateway between micro services](https://stackoverflow.com/questions/64427773/setting-up-zuul-gateway-between-micro-services)
 * [Creating microservice using spring cloud,eureka and zuul](https://piotrminkowski.wordpress.com/2017/02/05/part-1-creating-microservice-using-spring-cloud-eureka-and-zuul/)
 * [A New Era Of Spring Cloud](https://dzone.com/articles/a-new-era-of-spring-cloud)
+* [Service discovery and heartbeats in micro-services](https://www.youtube.com/watch?v=lWE_UIbm8NA&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=26)
 
 
