@@ -14,6 +14,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   7. Hystrix = latency and fault tolerance
   8. Sleuth = distributed tracing via logs
   9. Zipkin = distributed tracing system with request visualization
+  10. Netflix API Gateway = 
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/2.0.x/single/spring-cloud-netflix.html)
