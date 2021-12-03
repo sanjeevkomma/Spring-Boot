@@ -24,5 +24,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 * [Creating microservice using spring cloud,eureka and zuul](https://piotrminkowski.wordpress.com/2017/02/05/part-1-creating-microservice-using-spring-cloud-eureka-and-zuul/)
 * [A New Era Of Spring Cloud](https://dzone.com/articles/a-new-era-of-spring-cloud)
 * [Service discovery and heartbeats in micro-services](https://www.youtube.com/watch?v=lWE_UIbm8NA&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=26)
+# Terminology
+* fault tolerance = fallback 
 
 
