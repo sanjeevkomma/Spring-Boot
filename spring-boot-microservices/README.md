@@ -8,7 +8,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   1. Netflix Eureka = service registration and service discovery
   2. Eureka Server = Naming Server
   3. Eureka Client = 
-  4. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security, and more
+  4. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul)
   5. Ribbon = client side load balancer
   6. Open Feign = declarative REST client / easier REST Client
   7. Hystrix = latency and fault tolerance
