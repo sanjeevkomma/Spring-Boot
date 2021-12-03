@@ -1,6 +1,7 @@
 # Microservices with Spring Boot
 * We use Spring Cloud to develop micro services
-**Prerequisites:** [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
+# Prerequisites
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # Used Libraries
   1. Spring Clould Netflix Eureka = service registration and service discovery. 
   2. Spring Cloud Config Server = centralize the configuration of micro services. [maven dependany](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
