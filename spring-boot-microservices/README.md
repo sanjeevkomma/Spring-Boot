@@ -27,5 +27,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 * [Service discovery and heartbeats in micro-services](https://www.youtube.com/watch?v=lWE_UIbm8NA&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=26)
 # Terminology
 * fault tolerance = fallback 
+![image](https://user-images.githubusercontent.com/7721150/144594924-f512b8e3-0c1c-4a1f-b5ff-b6361ed657f9.png)
+
 
 
