@@ -6,15 +6,16 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 **Prerequisites:** [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # Used Libraries
   1. Netflix Eureka = service registration and service discovery
-  2. Eureka Server = Naming Server
-  3. Eureka Client = 
-  4. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul)
-  5. Ribbon = client side load balancer
-  6. Open Feign = declarative REST client / easier REST Client
-  7. Hystrix = latency and fault tolerance
-  8. Sleuth = distributed tracing via logs
-  9. Zipkin = distributed tracing system with request visualization
-  10. Netflix API Gateway = 
+  2. Spring Cloud Config Server =
+  3. Eureka Server = Naming Server
+  4. Eureka Client = 
+  5. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul)
+  6. Ribbon = client side load balancer
+  7. Open Feign = declarative REST client / easier REST Client
+  8. Hystrix = latency and fault tolerance
+  9. Spring Cloud Sleuth = distributed tracing via logs [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
+  10. Zipkin = distributed tracing system with request visualization
+  11. Netflix API Gateway = 
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/2.0.x/single/spring-cloud-netflix.html)
