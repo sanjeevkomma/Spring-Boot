@@ -9,7 +9,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   2. Spring Cloud Config Server =
   3. Spring Cloud Netflix Eureka Server = Naming Server. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
   4. Spring Cloud Netflix Eureka Client = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
-  5. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul)
+  5. Spring Clould Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul)
   6. Spring Cloud Netflix Ribbon = client side load balancer. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon)
   7. Spring Cloud Open Feign = declarative REST client / easier REST Client. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign)
   8. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
