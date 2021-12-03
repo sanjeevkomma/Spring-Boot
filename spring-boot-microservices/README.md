@@ -13,6 +13,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   6. Sleuth = distributed tracing via logs
   7. Zipkin = distributed tracing system with request visualization
 # Reference
+* [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/2.0.x/single/spring-cloud-netflix.html)
 * [Create an API Gateway with Load Balancer Using Java](https://dzone.com/articles/create-an-api-gateway-with-load-balancer-in-java)
 * [LOAD-BALANCER-WITH-API-GATEWAY :: Github](https://github.com/VishnuViswam/LOAD-BALANCER-WITH-API-GATEWAY)
