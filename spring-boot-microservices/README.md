@@ -14,7 +14,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   7. Open Feign = declarative REST client / easier REST Client
   8. Hystrix = latency and fault tolerance
   9. Spring Cloud Sleuth = distributed tracing via logs [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
-  10. Zipkin = distributed tracing system with request visualization
+  10. Spring Cloud Zipkin = distributed tracing system with request visualization
   11. Netflix API Gateway = 
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
