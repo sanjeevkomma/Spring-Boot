@@ -5,7 +5,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 
 **Prerequisites:** [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # Used Libraries
-  1. Netflix Eureka = service registration and service discovery
+  1. Spring Clould Netflix Eureka = service registration and service discovery. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
   2. Spring Cloud Config Server =
   3. Eureka Server = Naming Server
   4. Eureka Client = 
