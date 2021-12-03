@@ -6,12 +6,14 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
 **Prerequisites:** [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # Used Libraries
   1. Netflix Eureka = service registration and service discovery
-  2. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security, and more
-  3. Ribbon = client side load balancer
-  4. Open Feign = declarative REST client
-  5. Hystrix
-  6. Sleuth = distributed tracing via logs
-  7. Zipkin = distributed tracing system with request visualization
+  2. Eureka Server = Naming Server
+  3. Eureka Client = 
+  4. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security, and more
+  5. Ribbon = client side load balancer
+  6. Open Feign = declarative REST client / easier REST Client
+  7. Hystrix
+  8. Sleuth = distributed tracing via logs
+  9. Zipkin = distributed tracing system with request visualization
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/2.0.x/single/spring-cloud-netflix.html)
