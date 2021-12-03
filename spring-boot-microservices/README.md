@@ -11,7 +11,7 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   4. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security, and more
   5. Ribbon = client side load balancer
   6. Open Feign = declarative REST client / easier REST Client
-  7. Hystrix
+  7. Hystrix = latency and fault tolerance
   8. Sleuth = distributed tracing via logs
   9. Zipkin = distributed tracing system with request visualization
 # Reference
