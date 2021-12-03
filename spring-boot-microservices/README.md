@@ -14,7 +14,7 @@
   8. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
   9. Spring Cloud Netflix Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
   10. Spring Cloud Netflix Zipkin = distributed tracing system with request visualization
-  11. Netflix API Gateway = 
+  11. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Build a Microservices Architecture for Microbrews with Spring Boot](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot)
