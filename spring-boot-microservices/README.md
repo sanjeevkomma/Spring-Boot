@@ -10,11 +10,11 @@ Please read [Build a Microservices Architecture for Microbrews with Spring Boot]
   3. Eureka Server = Naming Server
   4. Eureka Client = 
   5. Netflix Zuul = gateway service that provides dynamic routing, monitoring, resiliency, security. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul)
-  6. Ribbon = client side load balancer
+  6. Spring Cloud Netflix Ribbon = client side load balancer. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon)
   7. Spring Cloud Open Feign = declarative REST client / easier REST Client. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign)
-  8. Spring Cloud Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
-  9. Spring Cloud Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
-  10. Spring Cloud Zipkin = distributed tracing system with request visualization
+  8. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
+  9. Spring Cloud Netflix Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
+  10. Spring Cloud Netflix Zipkin = distributed tracing system with request visualization
   11. Netflix API Gateway = 
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
