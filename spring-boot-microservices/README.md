@@ -6,7 +6,7 @@
 # Used Libraries
   1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven dependany](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
-  3. Spring Cloud Config Server(port:8888) = centralize / store the configuration of micro services. [maven dependany](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
+  3. [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_quick_start) = centralize / store the configuration of micro services. [maven dependany](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
   4. Spring Cloud Config Client
   5. Spring Cloud Netflix Eureka Naming Server(port:8761) = Its known as Discovery Server that registers the client services with their port numbers and IP addresses. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
   6. Spring Cloud Netflix Eureka Client = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
@@ -28,6 +28,7 @@
 * [Creating microservice using spring cloud,eureka and zuul](https://piotrminkowski.wordpress.com/2017/02/05/part-1-creating-microservice-using-spring-cloud-eureka-and-zuul/)
 * [A New Era Of Spring Cloud](https://dzone.com/articles/a-new-era-of-spring-cloud)
 * [Service discovery and heartbeats in micro-services](https://www.youtube.com/watch?v=lWE_UIbm8NA&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=26)
+* [How to Setup the Spring Cloud Config Server With Git](https://dzone.com/articles/how-to-setup-the-spring-cloud-configuration-server-with-git)
 # Terminology
 * fault tolerance = fallback
 # Monolithic vs Microservice
