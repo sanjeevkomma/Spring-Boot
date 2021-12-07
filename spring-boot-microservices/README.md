@@ -4,7 +4,7 @@
 # Prerequisites
 * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # Used Libraries
-  1. Spring Boot Dev Tools = Used for pick the changes with out restarting the app. [maven dependany](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
+  1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven dependany](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
   3. Spring Cloud Config Server(port:8888) = centralize the configuration of micro services. [maven dependany](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
   4. Spring Cloud Config Client
