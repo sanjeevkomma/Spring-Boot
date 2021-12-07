@@ -6,14 +6,14 @@
 # Used Libraries
   1. Spring Clould Netflix Eureka = service registration and service discovery. 
   2. Spring Cloud Config Server = centralize the configuration of micro services. [maven dependany](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
-  3. Spring Cloud Netflix Eureka Naming Server = Its known as Discovery Server that registers the client services with their port numbers and IP addresses. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
+  3. Spring Cloud Netflix Eureka Naming Server(port:8761) = Its known as Discovery Server that registers the client services with their port numbers and IP addresses. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
   4. Spring Cloud Netflix Eureka Client = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
-  5. Spring Clould Netflix Zuul API Gateway Server = gateway service that provides dynamic routing, monitoring, resiliency, security, analytics,logging. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul)
+  5. Spring Clould Netflix Zuul API Gateway Server(port:8765) = gateway service that provides dynamic routing, monitoring, resiliency, security, analytics,logging. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul)
   6. Spring Cloud Netflix Ribbon = client side load balancer. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon)
   7. Spring Cloud Open Feign = declarative REST client / easier REST Client. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign)
   8. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
   9. Spring Cloud Netflix Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
-  10. Spring Cloud Netflix Zipkin Distributed Tracing Server = distributed tracing system with request visualization & monitoring
+  10. Spring Cloud Netflix Zipkin Distributed Tracing Server(port:9411) = distributed tracing system with request visualization & monitoring
   11. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
