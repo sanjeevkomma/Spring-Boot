@@ -1,5 +1,5 @@
-# Microservices with Spring Boot
-* We use [Spring Cloud](https://spring.io/projects/spring-cloud) to develop micro services
+# Microservices with Spring Clould
+* We use [Spring Cloud](https://spring.io/projects/spring-cloud) to develop Micro Services
 * [Netflix OSS](https://netflix.github.io/) components are Eureka, Hystrix, Zuul, Archaius
 # Prerequisites
 * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
