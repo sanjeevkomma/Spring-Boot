@@ -17,7 +17,7 @@
   11. Spring Cloud Netflix Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
   12. Spring Cloud Netflix Zipkin Distributed Tracing Server(port:9411) = distributed tracing system with request visualization & monitoring
   13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
-  14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping)
+  14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Build a Microservices Architecture for Microbrews with Spring Boot](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot)
