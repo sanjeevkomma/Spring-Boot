@@ -1,1 +1,1 @@
-* [Send email with attachment](https://howtodoinjava.com/spring-boot2/send-email-with-attachment/)
+* [OAuth2 Authorization and Resource Servers](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
