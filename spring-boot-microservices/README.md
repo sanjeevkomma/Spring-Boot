@@ -17,9 +17,9 @@
   11. Spring Cloud Netflix Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
   12. Spring Cloud Netflix Zipkin Distributed Tracing Server(port:9411) = distributed tracing system with request visualization & monitoring
   13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
-  14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
+  14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources into bootstrap.properties. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
 # Components of Microservices
-1. Spring Cloud Config Server
+1. Spring Cloud Config Serverform
 2. Netflix Eureka Naming Server
 3. Hystrix Server
 4. Netflix ZuulAPI Gateway Server
