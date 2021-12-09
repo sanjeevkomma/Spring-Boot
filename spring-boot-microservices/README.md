@@ -37,6 +37,7 @@
 * [A New Era Of Spring Cloud](https://dzone.com/articles/a-new-era-of-spring-cloud)
 * [Service discovery and heartbeats in micro-services](https://www.youtube.com/watch?v=lWE_UIbm8NA&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=26)
 * [How to Setup the Spring Cloud Config Server With Git](https://dzone.com/articles/how-to-setup-the-spring-cloud-configuration-server-with-git)
+* [eureka-server-how-to-achieve-high-availability](https://stackoverflow.com/questions/38549902/eureka-server-how-to-achieve-high-availability)
 # Terminology
 * fault tolerance = fallback
 # Monolithic vs Microservice
