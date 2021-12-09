@@ -29,7 +29,7 @@
 1. Spring Cloud Config Serverform
 2. Netflix Eureka Naming Server
 3. Hystrix Server
-4. Netflix ZuulAPI Gateway Server
+4. Netflix Zuul API Gateway Server
 5. Netflix Ribbon
 6. Zipkin Distributed Tracing Server
 # Reference
