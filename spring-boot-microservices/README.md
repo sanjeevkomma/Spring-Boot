@@ -1,4 +1,6 @@
 # Microservices with Spring Cloud
+# Prerequisites
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # To Read
 * We use [Spring Cloud](https://spring.io/projects/spring-cloud) to develop Micro Services
 * [Netflix OSS](https://netflix.github.io/) components are Eureka, Hystrix, Zuul, Archaius
@@ -8,8 +10,6 @@
 3. Security
 4. Fault Tolerance
 5. Service Aggregation
-# Prerequisites
-* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 # Used Libraries
   1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven dependany](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
