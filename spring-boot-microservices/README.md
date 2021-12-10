@@ -9,7 +9,8 @@
 2. Autherization
 3. Security
 5. Service Aggregation
-* http://localhost:<port>/{app-name}/{uri}. Zuul API Gateway uses AppName in the URL to talk to Eureka Server and find the URL of the Micro Service
+* http://localhost:<port>/{app-name}/{uri}
+* Zuul API Gateway uses AppName in the URL to talk to Eureka Server and find the URL of the Micro Service
 # Used Libraries
   1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven dependany](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
