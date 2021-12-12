@@ -22,7 +22,7 @@
   8. Spring Cloud Netflix Ribbon = client side load balancer. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon)
   9. Spring Cloud Open Feign = declarative REST client / easier REST Client. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign)
   10. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
-  11. Spring Cloud Netflix Sleuth = distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
+  11. Spring Cloud Netflix Sleuth = Sleuth will assign unique id to the reques for tracing the request across the componenets. We will put the logs of each component into Rabbit MQ & send to Zipkin Server. Distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
   12. Spring Cloud Netflix Zipkin Distributed Tracing Server(port:9411) = distributed tracing system with request visualization & monitoring
   13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
   14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources(for ex : XXX.properties) into bootstrap.properties. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
