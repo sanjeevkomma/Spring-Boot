@@ -1,5 +1,6 @@
 # Installing Tools
-* [Rabbit MQ](https://www.rabbitmq.com/download.html)
+* [Rabbit MQ download](https://www.rabbitmq.com/download.html)
+* [How to install RabbitMQ on Windows](https://www.youtube.com/watch?v=gKzKUmtOwR4)
 # Reference
 * [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
 * [Create Spring Boot App using Initializr](https://start.spring.io/)
