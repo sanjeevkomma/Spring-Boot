@@ -33,7 +33,7 @@
 3. Hystrix Server
 4. Netflix Zuul API Gateway Server
 5. Netflix Ribbon
-6. Zipkin Distributed Tracing Server
+6. Zipkin Distributed Tracing Server(http://localhost:9411/zipkin)
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Build a Microservices Architecture for Microbrews with Spring Boot](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot)
