@@ -30,7 +30,7 @@
   16. Spring Cloud Bus AMQP = for Rabbit MQ. [spring cloud bus](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
 # Components of Microservices
 1. Spring Cloud Config Serverform
-2. Netflix Eureka Naming Server
+2. Netflix Eureka Naming Server(http://localhost:8761)
 3. Hystrix Server
 4. Netflix Zuul API Gateway Server
 5. Netflix Ribbon
