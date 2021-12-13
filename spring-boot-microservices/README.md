@@ -24,9 +24,10 @@
   10. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
   11. Spring Cloud Netflix Sleuth = Sleuth will assign unique id to the request for tracing the request across the componenets. Each micro service will put the logs into Rabbit MQ & Zipkin Server will listen to this Rabbit MQ for logs. Distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
   12. Spring Cloud Netflix Zipkin Distributed Tracing Server(port:9411) = It will centralize all the logs of each component into one place(centralized dashboard). Distributed tracing system with request visualization & request monitoring. Zipkin Server and ELK Stack both will do the same for centralizing the logs into dashboard. Zipkin server is connected to database. [zipkin server quickstart](https://zipkin.io/pages/quickstart)
-  13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)l 
+  13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
   14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources(for ex : XXX.properties) into bootstrap.properties. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
   15. [Spring Boot Actuator](https://www.javatpoint.com/spring-boot-actuator) =  Used to monitor the health and manage the Spring Boot application. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator)
+  16. Spring Cloud Bus AMQP = for Rabbit MQ. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp)
 # Components of Microservices
 1. Spring Cloud Config Serverform
 2. Netflix Eureka Naming Server
