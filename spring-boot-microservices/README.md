@@ -35,6 +35,11 @@
 4. Netflix Zuul API Gateway Server
 5. Netflix Ribbon
 6. Zipkin Distributed Tracing Server(http://localhost:9411/zipkin)
+# Order of Micro services start
+1. Eureka Naming Server
+2. Zipkin Server
+3. Micro services ( for ex: book service , order service ) 
+4. Zuul API Gateway Server
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Build a Microservices Architecture for Microbrews with Spring Boot](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot)
