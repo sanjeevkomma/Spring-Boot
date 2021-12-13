@@ -27,7 +27,7 @@
   13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
   14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources(for ex : XXX.properties) into bootstrap.properties. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
   15. [Spring Boot Actuator](https://www.javatpoint.com/spring-boot-actuator) =  Used to monitor the health and manage the Spring Boot application. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator)
-  16. Spring Cloud Bus AMQP = for Rabbit MQ. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp)
+  16. Spring Cloud Bus AMQP = for Rabbit MQ. [maven spring cloud bus](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
 # Components of Microservices
 1. Spring Cloud Config Serverform
 2. Netflix Eureka Naming Server
