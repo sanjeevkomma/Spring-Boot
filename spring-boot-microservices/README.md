@@ -12,22 +12,22 @@
 * http://localhost:<port>/{App-Name}/{URI}
 * Zuul API Gateway uses AppName in the URL to talk to Eureka Server and find the URL of the Micro Service
 # Used Libraries
-  1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven dependany](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
+  1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
-  3. [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_quick_start) = centralize / store the configuration of micro services. [maven dependany](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
+  3. [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_quick_start) = centralize / store the configuration of micro services. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
   4. Spring Cloud Config Client
-  5. Spring Cloud Netflix Eureka Naming Server(port:8761) = Its known as Discovery Server that registers the client services with their port numbers and IP addresses. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
-  6. Spring Cloud Netflix Eureka Client = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
-  7. Spring Clould Netflix Zuul API Gateway Server(port:8765) = gateway service that provides dynamic routing, monitoring, resiliency, security, analytics,logging. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul)
-  8. Spring Cloud Netflix Ribbon = client side load balancer. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon)
-  9. Spring Cloud Open Feign = declarative REST client / easier REST Client. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign)
-  10. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
-  11. Spring Cloud Netflix Sleuth = Sleuth will assign unique id to the request for tracing the request across the componenets. Each micro service will put the logs into Rabbit MQ & Zipkin Server will listen to this Rabbit MQ for logs. Distributed tracing via logs. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
+  5. Spring Cloud Netflix Eureka Naming Server(port:8761) = Its known as Discovery Server that registers the client services with their port numbers and IP addresses. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
+  6. Spring Cloud Netflix Eureka Client = [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
+  7. Spring Clould Netflix Zuul API Gateway Server(port:8765) = gateway service that provides dynamic routing, monitoring, resiliency, security, analytics,logging. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul)
+  8. Spring Cloud Netflix Ribbon = client side load balancer. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon)
+  9. Spring Cloud Open Feign = declarative REST client / easier REST Client. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign)
+  10. Spring Cloud Netflix Hystrix = latency and fault tolerance. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix)
+  11. Spring Cloud Netflix Sleuth = Sleuth will assign unique id to the request for tracing the request across the componenets. Each micro service will put the logs into Rabbit MQ & Zipkin Server will listen to this Rabbit MQ for logs. Distributed tracing via logs. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin)
   12. Spring Cloud Netflix Zipkin Distributed Tracing Server(port:9411) = It will centralize all the logs of each component into one place(centralized dashboard). Distributed tracing system with request visualization & request monitoring. Zipkin Server and ELK Stack both will do the same for centralizing the logs into dashboard. Zipkin server is connected to database. [zipkin server quickstart](https://zipkin.io/pages/quickstart)
-  13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
-  14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources(for ex : XXX.properties) into bootstrap.properties. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
-  15. [Spring Boot Actuator](https://www.javatpoint.com/spring-boot-actuator) =  Used to monitor the health and manage the Spring Boot application. [maven dependancy](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator)
-  16. Spring Cloud Bus AMQP = for Rabbit MQ. [maven spring cloud bus](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
+  13. [Spring Cloud Gateway Server](https://spring.io/projects/spring-cloud-gateway) = [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server)
+  14. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources(for ex : XXX.properties) into bootstrap.properties. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
+  15. [Spring Boot Actuator](https://www.javatpoint.com/spring-boot-actuator) =  Used to monitor the health and manage the Spring Boot application. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator)
+  16. Spring Cloud Bus AMQP = for Rabbit MQ. [spring cloud bus](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
 # Components of Microservices
 1. Spring Cloud Config Serverform
 2. Netflix Eureka Naming Server
