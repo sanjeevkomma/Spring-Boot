@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootCommandLineRunnerApplication {
+public class SpringBootCommandLineRunnerApplication implements CommandLineRunner {
 	
 	protected final Log logger = LogFactory.getLog(getClass());
 
@@ -18,6 +18,7 @@ public class SpringBootCommandLineRunnerApplication {
 	@Override
         public void run(String... args) throws Exception {
     	   logger.info("ApplicationStartupRunner run method Started !!");
+    	   System.out.println("run method");
     }
 
 }
