@@ -1,5 +1,4 @@
 Spring boot Profile YAML
-![image](https://user-images.githubusercontent.com/7721150/146056862-3e8b2865-4b46-46da-9568-53c4725c110b.png)
 
 How to start : 
 
@@ -11,9 +10,10 @@ How to start :
     
     4. java -jar -Dspring.profiles.active=prod,hk -Dperson.name=Test target/profile-yaml-0.0.1-SNAPSHOT.jar 
     
-    ![image](https://user-images.githubusercontent.com/7721150/146056805-d79115f9-cbf8-44dc-9e70-c044089ceba8.png)
+Output :
+![image](https://user-images.githubusercontent.com/7721150/146057008-24ecc099-91a1-4aca-ac31-293d80c0f94d.png)
 
-
+    
     
     
     
