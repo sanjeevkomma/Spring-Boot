@@ -24,12 +24,14 @@
 * @Qualifier =
 * @Configuration =
 * @ConfigurationProperties = 
+* @ComponentScan =
 * @Retryable =
 * @Recover =
 * @EnableRetry =
 * @SpringBootApplication
 * @Service
 * @EnableAsync =
-* 
+* @RestController = 
+* @RequestMapping =
 # Reference
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
