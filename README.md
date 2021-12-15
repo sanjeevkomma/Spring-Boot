@@ -15,6 +15,8 @@
 * Spring Open API / Swagger UI 
 * Versioning =  Multiple Versions of the same Service = 1) Request Param Versioning 2) Header Versioning 3) Produces / Accept / Media type / Accept Header Versioning 4) URI Versioning 
 * Basic Authentication with Sprig Security
+* @Bean annotation will give instance of the class(method return Type) to Spring. It can be applied to a method
+* @Autowired annoation will ask the instance of the class ,which was created with @Bean annotation.
 
 # Reference
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
