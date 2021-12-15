@@ -5,6 +5,7 @@ logging:
 ---
 spring:
   profiles: hk
+
 server:
   email: dev@gmail.com
   cluster:
@@ -17,6 +18,7 @@ server:
 ---
 spring:
   profiles: sg
+
 server:
   email: prod@gmail.com
   cluster:

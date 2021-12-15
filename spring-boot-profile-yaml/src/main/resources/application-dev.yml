@@ -9,6 +9,7 @@ logging:
 
 spring:
   profiles: hk
+  
 server:
   email: devhk@gmail.com
   cluster:
@@ -22,6 +23,7 @@ server:
 
 spring:
   profiles: sg
+
 server:
   email: devsg@gmail.com
   cluster:
