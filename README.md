@@ -18,5 +18,18 @@
 * @Bean annotation will give instance of the class(method return Type) to Spring. It can be applied to a method
 * @Autowired annoation will ask the instance of the class ,which was created with @Bean annotation.
 
+# Annotations
+* @Bean = 
+* @Autowired =
+* @Qualifier =
+* @Configuration =
+* @ConfigurationProperties = 
+* @Retryable =
+* @Recover =
+* @EnableRetry =
+* @SpringBootApplication
+* @Service
+* @EnableAsync =
+* 
 # Reference
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
