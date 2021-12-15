@@ -3,7 +3,8 @@ logging:
     org.springframework: INFO
     com.demo: INFO
 
-
+server:
+  email: prodhksg@gmail.com
 
 ---
 
@@ -11,7 +12,6 @@ spring:
   profiles: hk
 
 server:
-  email: prodhk@gmail.com
   cluster:
     - ip: 127.0.0.1
       path: /dev1
@@ -25,7 +25,6 @@ spring:
   profiles: sg
 
 server:
-  email: prodsg@gmail.com
   cluster:
     - ip: 192.168.0.1
       path: /app1
