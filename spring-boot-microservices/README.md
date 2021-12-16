@@ -28,7 +28,7 @@
   14. [Spring Cloud Gateway](https://cloud.spring.io/spring-cloud-gateway/reference/html/) = It provides route to APIs and cross cutting concerns such as security,  monitoring, metrics and resiliency to APIs. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-gateway)
   15. [Spring Cloud – Bootstrapping](https://www.baeldung.com/spring-cloud-bootstrapping) = Used to load properties from external sources(for ex : XXX.properties) into bootstrap.properties. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap)
   16. [Spring Boot Actuator](https://www.javatpoint.com/spring-boot-actuator) =  Used to monitor the health and manage the Spring Boot application. http://localhost:8080/actuator/health. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator)
-  17. Spring Cloud Bus AMQP = for Rabbit MQ. [spring cloud bus](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
+  17. Spring Cloud Bus AMQP = Rabbit MQ uses AMQP protocol. [spring cloud bus maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit maven](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
   18. [Spring web flux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux) = [Spring Webflux: Getting started](https://dzone.com/articles/spring-webflux-getting-started)
 # Components of Microservices
 1. Spring Cloud Config Serverform
