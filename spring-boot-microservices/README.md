@@ -14,7 +14,7 @@
 # Used Libraries
   1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
-  3. [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_quick_start) = centralize / store the configuration of micro services. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server)
+  3. [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_quick_start) = centralize / store the configuration of micro services. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server). bootstrap.properties can be used to link between micro service & spring cloud c onfig server. Git local repository folder will be as part of Sping cloud config server to configure properties cetrally
   4. Spring Cloud Config Client
   5. Spring Cloud Netflix Eureka Naming Server(port:8761) = Its known as Discovery Server that registers the client services with their port numbers and IP addresses. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server)
   6. Spring Cloud Netflix Eureka Client = [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
