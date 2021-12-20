@@ -13,6 +13,7 @@
 * Zuul API Gateway uses AppName in the URL to talk to Eureka Server and find the URL of the Micro Service
 * [Microservices Guide](https://martinfowler.com/microservices/)
 * [Microservice Architecture](https://microservices.io/patterns/microservices.html)
+* [Event-driven architecture with Microservice](https://microservices.io/patterns/data/event-driven-architecture.html)
   
 # Used Libraries
   1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
