@@ -36,7 +36,7 @@
   17. [Spring Cloud Bus](https://cloud.spring.io/spring-cloud-bus/reference/html/) = It uses Kafka or Rabbit MQ(AMQP protocol) to update the central configuration changes to all micro services in the application.[spring cloud bus maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit maven](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
   18. [Spring web flux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux) = [Spring Webflux: Getting started](https://dzone.com/articles/spring-webflux-getting-started)
 # Components of Microservices 
-1. Spring Cloud Config Serverform
+1. Spring Cloud Config Serverfor(http://localhost:8888/service-name/default)
 2. Netflix Eureka Naming Server(http://localhost:8761)
 3. Hystrix Server --- Resilience4j
 4. Netflix Zuul API Gateway Server --- Spring Cloud Gateway
