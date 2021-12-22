@@ -3,6 +3,7 @@
 * [How to install RabbitMQ on Windows](https://www.youtube.com/watch?v=gKzKUmtOwR4)
 
 # To Read
+* Spring boot = Spring MVC + Auto Configuration(Don't need to write spring.xml file for configurations) + Server(You can have embedded Tomcat, Netty, Jetty server)
 * Spring boot supports 3 embedded servers : Tomcat (default) , Jetty, Undertow
 * By default, Spring Boot 2 uses HikariCP as the default connection pool
 * Spring boot Auto Configuration 
@@ -16,7 +17,8 @@
 * Versioning =  Multiple Versions of the same Service = 1) Request Param Versioning 2) Header Versioning 3) Produces / Accept / Media type / Accept Header Versioning 4) URI Versioning 
 * Basic Authentication with Sprig Security
 
-
+# Termionology
+# Tutorial
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
 * @Bean = It will give instance of the class(method return Type) to Spring. It can be applied to a method
 * @Autowired = It will ask the instance of the class ,which was created with @Bean annotation.
