@@ -3,7 +3,7 @@
 * [How to install RabbitMQ on Windows](https://www.youtube.com/watch?v=gKzKUmtOwR4)
 
 # To Read
-* Spring boot = Spring MVC + Auto Configuration(Don't need to write spring.xml file for configurations) + Server(You can have embedded Tomcat, Netty, Jetty server)
+* Spring boot = Spring MVC + Auto Configuration ( Don't need to write spring.xml file for configurations ) + Server ( You can have embedded Tomcat, Netty, Jetty server )
 * Spring boot supports 3 embedded servers : Tomcat (default) , Jetty, Undertow
 * By default, Spring Boot 2 uses HikariCP as the default connection pool
 * Spring boot Auto Configuration 
