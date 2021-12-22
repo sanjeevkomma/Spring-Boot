@@ -1,10 +1,10 @@
 # Installing Tools
 * [Rabbit MQ download](https://www.rabbitmq.com/download.html)
 * [How to install RabbitMQ on Windows](https://www.youtube.com/watch?v=gKzKUmtOwR4)
-# Reference
-* [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
-* [Create Spring Boot App using Initializr](https://start.spring.io/)
+
+# To Read
 * Spring boot supports 3 embedded servers : Tomcat (default) , Jetty, Undertow
+* By default, Spring Boot 2 uses HikariCP as the default connection pool
 * Spring boot Auto Configuration 
 * Static Filtering 
 * Dynamic Filtering 
@@ -34,3 +34,5 @@
 * @RequestMapping =
 # Reference
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
+* [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
+* [Create Spring Boot App using Initializr](https://start.spring.io/)
