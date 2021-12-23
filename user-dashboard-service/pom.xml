@@ -10,10 +10,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>spring-boot-h2-database</groupId>
-	<artifactId>spring-boot-h2-database</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-h2-database</name>
+	<groupId>user-dashboard-service</groupId>
+	<artifactId>user-dashboard-service</artifactId>
+	<name>user-dashboard-service</name>
+	<version>1.0</version>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
