@@ -17,7 +17,7 @@
 * Versioning =  Multiple Versions of the same Service = 1) Request Param Versioning 2) Header Versioning 3) Produces / Accept / Media type / Accept Header Versioning 4) URI Versioning 
 * Basic Authentication with Sprig Security
 
-# Termionology
+# Terminology
 # Tutorial
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
 * @Bean = It will give instance of the class(method return Type) to Spring. It can be applied to a method
