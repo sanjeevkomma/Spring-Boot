@@ -19,6 +19,9 @@
 
 # Terminology
 # Tutorial
+* [Spring Boot Versions](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot)
+* [Spring Boot Doc](https://spring.io/projects/spring-boot)
+* [Spring Cloud Doc](https://spring.io/projects/spring-cloud)
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
 * @Bean = It will give instance of the class(method return Type) to Spring. It can be applied to a method
 * @Autowired = It will ask the instance of the class ,which was created with @Bean annotation.
@@ -35,8 +38,6 @@
 * @RestController = 
 * @RequestMapping =
 # Reference
-* [Spring Boot Versions](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot)
-* [Spring Boot Doc](https://spring.io/projects/spring-boot)
 * [Spring vs Spring Boot vs Spring MVC](https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc)
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
 * [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
