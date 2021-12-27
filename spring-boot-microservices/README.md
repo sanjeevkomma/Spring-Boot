@@ -16,7 +16,7 @@
 * [Event-driven architecture with Microservice](https://microservices.io/patterns/data/event-driven-architecture.html)
 * [Event-Driven Microservice Architecture](https://medium.com/trendyol-tech/event-driven-microservice-architecture-91f80ceaa21e)
   
-# Used Libraries
+# Libraries or Dependencies
   1. Spring Boot Dev Tools = Used to pick the changes with out restarting the app. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)
   2. Spring Clould Netflix Eureka = service registration and service discovery. 
   3. [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_quick_start) = centralize / store the configuration of micro services. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-server). bootstrap.properties can be used to link between micro service & spring cloud config server. Git local repository folder will be as part of Sping cloud config server to configure properties cetrally
