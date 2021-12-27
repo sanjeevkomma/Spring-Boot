@@ -35,6 +35,7 @@
   16. [Spring Boot Actuator](https://www.javatpoint.com/spring-boot-actuator) =  Used to monitor the health and manage the Spring Boot application. http://localhost:8080/actuator/health. [maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator)
   17. [Spring Cloud Bus](https://cloud.spring.io/spring-cloud-bus/reference/html/) = It uses Kafka or Rabbit MQ(AMQP protocol) to update the central configuration changes to all micro services in the application.[spring cloud bus maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit maven](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
   18. [Spring web flux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux) = [Spring Webflux: Getting started](https://dzone.com/articles/spring-webflux-getting-started)
+  19. Spring Cloud Load Balancer = Sping Clould Eureka Client internally has load balancer dependant for client side load balancing. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
 # Components of Microservices 
 1. Spring Cloud Config Serverfor(http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ]
 2. Netflix Eureka Naming Server(http://localhost:8761)
