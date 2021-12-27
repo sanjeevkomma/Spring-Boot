@@ -4,13 +4,15 @@
 # To Read
 * We use [Spring Cloud](https://spring.io/projects/spring-cloud) to develop Micro Services
 * [Netflix OSS](https://netflix.github.io/) components are Eureka, Hystrix, Zuul, Archaius
-* Below common features are implemented at API Gateway level
+* Below common features / cross cutting concerns are implemented at API Gateway level
 1. Authentication
 2. Autherization
 3. Logging
 4. Rate Limiting
 5. Security
-6. Service Aggregation
+6. Monitoring
+7. Resilency --- the capacity to recover quickly from difficulties
+8. Service Aggregation
 * http://localhost:<port>/{App-Name}/{URI}
 * Zuul API Gateway uses AppName in the URL to talk to Eureka Server and find the URL of the Micro Service
 * [Microservices Guide](https://martinfowler.com/microservices/)
@@ -38,7 +40,7 @@
   17. [Spring Cloud Bus](https://cloud.spring.io/spring-cloud-bus/reference/html/) = It uses Kafka or Rabbit MQ(AMQP protocol) to update the central configuration changes to all micro services in the application.[spring cloud bus maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp),[spring rabbit maven](https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit)
   18. [Spring web flux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux) = [Spring Webflux: Getting started](https://dzone.com/articles/spring-webflux-getting-started)
   19. Spring Cloud Load Balancer = Sping Clould Eureka Client internally has load balancer dependant for client side load balancing. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
-  20. Spring Cloud API Gateway = 
+  20. Spring Cloud API Gateway = It uses to route APIs and provide cross cutting concerns such as security, monitoring & resilency. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-gateway)
 # Components of Microservices 
 1. Spring Cloud Config Serverfor(http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ]
 2. Netflix Eureka Naming Server(http://localhost:8761)
