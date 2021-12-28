@@ -44,7 +44,7 @@
 # Components of Microservices 
 1. Spring Cloud Config Serverfor(http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ]
 2. Netflix Eureka Naming Server(http://localhost:8761)
-3. Hystrix Server --- Resilience4j
+3. Hystrix Server (Circuit Breaker Pattern)--- Resilience4j. Used for fault tolerance
 4. Netflix Zuul API Gateway Server --- Spring Cloud API Gateway (http://localhost:8765/service-name/uri)
 5. Netflix Ribbon -- Spring Cloud LoadBalancer [Sping Clould Eureka Client internally has load balancer dependant for client side load balancing]
 6. Zipkin Distributed Tracing Server(http://localhost:9411/zipkin)
