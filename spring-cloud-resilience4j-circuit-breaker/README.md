@@ -10,6 +10,13 @@
 * service down
 * service slow
 
+# Annotations
+1. @Retry
+2. @CircuitBreaker = It breaks the circuit and gives default response back
+
+# Tutorial
+* [resilience4j-circuitbreaker](https://resilience4j.readme.io/docs/circuitbreaker)
+
 # Reference
 * [Hystrix Circuit Breaker Pattern – Spring Cloud](https://howtodoinjava.com/spring-cloud/spring-hystrix-circuit-breaker-tutorial/#what-is-circuit-breaker)
 * [Spring Cloud- Netflix Eureka + Ribbon + Hystrix Simple Example](https://www.javainuse.com/spring/spring_hystrix)
