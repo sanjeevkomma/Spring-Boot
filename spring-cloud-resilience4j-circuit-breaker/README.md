@@ -16,7 +16,7 @@
 1. @Retry
 2. @CircuitBreaker = It breaks the circuit and gives default response back
 3. @RateLimiter = For ex : In 10 secs, allow only 2 calls to the API
-4. @Bulkhead = Configue max concurrent calls to the API. For ex : 10 concurrent calls to the API
+4. @Bulkhead = Configue max concurrent calls to the API. ( For ex : 10 concurrent calls to the API )
 
 # Interfaces
 
