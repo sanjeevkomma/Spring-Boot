@@ -1,6 +1,6 @@
 # To Read
 # Terminology
-* Rate limiting = Rate limiting is a strategy to limit access to APIs. It restricts the number of API calls that a client can make within a certain timeframe
+* Rate limiting = Rate limiting is a strategy to limit access to APIs. It restricts the number of API calls that a client can make within a certain time frame
 # Tutorial
 * [resilience4j](https://resilience4j.readme.io/docs/getting-started)
 
