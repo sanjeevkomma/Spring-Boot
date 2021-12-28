@@ -41,10 +41,11 @@
   18. [Spring web flux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux) = Reactive approach[Spring Webflux: Getting started](https://dzone.com/articles/spring-webflux-getting-started)
   19. Spring Cloud Load Balancer = Sping Clould Eureka Client internally has load balancer dependant for client side load balancing. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client)
   20. Spring Cloud API Gateway = It uses to route APIs and provide cross cutting concerns such as security, monitoring & resilency. Gateway Server talks to Eureka Server for app name. [maven](https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-gateway)
+  21. Spring Boot resilience4j = fault tolerance. [resilience4j](https://resilience4j.readme.io/docs/getting-started-3)
 # Components of Microservices 
-1. Spring Cloud Config Serverfor(http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ]
+1. Spring Cloud Config Server -- (http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ]
 2. Netflix Eureka Naming Server(http://localhost:8761)
-3. Hystrix Server (Circuit Breaker Pattern)--- Resilience4j. Used for fault tolerance
+3. Hystrix Server (Circuit Breaker Pattern)--- [resilience4j](https://resilience4j.readme.io/docs/getting-started-3). Used for fault tolerance
 4. Netflix Zuul API Gateway Server --- Spring Cloud API Gateway (http://localhost:8765/service-name/uri)
 5. Netflix Ribbon -- Spring Cloud LoadBalancer [Sping Clould Eureka Client internally has load balancer dependant for client side load balancing]
 6. Zipkin Distributed Tracing Server(http://localhost:9411/zipkin)
