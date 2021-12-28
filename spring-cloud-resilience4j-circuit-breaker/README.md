@@ -7,6 +7,8 @@
 # Usage
 * fault tolerance
 * retry 
+* service down
+* service slow
 
 # Reference
 * [Hystrix Circuit Breaker Pattern – Spring Cloud](https://howtodoinjava.com/spring-cloud/spring-hystrix-circuit-breaker-tutorial/#what-is-circuit-breaker)
