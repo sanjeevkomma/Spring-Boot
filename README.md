@@ -18,6 +18,7 @@
 * Basic Authentication with Sprig Security
 
 # Terminology
+* Rate limiting = Rate limiting is a strategy to limit access to APIs. It restricts the number of API calls that a client can make within a certain timeframe
 # Tutorial
 * [Spring Boot Versions](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot)
 * [Spring Boot Doc](https://spring.io/projects/spring-boot)
