@@ -1,4 +1,6 @@
 # To Read
+* Circuit breaker states are Closed, Open, Half Open
+* Resilienc4j Types are Circuit breaker, Retry, Rate limiter, Time Limiter
 # Terminology
 * Rate limiting = Rate limiting is a strategy to limit access to APIs. It restricts the number of API calls that a client can make within a certain time frame
 # Tutorial
