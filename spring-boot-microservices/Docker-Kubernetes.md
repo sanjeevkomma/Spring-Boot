@@ -70,10 +70,14 @@
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
 
+# Tutorial
+* [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
+
 
 # Reference
 * [Docker Engine overview](https://docs.docker.com/engine/)
 * [Build and Ship any Application Anywhere](https://hub.docker.com/)
+
 
 
 # Kubernetes (K8s)
