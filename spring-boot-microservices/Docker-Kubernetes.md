@@ -6,7 +6,7 @@
 # Docker : To Read
 * Docker image contains everything a micro service needs to run. ( for ex : 1) Application runtime ( JDK, Python, NodeJS ) 2) Application code 3) dependencies ) 
 * We can run docker container on 1) local machine 2) corporate data center 3) cloud
-* Docker Hub is the world's easiest way to create, manage and deliver your container applications
+* [Docker Hub](https://hub.docker.com/) is the world's easiest way to create, manage and deliver your container applications
 * We will deploy Docker container inside Kubernetes Cluster 
 * OpenShift is Container Platform ( PAAS --- Platform As A Service )  
 * OpenShift is Kubernetes Platform 
@@ -24,6 +24,7 @@
 * Docker
 * [Kubernetes](https://kubernetes.io/) = Container Orchestration
 * Kubernetes VS Docker
+* Docker Registry
 * Orchestration = Arrangement
 * Automation
 * Container Based Applications =
@@ -48,6 +49,8 @@
 * $ docker --version
 * $ docker-machine ip  --- default machine with IP 192.168.99.100
 * $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+* $ docker tag local-image:tagname new-repo:tagname
+* $ docker push new-repo:tagname
 
 
 # Reference
