@@ -20,6 +20,7 @@
 * docker commands are focused on only one container (or image) at once while docker-compose manage several containers docker
 * Docker Image = Docker Container
 * Docker Desktop includes Docker Engine and Kubernetes
+* Image is like a Class and Container is like an Object
 
 # Terminology
 * Docker
