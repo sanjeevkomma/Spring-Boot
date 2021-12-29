@@ -25,17 +25,17 @@
 * Docker
 * [Kubernetes](https://kubernetes.io/) = Container Orchestration
 * Kubernetes VS Docker
-* Docker Registry
+* Docker Registry = Docker Hub
+* Repository = 
+* Tag = 
+* Image = A Static Template -- A Set of Bytes
+* Container = Running version of the Image
+* Host Port : Container Port = -p 5000 : 5000
 * Orchestration = Arrangement
 * Automation
 * Container Based Applications =
 * Seamlessly = Continuously
 * Route = Route is basically an URL through which you can access the application 
-* Endpoint =  
-* Image = A Static Template -- A Set of Bytes
-* Container = Running version of the Image
-* Host
-* Host Port : Container Port = -p 5000 : 5000
 * Pod = Each Pod can have one or more Containers
 * Node
 * Cluster = Group
