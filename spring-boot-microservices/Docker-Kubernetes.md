@@ -42,21 +42,21 @@
 
 
 # Support
-* [announcement]: https://cncf.io/news/announcement/2015/07/new-cloud-native-computing-foundation-drive-alignment-among-container
-* [Borg]: https://research.google.com/pubs/pub43438.html
-* [CNCF]: https://www.cncf.io/about
-* [communication]: https://git.k8s.io/community/communication
-* [community repository]: https://git.k8s.io/community
-* [containerized applications]: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
-* [developer's documentation]: https://git.k8s.io/community/contributors/devel#readme
-* [Docker environment]: https://docs.docker.com/engine
-* [Go environment]: https://golang.org/doc/install
-* [GoDoc]: https://godoc.org/k8s.io/kubernetes
-* [GoDoc Widget]: https://godoc.org/k8s.io/kubernetes?status.svg
-* [interactive tutorial]: https://kubernetes.io/docs/tutorials/kubernetes-basics
-* [kubernetes.io]: https://kubernetes.io
-* [Scalable Microservices with Kubernetes]: https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
-* [troubleshooting guide]: https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/
+* [announcement](https://cncf.io/news/announcement/2015/07/new-cloud-native-computing-foundation-drive-alignment-among-container)
+* [Borg](https://research.google.com/pubs/pub43438.html)
+* [CNCF](https://www.cncf.io/about)
+* [communication](https://git.k8s.io/community/communication)
+* [community repository](https://git.k8s.io/community)
+* [containerized applications](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+* [developer's documentation](https://git.k8s.io/community/contributors/devel#readme)
+* [Docker environment](https://docs.docker.com/engine)
+* [Go environment](https://golang.org/doc/install)
+* [GoDoc](https://godoc.org/k8s.io/kubernetes)
+* [GoDoc Widget](https://godoc.org/k8s.io/kubernetes?status.svg)
+* [interactive tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics)
+* [kubernetes.io](https://kubernetes.io)
+* [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
+* [troubleshooting guide](https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/)
 
 # Image
 * ![image](https://user-images.githubusercontent.com/7721150/146746723-1cda73c7-4947-4037-9287-5aaf985fe88e.png)
