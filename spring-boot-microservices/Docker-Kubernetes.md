@@ -24,20 +24,24 @@
 * For one Image, we can have any number of Containers running
 * Image is static version and Container is running version of image
 * We have to publish container port ( for ex : 5000 ) to host port ( for ex : 5000 ) for running & accessing application using docker in local
+* Docker Image contains JDK , Application Jar, Libraries, Dependant Libraries , Softwares etc that are need to run the Container on Docker Engine
+* Cloud providers ( AWS, Azure, GCP ) provide container based services
+* AWS provides a service called "Elastic Container Service" for Docker
+* Azure provides a service called "Azure Container Service" for Docker
 
 # Terminology
 * Docker
 * [Kubernetes](https://kubernetes.io/) = Container Orchestration
 * Kubernetes VS Docker
-* Docker Registry = [Docker Hub](https://hub.docker.com/)
+* Docker Registry = [Docker Hub](https://hub.docker.com/)cker
 * Repository = sanjeevkomma/todo-rest-api-h2
 * Tag = 1.0.0.RELEASE
-* Image = A Static Template -- A Set of Bytes = [ It contains JDK , Application Jar, Libraries, Dependant Libraries ] 
+* Image = A Static Template -- A Set of Bytes = [ It contains JDK , Application Jar, Libraries, Dependant Libraries , Softwares etc that are need to run the Container on Docker Engine] 
 * Container = Running version of the Image
 * Host Port : Container Port = -p 5000 : 5000
 * Docker Desktop = Docker Client + Docker Daemon ( Docker Engine )
 * Docker Client = 
-* Docker Daemon = Docker Engine
+* Docker Daemon = Docker Enginen 
 * Orchestration = Arrangement
 * Automation
 * Container Based Applications =
