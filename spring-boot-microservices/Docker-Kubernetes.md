@@ -63,7 +63,8 @@
 * $ docker run -p 5001:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE =  running the same image on another port
 * $ docker logs [docker-id] = to check logs  
 * $ docker logs -f [docker-id] = to check logs
-* $ docker container ls = to list the running containers  
+* $ docker container ls = to list the running containers
+* $ docker images = to list the images
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
 
