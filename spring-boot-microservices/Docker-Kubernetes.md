@@ -28,6 +28,7 @@
 * Cloud providers ( AWS, Azure, GCP ) provide container based services
 * AWS provides a service called "Elastic Container Service" for Docker
 * Azure provides a service called "Azure Container Service" for Docker
+* Docker official Images are curated set of docker repositories hosted on Docker Hub
 
 # Terminology
 * Docker
@@ -62,7 +63,7 @@
 * $ docker --version
 * $ docker-machine ip  = default machine with IP 192.168.99.100
 * $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...] 
-* $ docker run [registry-name]/[repository-name]:[tag-name] = To download image from docker hub
+* $ docker run [registry-name]/[repository-name]:[tag-name] = To download image from docker hub & run 
 * $ docker run -p 5000:5000 [registry-name]/[repository-name]:[tag-name] = To run the application using docker in local
 * $ docker run -p 5000:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE
 * $ docker run -p 5001:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE  
@@ -79,6 +80,11 @@
 * $ docker pull in28min/mmv2-currency-exchange-service:0.0.12-SNAPSHOT = To pull image registry from Docker hub into local machine
 * $ docker tag in28min/todo-rest-api-h2:1.0.0.RELEASE in28min/todo-rest-api-h2:latest = 
 * $ docker pull mysql = It will pull latest ( by default ) [mysql docker image](https://hub.docker.com/_/mysql) to local
+* $ docker search mysql = to search image locally
+* $ docker image history [docker-image-id] = to see history of docker image
+* $ docker image inspect [docker-image-id] = to see all the details of the docker image
+* $ docker image remove [docker-image-id] = to remove the docker image from local
+* $ docker create [OPTIONS] IMAGE [COMMAND] [ARG...] = to create the docker image
 
 # Tutorial
 * [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
