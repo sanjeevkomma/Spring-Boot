@@ -22,6 +22,7 @@
 * Docker Desktop includes Docker Engine and Kubernetes
 * Image is like a Class and Container is like an Object
 * For one Image, we can have any number of Containers running
+* Image is static version and Container is running version of image
 
 # Terminology
 * Docker
@@ -53,6 +54,7 @@
 * $ docker --version
 * $ docker-machine ip  --- default machine with IP 192.168.99.100
 * $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+* $ docker run <registry-name>/<repository-name>:<tag-name> ---- To download image from docker hub
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
 
