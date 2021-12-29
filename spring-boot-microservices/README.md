@@ -73,8 +73,12 @@
 * [zookeeper-vs-eureka-for-microservices](https://stackoverflow.com/questions/48635782/what-is-the-role-of-zookeeper-vs-eureka-for-microservices)
 # Terminology
 * fault tolerance = fallback
-# Monolithic vs Microservice
-![image](https://user-images.githubusercontent.com/7721150/144594924-f512b8e3-0c1c-4a1f-b5ff-b6361ed657f9.png)
+# Image
+1. Monolithic vs Microservice
+* ![image](https://user-images.githubusercontent.com/7721150/144594924-f512b8e3-0c1c-4a1f-b5ff-b6361ed657f9.png)
+2. Distributed Tracing
+* ![image](https://user-images.githubusercontent.com/7721150/147667459-992831e5-cfbd-4e61-92a5-ec068705587a.png)
+  
 
 
 
