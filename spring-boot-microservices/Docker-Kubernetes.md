@@ -5,7 +5,7 @@
 
 # Docker : To Read
 * Docker image contains everything a micro service needs to run. ( for ex : 1) Application runtime ( JDK, Python, NodeJS ) 2) Application code 3) dependencies ) 
-* We can run docker container on 1) local machine 2) corporate data center 3) cloud
+* We can install / run docker container on 1) on-premise (local machine) 2) corporate data center 3) cloud
 * [Docker Hub](https://hub.docker.com/) is the world's easiest way to create, manage and deliver your container applications. It contains number of repositories.
 * We will deploy Docker container inside Kubernetes Cluster 
 * OpenShift is Container Platform ( PAAS --- Platform As A Service )  
@@ -35,6 +35,9 @@
 * Image = A Static Template -- A Set of Bytes = [ It contains JDK , Application Jar, Libraries, Dependant Libraries ] 
 * Container = Running version of the Image
 * Host Port : Container Port = -p 5000 : 5000
+* Docker Desktop = Docker Client + Docker Daemon ( Docker Engine )
+* Docker Client = 
+* Docker Daemon = Docker Engine
 * Orchestration = Arrangement
 * Automation
 * Container Based Applications =
@@ -69,9 +72,11 @@
 * $ docker images = to list the images existed locally
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
+* $ docker pull in28min/mmv2-currency-exchange-service:0.0.12-SNAPSHOT = To pull image registry from Docker hub into local machine
 
 # Tutorial
 * [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
+* [Docker Hub Repositories for example](https://hub.docker.com/u/in28min)
 
 
 # Reference
@@ -103,9 +108,11 @@
 # Image
 1. Traditional Deployment
 * ![image](https://user-images.githubusercontent.com/7721150/147632231-26e460b4-816c-4c46-9044-c6a8fc778ead.png)
-2. Docker Infrastructure
+2. Deployments using Docker
 * ![image](https://user-images.githubusercontent.com/7721150/146746723-1cda73c7-4947-4037-9287-5aaf985fe88e.png)
-3. Docker Architecture
+3. Deployments using Vitual Machines
+* ![image](https://user-images.githubusercontent.com/7721150/147655537-376a6734-4198-4619-9fd2-50a3796d9fa0.png)
+4. Docker Architecture
 * ![image](https://user-images.githubusercontent.com/7721150/147639688-843209e9-1da1-4f15-81fd-966bed28d59f.png)
 
 
