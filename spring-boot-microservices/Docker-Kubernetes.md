@@ -64,7 +64,9 @@
 * $ docker logs [docker-id] = to check logs  
 * $ docker logs -f [docker-id] = to check logs
 * $ docker container ls = to list the running containers
-* $ docker images = to list the images
+* $ docker container ls -a = to list all the containers irrespective of status
+* $ docker container stop [docker-id] = to stop the container
+* $ docker images = to list the images existed locally
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
 
@@ -99,6 +101,9 @@
 * ![image](https://user-images.githubusercontent.com/7721150/147632231-26e460b4-816c-4c46-9044-c6a8fc778ead.png)
 2. Docker Infrastructure
 * ![image](https://user-images.githubusercontent.com/7721150/146746723-1cda73c7-4947-4037-9287-5aaf985fe88e.png)
+3. Docker Architecture
+* ![image](https://user-images.githubusercontent.com/7721150/147639688-843209e9-1da1-4f15-81fd-966bed28d59f.png)
+
 
 
 
