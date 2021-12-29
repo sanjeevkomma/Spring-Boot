@@ -19,6 +19,7 @@
 * [Docker Compose](https://docs.docker.com/get-started/08_using_compose/) is a tool
 * docker commands are focused on only one container (or image) at once while docker-compose manage several containers docker
 * Docker Image = Docker Container
+* Docker Desktop includes Docker Engine and Kubernetes
 
 # Terminology
 * Docker
@@ -31,9 +32,10 @@
 * Seamlessly = Continuously
 * Route = Route is basically an URL through which you can access the application 
 * Endpoint =  
-* Image
-* Container
+* Image = A Static Template -- A Set of Bytes
+* Container = Running version of the Image
 * Host
+* Host Port : Container Port = -p 5000 : 5000
 * Pod = Each Pod can have one or more Containers
 * Node
 * Cluster = Group
