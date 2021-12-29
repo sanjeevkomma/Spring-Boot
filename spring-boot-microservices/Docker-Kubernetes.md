@@ -85,6 +85,18 @@
 * $ docker image inspect [docker-image-id] = to see all the details of the docker image
 * $ docker image remove [docker-image-id] = to remove the docker image from local
 * $ docker create [OPTIONS] IMAGE [COMMAND] [ARG...] = to create the docker image
+* $ docker container run -p 5000:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = to create container from image and run the container
+* $ docker container pause [docker-id] = to pause the container running
+* $ docker container unpause [docker-id] = to un pause the container running
+* $ docker container inspect [docker-id] = to see all the details of the docker container
+* $ docker container ls -a = to show all the containers ( running + stopped ) locally 
+* $ docker container ls = to show all the containers ( running  ) locally 
+* $ docker container prune = to remove all the stopped containers locally
+* $ docker container logs -f [docker-id] = to check logs of docker container
+* $ docker container stop [docker-id] = SIGTERM = this is graceful stopping of the container
+* $ docker container kill [docker-id] = SIGKILL = immediately terminates the process
+* $ docker container run -p 5000:5000 -d --restart=no sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = This container will not be auto restarted after docker daemon/engine restart
+* $ docker container run -p 5000:5000 -d --restart=always sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = This container will be auto restarted after docker daemon/engine restart
 
 # Tutorial
 * [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
