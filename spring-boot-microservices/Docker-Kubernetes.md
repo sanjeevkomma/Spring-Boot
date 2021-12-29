@@ -97,6 +97,12 @@
 * $ docker container kill [docker-id] = SIGKILL = immediately terminates the process
 * $ docker container run -p 5000:5000 -d --restart=no sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = This container will not be auto restarted after docker daemon/engine restart
 * $ docker container run -p 5000:5000 -d --restart=always sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = This container will be auto restarted after docker daemon/engine restart
+* $ docker events = to see all the events happening in docker daemon/engine
+* $ docker top [container-id] = to show all the processes running in the container
+* $ docker stats = to show all the stats / metrics ( for ex : Memory, CPU usage ) of each running container
+* $ docker container run -p 5000:5000 -m 512m --cpu-quota 50000 -d --restart=no sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = to give memory & CPU usage for container
+* $ docker system df = to see all the images & containers , local volumes, memory etc
+* 
 
 # Tutorial
 * [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
