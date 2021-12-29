@@ -55,8 +55,8 @@
 * $ docker --version
 * $ docker-machine ip  = default machine with IP 192.168.99.100
 * $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...] 
-* $ docker run <registry-name>/<repository-name>:<tag-name> = To download image from docker hub
-* $ docker run -p 5000:5000 <registry-name>/<repository-name>:<tag-name> = To run the application using docker in local
+* $ docker run [registry-name]/[repository-name]:[tag-name] = To download image from docker hub
+* $ docker run -p 5000:5000 [registry-name]/[repository-name]:[tag-name] = To run the application using docker in local
 * $ docker run -p 5000:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE
 * $ docker run -p 5001:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE  
 * $ docker run -p 5000:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = detach ( d option ) the container to  command prompt
