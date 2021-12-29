@@ -61,8 +61,8 @@
 * $ docker run -p 5001:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE  
 * $ docker run -p 5000:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = detach ( d option ) the container to  command prompt
 * $ docker run -p 5001:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE =  running the same image on another port
-* $ docker logs <docker-id> = to check logs  
-* $ docker logs -f <docker-id> = to check logs
+* $ docker logs [docker-id] = to check logs  
+* $ docker logs -f [docker-id] = to check logs
 * $ docker container ls = to list the running containers  
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
