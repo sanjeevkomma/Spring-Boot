@@ -21,6 +21,7 @@
 * Docker Image = Docker Container
 * Docker Desktop includes Docker Engine and Kubernetes
 * Image is like a Class and Container is like an Object
+* For one Image, we can have any number of Containers running
 
 # Terminology
 * Docker
@@ -29,7 +30,7 @@
 * Docker Registry = Docker Hub
 * Repository = 
 * Tag = 
-* Image = A Static Template -- A Set of Bytes
+* Image = A Static Template -- A Set of Bytes = [ It contains JDK , Application Jar, Libraries, Dependant Libraries ] 
 * Container = Running version of the Image
 * Host Port : Container Port = -p 5000 : 5000
 * Orchestration = Arrangement
