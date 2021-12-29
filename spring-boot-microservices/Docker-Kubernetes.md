@@ -6,7 +6,7 @@
 # Docker : To Read
 * Docker image contains everything a micro service needs to run. ( for ex : 1) Application runtime ( JDK, Python, NodeJS ) 2) Application code 3) dependencies ) 
 * We can run docker container on 1) local machine 2) corporate data center 3) cloud
-* [Docker Hub](https://hub.docker.com/) is the world's easiest way to create, manage and deliver your container applications
+* [Docker Hub](https://hub.docker.com/) is the world's easiest way to create, manage and deliver your container applications. It contains number of repositories.
 * We will deploy Docker container inside Kubernetes Cluster 
 * OpenShift is Container Platform ( PAAS --- Platform As A Service )  
 * OpenShift is Kubernetes Platform 
@@ -23,14 +23,15 @@
 * Image is like a Class and Container is like an Object
 * For one Image, we can have any number of Containers running
 * Image is static version and Container is running version of image
+* We have to publish container port ( for ex : 5000 ) to host port ( for ex : 5000 ) for running & accessing application using docker in local
 
 # Terminology
 * Docker
 * [Kubernetes](https://kubernetes.io/) = Container Orchestration
 * Kubernetes VS Docker
-* Docker Registry = Docker Hub
-* Repository = 
-* Tag = 
+* Docker Registry = [Docker Hub](https://hub.docker.com/)
+* Repository = sanjeevkomma/todo-rest-api-h2
+* Tag = 1.0.0.RELEASE
 * Image = A Static Template -- A Set of Bytes = [ It contains JDK , Application Jar, Libraries, Dependant Libraries ] 
 * Container = Running version of the Image
 * Host Port : Container Port = -p 5000 : 5000
@@ -52,9 +53,17 @@
 
 # Commands
 * $ docker --version
-* $ docker-machine ip  --- default machine with IP 192.168.99.100
-* $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
-* $ docker run <registry-name>/<repository-name>:<tag-name> ---- To download image from docker hub
+* $ docker-machine ip  = default machine with IP 192.168.99.100
+* $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...] 
+* $ docker run <registry-name>/<repository-name>:<tag-name> = To download image from docker hub
+* $ docker run -p 5000:5000 <registry-name>/<repository-name>:<tag-name> = To run the application using docker in local
+* $ docker run -p 5000:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE
+* $ docker run -p 5001:5000 sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE  
+* $ docker run -p 5000:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = detach ( d option ) the container to  command prompt
+* $ docker run -p 5001:5000 -d sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE =  running the same image on another port
+* $ docker logs <docker-id> = to check logs  
+* $ docker logs -f <docker-id> = to check logs
+* $ docker container ls = to list the running containers  
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
 
