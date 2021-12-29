@@ -4,10 +4,9 @@
 
 
 # Docker : To Read
-* Docker image contains everything a micro service needs to run. ( for ex : Application runtime ( JDK, Python, NodeJS ) , Application code , dependencies ) 
+* Docker image contains everything a micro service needs to run. ( for ex : 1) Application runtime ( JDK, Python, NodeJS ) 2) Application code 3) dependencies ) 
 * We can run docker container on 1) local machine 2) corporate data center 3) cloud
-* Route = Route is basically an URL through which you can access the application 
-* Endpoint =  
+* 
 * We will deploy Docker container inside Kubernetes Cluster 
 * OpenShift is Container Platform ( PAAS --- Platform As A Service )  
 * OpenShift is Kubernetes Platform 
@@ -29,6 +28,8 @@
 * Automation
 * Container Based Applications =
 * Seamlessly = Continuously
+* Route = Route is basically an URL through which you can access the application 
+* Endpoint =  
 * Image
 * Container
 * Host
@@ -38,6 +39,9 @@
 * Virtual Machine
 * Physical Machine
 * Platform
+
+# Installation
+* [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
 
 # Reference
 * [Docker Engine overview](https://docs.docker.com/engine/)
