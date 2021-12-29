@@ -42,6 +42,12 @@
 
 # Installation
 * [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
+* [Installing PowerShell on Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+
+# Commands
+* docker --version
+* docker-machine ip  --- default machine with IP 192.168.99.100
+
 
 # Reference
 * [Docker Engine overview](https://docs.docker.com/engine/)
