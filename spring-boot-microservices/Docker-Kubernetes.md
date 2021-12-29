@@ -1,6 +1,11 @@
 # Definition
+* Docker = 
+* Kubernetes = 
 
-# To Read
+
+# Docker : To Read
+* Docker image contains everything a micro service needs to run. ( for ex : Application runtime ( JDK, Python, NodeJS ) , Application code , dependencies ) 
+* We can run docker container on 1) local machine 2) corporate data center 3) cloud
 * Route = Route is basically an URL through which you can access the application 
 * Endpoint =  
 * We will deploy Docker container inside Kubernetes Cluster 
@@ -8,8 +13,6 @@
 * OpenShift is Kubernetes Platform 
 * Katacoda editor 
 * Pod = Memory Usage + CPU Usage + Filesystem + Network In + Network Out 
-
-# Docker
 * Application Isolation
 * [Docker](https://www.docker.com/)
 * Docker = Used to containerize the micro services
