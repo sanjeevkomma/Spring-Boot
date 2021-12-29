@@ -33,9 +33,9 @@
 * Docker
 * [Kubernetes](https://kubernetes.io/) = Container Orchestration
 * Kubernetes VS Docker
-* Docker Registry = [Docker Hub](https://hub.docker.com/)cker
-* Repository = sanjeevkomma/todo-rest-api-h2
-* Tag = 1.0.0.RELEASE
+* Docker Registry = [Docker Hub](https://hub.docker.com/)
+* Docker Repository = sanjeevkomma/todo-rest-api-h2
+* Docker Tag = 1.0.0.RELEASE
 * Image = A Static Template -- A Set of Bytes = [ It contains JDK , Application Jar, Libraries, Dependant Libraries , Softwares etc that are need to run the Container on Docker Engine] 
 * Container = Running version of the Image
 * Host Port : Container Port = -p 5000 : 5000
@@ -77,6 +77,8 @@
 * $ docker tag local-image:tagname new-repo:tagname
 * $ docker push new-repo:tagname
 * $ docker pull in28min/mmv2-currency-exchange-service:0.0.12-SNAPSHOT = To pull image registry from Docker hub into local machine
+* $ docker tag in28min/todo-rest-api-h2:1.0.0.RELEASE in28min/todo-rest-api-h2:latest = 
+* $ docker pull mysql = It will pull latest ( by default ) [mysql docker image](https://hub.docker.com/_/mysql) to local
 
 # Tutorial
 * [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
