@@ -45,8 +45,9 @@
 * [Installing PowerShell on Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 # Commands
-* docker --version
-* docker-machine ip  --- default machine with IP 192.168.99.100
+* $ docker --version
+* $ docker-machine ip  --- default machine with IP 192.168.99.100
+* $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 
 # Reference
