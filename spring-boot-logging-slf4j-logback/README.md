@@ -2,6 +2,9 @@
 
 Article link : https://www.mkyong.com/spring-boot/spring-boot-slf4j-logging-example/
 
+# Definition
+* SLF4J : The Simple Logging Facade for Java (SLF4J) serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j) allowing the end user to plug in the desired logging framework at deployment time
+
 # To Read
 * Spring Boot internally uses [Logback](https://logback.qos.ch/) framework for logging
 * [SLF4J](https://www.slf4j.org/) just delegates the request to Logback for actual logging in Spring Boot. Here, Logback will do actual logging in Spring Boot
