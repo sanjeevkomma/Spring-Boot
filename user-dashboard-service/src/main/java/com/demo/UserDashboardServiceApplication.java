@@ -33,7 +33,7 @@ public class UserDashboardServiceApplication implements CommandLineRunner {
 
         repository.save(new User(1,"fdfj",44,"fdfdf"));
         
-        logger.info("run --- method");
+        logger.trace("run --- method");
 
       /*  System.out.println("\nfindAll()");
         repository.findAll().forEach(x -> System.out.println(x));
