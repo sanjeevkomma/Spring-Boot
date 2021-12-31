@@ -51,7 +51,7 @@
 6. Zipkin Distributed Tracing Server(http://localhost:9411/zipkin)
 # Order of Micro services start
 1. Eureka Naming Server
-2. Zipkin Server
+2. Zipkin Server [Zipkin docker image](https://hub.docker.com/r/openzipkin/zipkin/)
 3. Micro services ( for ex: book service , order service ) 
 4. Zuul API Gateway Server
 
