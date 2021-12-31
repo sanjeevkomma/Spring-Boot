@@ -8,6 +8,7 @@
 * By default, Spring Boot 2 uses HikariCP as the default connection pool
 * Spring Boot internally uses [Logback](https://logback.qos.ch/) framework for logging
 * SLF4J just delegates the request to Logback for actual logging in Spring Boot. Here, Logback will do actual logging in Spring Boot
+* Default Log level for Spring Boot is "INFO"
 * Spring boot Auto Configuration 
 * Static Filtering 
 * Dynamic Filtering 
