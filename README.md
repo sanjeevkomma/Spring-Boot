@@ -6,6 +6,7 @@
 * Spring boot = Spring MVC + Auto Configuration ( Don't need to write spring.xml file for configurations ) + Server ( You can have embedded Tomcat, Netty, Jetty server )
 * Spring boot supports 3 embedded servers : Tomcat (default) , Jetty, Undertow
 * By default, Spring Boot 2 uses HikariCP as the default connection pool
+* Spring Boot internally uses Logback framework for logging
 * Spring boot Auto Configuration 
 * Static Filtering 
 * Dynamic Filtering 
@@ -45,3 +46,9 @@
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
 * [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
 * [Create Spring Boot App using Initializr](https://start.spring.io/)
+* [How to do logging in Spring Boot](https://www.youtube.com/watch?v=lGrcZsw-hKQ)
+
+# Image
+1. Spring Boot Logging which internally uses Logback framework for logging 
+* ![image](https://user-images.githubusercontent.com/7721150/147807323-8d0885af-7aa6-45c4-b05d-f19c93b13d39.png)
+
