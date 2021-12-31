@@ -6,7 +6,8 @@
 * Spring boot = Spring MVC + Auto Configuration ( Don't need to write spring.xml file for configurations ) + Server ( You can have embedded Tomcat, Netty, Jetty server )
 * Spring boot supports 3 embedded servers : Tomcat (default) , Jetty, Undertow
 * By default, Spring Boot 2 uses HikariCP as the default connection pool
-* Spring Boot internally uses Logback framework for logging
+* Spring Boot internally uses [Logback](https://logback.qos.ch/) framework for logging
+* SLF4J just delegates the request to Logback for actual logging in Spring Boot. Here, Logback will do actual logging in Spring Boot
 * Spring boot Auto Configuration 
 * Static Filtering 
 * Dynamic Filtering 
