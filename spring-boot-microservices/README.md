@@ -57,6 +57,9 @@
 
 # Tutorial
 * [resilience4j](https://resilience4j.readme.io/docs/getting-started)  
+* [Zipkin Quickstart](https://zipkin.io/pages/quickstart)
+* [Zipkin docker image](https://hub.docker.com/r/openzipkin/zipkin/)
+  
 # Reference
 * [Microservices Tutorial JavaTPoint](https://www.javatpoint.com/microservices)
 * [Build a Microservices Architecture for Microbrews with Spring Boot](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot)
