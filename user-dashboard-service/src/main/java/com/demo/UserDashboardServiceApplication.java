@@ -1,5 +1,7 @@
 package com.demo;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,10 +16,15 @@ public class UserDashboardServiceApplication implements CommandLineRunner {
 	
 	 @Autowired
 	    private UserRepository repository;
+	 
+	 Logger logger = LoggerFactory.getLogger(UserDashboardServiceApplication.class);
 	
 	public static void main(String[] args) {
 		
 		SpringApplication.run(UserDashboardServiceApplication.class, args);
+		
+		
+		
 	}
 	@Override
     public void run(String... args) {
@@ -25,6 +32,8 @@ public class UserDashboardServiceApplication implements CommandLineRunner {
        // log.info("StartApplication...");
 
         repository.save(new User(1,"fdfj",44,"fdfdf"));
+        
+        logger.info("run --- method");
 
       /*  System.out.println("\nfindAll()");
         repository.findAll().forEach(x -> System.out.println(x));
