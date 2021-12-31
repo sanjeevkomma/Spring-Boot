@@ -8,7 +8,8 @@ Article link : https://www.mkyong.com/spring-boot/spring-boot-slf4j-logging-exam
 * Default Log level for Spring Boot is "INFO"
 * Spring Boot logback XML files are 1) logback-spring.xml 2) logback.xml
 
-# Tutorial
+# Terminology
+* Spirng JCL = Jakarta Commons Logging API
 
 # Reference
 * [How to do logging in Spring Boot](https://www.youtube.com/watch?v=lGrcZsw-hKQ)
