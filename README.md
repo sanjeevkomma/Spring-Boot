@@ -9,6 +9,7 @@
 * Spring Boot internally uses [Logback](https://logback.qos.ch/) framework for logging
 * SLF4J just delegates the request to Logback for actual logging in Spring Boot. Here, Logback will do actual logging in Spring Boot
 * Default Log level for Spring Boot is "INFO"
+* Spring Boot logback XML files are 1) logback-spring.xml 2) logback.xml
 * Spring boot Auto Configuration 
 * Static Filtering 
 * Dynamic Filtering 
@@ -53,4 +54,6 @@
 # Image
 1. Spring Boot Logging which internally uses Logback framework for logging 
 * ![image](https://user-images.githubusercontent.com/7721150/147807323-8d0885af-7aa6-45c4-b05d-f19c93b13d39.png)
+* ![image](https://user-images.githubusercontent.com/7721150/147808383-4f831aca-e156-4e37-93f0-d0e22ebc7d22.png)
+
 
