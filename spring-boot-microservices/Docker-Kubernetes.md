@@ -64,6 +64,7 @@
 
 # Commands
 * $ docker --version
+* $ docker-compose --version
 * $ docker-machine ip  = default machine with IP 192.168.99.100
 * $ docker run [OPTIONS] IMAGE [COMMAND] [ARG...] 
 * $ docker run [registry-name]/[repository-name]:[tag-name] = To download image from docker hub & run 
@@ -106,7 +107,8 @@
 * $ docker container run -p 5000:5000 -m 512m --cpu-quota 50000 -d --restart=no sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = to give memory & CPU usage for container
 * $ docker system df = to see all the images & containers , local volumes, memory etc
 * $ spring-boot:build-image = It creates the docker image using Spring Boot maven plugin configured in pom.xml
-* 
+* $ docker-compose --version = It help to run / launch multiple docker containers using YAML file 
+* $ docker-compose up = it will run docker-compose.yaml
 
 # Tutorial
 * [What is Docker?](https://www.youtube.com/watch?v=-LeV_c1zG-s)
