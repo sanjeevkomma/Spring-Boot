@@ -1,6 +1,15 @@
-Try adding restart: always to zipkin-server in docker-compose.yaml
+ currency-exchange-service:
+    image: sanjeevkomma/currency-exchange-service:0.01
+    mem_limit: 300m
+    ports:
+      - "8000:8000"
+    networks:
+      - currency-network
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      EUREKA.CLIENT.FETCHREGISTRY: "true"
 
-  zipkin-server:
+zipkin-server:
     image: openzipkin/zipkin:2.23
     mem_limit: 300m
     ports:
