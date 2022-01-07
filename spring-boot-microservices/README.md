@@ -55,6 +55,19 @@
 3. Micro services ( for ex: book service , order service ) 
 4. Zuul API Gateway Server
 
+# Installing Tools
+* Eclipse & Embedded Maven
+* PostMan
+* Git Client - https://git-scm.com/
+* Rabbit MQ - https://www.rabbitmq.com/download.html  
+
+# Installing Rabbit MQ
+* Windows
+    1. https://www.rabbitmq.com/install-windows.html
+    2. https://www.rabbitmq.com/which-erlang.html
+    3. http://www.erlang.org/downloads
+    4. Video - https://www.youtube.com/watch?v=gKzKUmtOwR4
+  
 # Tutorial
 * [resilience4j](https://resilience4j.readme.io/docs/getting-started)  
 * [Zipkin Quickstart](https://zipkin.io/pages/quickstart)
