@@ -44,3 +44,19 @@ docker push in28min/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
 docker push in28min/mmv2-api-gateway:0.0.1-SNAPSHOT
 watch -n 0.1 curl http://localhost:8000/sample-api
 ```
+
+# Debugging Steps
+Try adding restart: always to zipkin-server in docker-compose.yaml
+
+  zipkin-server:
+    image: openzipkin/zipkin:2.23
+    mem_limit: 300m
+    ports:
+      - "9411:9411"
+    networks:
+      - currency-network
+    environment:
+      RABBIT_URI: amqp://guest:guest@rabbitmq:5672
+    depends_on:
+      - rabbitmq
+    restart: always #Restart if there is a problem starting up
