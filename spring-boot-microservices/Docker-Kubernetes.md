@@ -59,6 +59,8 @@
 # Installation
 * [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
 * [Installing PowerShell on Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+* [Install Docker Compose](https://docs.docker.com/compose/install/)
+
 
 # Commands
 * $ docker --version
@@ -114,6 +116,7 @@
 # Reference
 * [Docker Engine overview](https://docs.docker.com/engine/)
 * [Build and Ship any Application Anywhere](https://hub.docker.com/)
+* [Overview of Docker Compose](https://docs.docker.com/compose/)
 
 
 
