@@ -102,6 +102,7 @@
 * $ docker stats = to show all the stats / metrics ( for ex : Memory, CPU usage ) of each running container
 * $ docker container run -p 5000:5000 -m 512m --cpu-quota 50000 -d --restart=no sanjeevkomma/todo-rest-api-h2:1.0.0.RELEASE = to give memory & CPU usage for container
 * $ docker system df = to see all the images & containers , local volumes, memory etc
+* $ spring-boot:build-image = It creates the docker image using Spring Boot maven plugin configured in pom.xml
 * 
 
 # Tutorial
