@@ -5,6 +5,7 @@
 * We use [Spring Cloud](https://spring.io/projects/spring-cloud) to develop Micro Services
 * [Netflix OSS](https://netflix.github.io/) components are Eureka, Hystrix, Zuul, Archaius
 * Below common features / cross cutting concerns are implemented at API Gateway level
+* Having Rabbit MQ in between micro services will provide Resilience. Even if the distributed service is down , all the micro services still can put the messages in Rabbit MQ and distributed server can take later.
 1. Authentication
 2. Autherization
 3. Logging
