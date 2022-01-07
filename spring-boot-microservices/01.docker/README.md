@@ -47,3 +47,4 @@ watch -n 0.1 curl http://localhost:8000/sample-api
 
 # Reference
 * [Rabbit MQ Docker Image](https://hub.docker.com/_/rabbitmq)
+* [Zipkin Server](https://zipkin.io/pages/quickstart)
