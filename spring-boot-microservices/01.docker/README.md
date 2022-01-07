@@ -44,3 +44,6 @@ docker push in28min/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
 docker push in28min/mmv2-api-gateway:0.0.1-SNAPSHOT
 watch -n 0.1 curl http://localhost:8000/sample-api
 ```
+
+# Reference
+* [Rabbit MQ Docker Image](https://hub.docker.com/_/rabbitmq)
