@@ -23,3 +23,4 @@
 
 
 # Reference
+* [How to receive messages from IBM MQ JMS using spring boot continuously?](https://stackoverflow.com/questions/59816883/how-to-receive-messages-from-ibm-mq-jms-using-spring-boot-continuously)
