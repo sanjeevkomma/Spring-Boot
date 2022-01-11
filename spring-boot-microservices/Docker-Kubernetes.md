@@ -122,7 +122,11 @@
 
 
 
-# Kubernetes (K8s)
+# Kubernetes (K8s) To Read
+
+# Commands
+
+
 
 
 # Support
@@ -142,7 +146,7 @@
 * [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 * [troubleshooting guide](https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/)
 
-# Image
+# Docker 
 1. Traditional Deployment
 * ![image](https://user-images.githubusercontent.com/7721150/147632231-26e460b4-816c-4c46-9044-c6a8fc778ead.png)
 2. Deployments using Vitual Machine
@@ -151,6 +155,10 @@
 * ![image](https://user-images.githubusercontent.com/7721150/146746723-1cda73c7-4947-4037-9287-5aaf985fe88e.png)
 4. Docker Architecture
 * ![image](https://user-images.githubusercontent.com/7721150/147639688-843209e9-1da1-4f15-81fd-966bed28d59f.png)
+
+# Kubernetes
+1. Container Orchestration
+* ![image](https://user-images.githubusercontent.com/7721150/148990418-5707857e-aa92-412e-a1dd-bfe24c2d14ab.png)
 
 
 
