@@ -4,7 +4,7 @@
 * Local MQ Server
 
 # Tech Stack
-* Spring Boot
+* [Spring Boot 2](https://spring.io/projects/spring-boot)
 
 # How To Run
 * $ mvn package spring-boot:run
