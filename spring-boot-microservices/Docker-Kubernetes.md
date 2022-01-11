@@ -159,6 +159,9 @@
 # Kubernetes
 1. Container Orchestration
 * ![image](https://user-images.githubusercontent.com/7721150/148990418-5707857e-aa92-412e-a1dd-bfe24c2d14ab.png)
+2. Container Orchestration Options
+* ![image](https://user-images.githubusercontent.com/7721150/148992136-bd9f41d7-fccb-4841-aeee-25d3ce702370.png)
+
 
 
 
