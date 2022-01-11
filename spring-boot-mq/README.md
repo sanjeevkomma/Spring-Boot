@@ -11,7 +11,7 @@
 
 # Terminology
 
-# Properties
+# MQ Connection Properties
 * ibm.mq.queueManager=QM1
 * ibm.mq.channel=DEV.ADMIN.SVRCONN
 * ibm.mq.connName=localhost(1414)
