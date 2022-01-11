@@ -1,5 +1,11 @@
 # To Read
 
+# Prerequisite
+* Local MQ Server
+
+# Tech Stack
+* Spring Boot
+
 # Terminology
 
 # Properties
