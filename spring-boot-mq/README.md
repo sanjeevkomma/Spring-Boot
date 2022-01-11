@@ -6,6 +6,9 @@
 # Tech Stack
 * Spring Boot
 
+# How To Run
+* $ mvn package spring-boot:run
+
 # Terminology
 
 # Properties
