@@ -122,7 +122,7 @@
 
 
 
-# Kubernetes (K8s) To Read
+# Kubernetes (K8s) : To Read
 
 # Commands
 
