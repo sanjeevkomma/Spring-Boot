@@ -1,7 +1,7 @@
 # To Read
 
 # Prerequisite
-* Local MQ Server
+* IBM MQ server
 
 # Tech Stack
 * [Spring Boot 2](https://spring.io/projects/spring-boot)
