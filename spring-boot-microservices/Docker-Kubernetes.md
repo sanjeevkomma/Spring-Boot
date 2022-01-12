@@ -134,7 +134,11 @@
 
 
 # Commands
-
+* $ curl -LO "https://dl.k8s.io/release/v1.23.0/bin/windows/amd64/kubectl.exe"
+* $ kubectl version --client
+* $ kubectl cluster-info
+* $ kubectl cluster-info dump
+* $ kubectl convert --help
 
 
 
