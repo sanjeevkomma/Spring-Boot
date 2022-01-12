@@ -126,11 +126,13 @@
 # Kubernetes (K8s) : To Read
 * Kubernetes is cloud neutral 
 * Kubernetes leverages the simplicity of Platform as a Service (PaaS) when used on the Cloud
+* A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node
 
 
 # Terminology
 * Kubernetes Cluster = Group of Servers that are managed together
 * Cloud Neutral = 
+* Node = 
 
 
 # Commands
