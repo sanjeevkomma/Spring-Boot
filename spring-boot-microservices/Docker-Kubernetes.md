@@ -129,7 +129,7 @@
 
 # Terminology
 * Kubernetes Cluster = Group of Servers that are managed together
-* cloud neutral = 
+* Cloud Neutral = 
 
 
 # Commands
