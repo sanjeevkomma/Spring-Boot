@@ -123,9 +123,13 @@
 
 
 # Kubernetes (K8s) : To Read
+* Kubernetes is cloud neutral 
+* Kubernetes leverages the simplicity of Platform as a Service (PaaS) when used on the Cloud
+
 
 # Terminology
 * Kubernetes Cluster = Group of Servers that are managed together
+* cloud neutral = 
 
 
 # Commands
@@ -165,6 +169,9 @@
 * ![image](https://user-images.githubusercontent.com/7721150/148990418-5707857e-aa92-412e-a1dd-bfe24c2d14ab.png)
 2. Container Orchestration Options
 * ![image](https://user-images.githubusercontent.com/7721150/148992136-bd9f41d7-fccb-4841-aeee-25d3ce702370.png)
+3. Kubernetes
+* ![image](https://user-images.githubusercontent.com/7721150/149068045-10c6a55d-63fb-43ee-8ef3-66f6395ce4ab.png)
+
 
 
 
