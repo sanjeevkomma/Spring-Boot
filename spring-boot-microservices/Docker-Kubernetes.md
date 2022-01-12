@@ -124,6 +124,10 @@
 
 # Kubernetes (K8s) : To Read
 
+# Terminology
+* Kubernetes Cluster = Group of Servers that are managed together
+
+
 # Commands
 
 
