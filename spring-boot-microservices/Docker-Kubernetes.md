@@ -183,6 +183,9 @@
 * ![image](https://user-images.githubusercontent.com/7721150/146746723-1cda73c7-4947-4037-9287-5aaf985fe88e.png)
 4. Docker Architecture
 * ![image](https://user-images.githubusercontent.com/7721150/147639688-843209e9-1da1-4f15-81fd-966bed28d59f.png)
+5. Docker
+* ![image](https://user-images.githubusercontent.com/7721150/149747268-b7774451-8380-4ecd-b326-cad03101971c.png)
+
 
 # Kubernetes
 1. Container Orchestration
