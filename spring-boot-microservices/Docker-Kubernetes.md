@@ -124,15 +124,26 @@
 
 
 # Kubernetes (K8s) : To Read
-* Kubernetes is cloud neutral 
+* Kubernetes is cloud neutral, it can run on AWS / AZure / GCP 
 * Kubernetes leverages the simplicity of Platform as a Service (PaaS) when used on the Cloud
 * A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node
+* Kubernetes is for Container Orchestration. 
+
+# Features
+* Auto scaling --- can scale up / down the containers
+* Service Discovery --- It helps microservice to find another microservice
+* Load balancer --- distribute load among containers ( instances of micro service )
+* Self healing ---
+* Zero downtime deployments --- release new version without downtime
 
 
 # Terminology
 * Kubernetes Cluster = Group of Servers that are managed together
 * Cloud Neutral = 
 * Node = 
+* EKS = Elastic Kubernetes Service - AWS
+* AKS = Azure Kubernetes Service -  Azure
+* GKE = Google Kubernetes Engine - GCP
 
 
 # Commands
