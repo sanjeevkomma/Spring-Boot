@@ -55,7 +55,6 @@
 * Virtual Machine
 * Physical Machine
 * Platform
-* Helmsman = A person who steers a ship or boat
 
 # Installation
 * [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
@@ -164,6 +163,7 @@
 * Pod = Kubernetes instance
 * Pod = Smallest deployable unit in Kubernetes
 * Kubernetes Cluster = A set of nodes that run containerized applications
+* Helmsman ( Kubernetes Logo ) = A person who steers a ship or boat
 
 
 # Commands
