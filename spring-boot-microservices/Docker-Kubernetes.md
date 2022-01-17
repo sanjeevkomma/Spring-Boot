@@ -151,6 +151,8 @@
 * Deployment =
 * Service = 
 * Replica Set = 
+* Master Node = It manages the cluster
+* Worker Node = It runs your application
 * EKS = Elastic Kubernetes Service - AWS
 * AKS = Azure Kubernetes Service -  Azure
 * GKE = Google Kubernetes Engine - GCP
@@ -214,6 +216,9 @@
 * ![image](https://user-images.githubusercontent.com/7721150/148992136-bd9f41d7-fccb-4841-aeee-25d3ce702370.png)
 3. Kubernetes
 * ![image](https://user-images.githubusercontent.com/7721150/149068045-10c6a55d-63fb-43ee-8ef3-66f6395ce4ab.png)
+4. Kubernetes Architecure
+* ![image](https://user-images.githubusercontent.com/7721150/149761034-4dc61777-9e10-40c0-bfea-4132b257894d.png)
+
 
 
 
