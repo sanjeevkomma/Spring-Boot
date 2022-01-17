@@ -55,6 +55,7 @@
 * Virtual Machine
 * Physical Machine
 * Platform
+* Helmsman = A person who steers a ship or boat
 
 # Installation
 * [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
