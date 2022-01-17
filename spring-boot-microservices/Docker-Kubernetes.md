@@ -127,7 +127,9 @@
 * Kubernetes is cloud neutral, it can run on AWS / AZure / GCP 
 * Kubernetes leverages the simplicity of Platform as a Service (PaaS) when used on the Cloud
 * A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node
-* Kubernetes is for Container Orchestration. 
+* Kubernetes is for Container Orchestration
+* Pods are the smallest deployable units of computing that you can create and manage in Kubernetes
+* A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers
 
 # Features
 * Auto scaling --- can scale up / down the containers
@@ -144,6 +146,8 @@
 * EKS = Elastic Kubernetes Service - AWS
 * AKS = Azure Kubernetes Service -  Azure
 * GKE = Google Kubernetes Engine - GCP
+* Pod = Kubernetes instance
+* Pod = Smallest deployable unit in Kubernetes
 
 
 # Commands
@@ -152,6 +156,11 @@
 * $ kubectl cluster-info
 * $ kubectl cluster-info dump
 * $ kubectl convert --help
+* $ kubectl create deployment
+* $ kubectl expose deployment
+* $ kubectl scale deployment
+* $ kubectl autoscale deployment
+* $ kubectl delete pod
 
 # Tutorial
 * [Kubernetes doc](https://kubernetes.io/docs/concepts/overview/)
