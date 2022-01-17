@@ -146,6 +146,11 @@
 * Kubernetes Cluster = Group of Servers that are managed together
 * Cloud Neutral = 
 * Node = 
+* Cluster = 
+* Container = 
+* Deployment =
+* Service = 
+* Replica Set = 
 * EKS = Elastic Kubernetes Service - AWS
 * AKS = Azure Kubernetes Service -  Azure
 * GKE = Google Kubernetes Engine - GCP
