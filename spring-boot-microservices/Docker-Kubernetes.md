@@ -133,6 +133,10 @@
 * Kubernetes cluster is a set of nodes that run containerized applications
 * GCP provides managed service called GKE to create & manage Kubernetes cluster
 * Google uses GKE to run YouTube , Google Maps, Google Search
+* AWS calls Vitual Server as EC2 instance in AWS Cloud
+* AZure calls Virtual Servers as Virtual Machines in AZure cloud
+* GCP calls Virtual Servers as Compute Cloud in GCP
+* Kubernetes calls Virtual Servers as Nods in Kubernetes cluster
 
 # Features
 * Auto scaling --- can scale up / down the containers
@@ -146,7 +150,7 @@
 * Kubernetes Cluster = Group of Servers that are managed together
 * Cloud Neutral = 
 * Node = 
-* Cluster = 
+* Cluster = Master Node(s) + Worker Node(s)
 * Container = 
 * Deployment =
 * Service = 
