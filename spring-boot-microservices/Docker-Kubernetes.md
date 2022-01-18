@@ -164,15 +164,17 @@
 * Pod = Smallest deployable unit in Kubernetes
 * Kubernetes Cluster = A set of nodes that run containerized applications
 * Helmsman ( Kubernetes Logo ) = A person who steers a ship or boat
+* kubectl = Kube Controller
 
 
 # Commands
 * $ curl -LO "https://dl.k8s.io/release/v1.23.0/bin/windows/amd64/kubectl.exe"
+* $ kubectl version
 * $ kubectl version --client
 * $ kubectl cluster-info
 * $ kubectl cluster-info dump
 * $ kubectl convert --help
-* $ kubectl create deployment
+* $ kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
 * $ kubectl expose deployment
 * $ kubectl scale deployment
 * $ kubectl autoscale deployment
