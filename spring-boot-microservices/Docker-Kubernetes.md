@@ -142,6 +142,7 @@
 * Pod is a collection of containers that can run on a host. This resource is created by clients and scheduled onto hosts
 * Each Node can have mulitple Pods, and each Pod can have multiple Containers
 * A Node is a worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster
+* Kubernetes cluster is a set of nodes that run containerized applications
 
 # Features
 * Auto scaling --- can scale up / down the containers
@@ -152,7 +153,7 @@
 
 
 # Terminology
-* Kubernetes Cluster = Group of Servers that are managed together
+* Kubernetes Cluster = A set of Nodes that run containerized applications
 * Cloud Neutral = 
 * Node = Virtual Server / Vitual Machine in Kubernetes cluster
 * Cluster = Master Node(s) + Worker Node(s)
