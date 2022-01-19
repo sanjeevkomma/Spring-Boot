@@ -151,7 +151,8 @@
 * Cloud Neutral = 
 * Node = 
 * Cluster = Master Node(s) + Worker Node(s)
-* Container = 
+* Container =
+* Pod =  
 * Deployment =
 * Service = 
 * Replica Set = 
@@ -169,6 +170,7 @@
 
 # Commands
 * $ curl -LO "https://dl.k8s.io/release/v1.23.0/bin/windows/amd64/kubectl.exe"
+* $ gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project sincere-point-259215
 * $ kubectl version
 * $ kubectl version --client
 * $ kubectl cluster-info
@@ -181,6 +183,11 @@
 * $ kubectl delete pod
 * $ kubectl edit deployment
 * $ kubectl set image deployment
+* $ kubectl get events
+* $ kubectl get pods
+* $ kubectl get replicaset
+* $ kubectl get deployment
+* $ kubectl get service
 
 #### Commands
 ```
