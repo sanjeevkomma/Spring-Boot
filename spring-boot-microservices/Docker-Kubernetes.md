@@ -137,6 +137,11 @@
 * AZure calls Virtual Servers as Virtual Machines in AZure cloud
 * GCP calls Virtual Servers as Compute Cloud in GCP
 * Kubernetes calls Virtual Servers as Nods in Kubernetes cluster
+* We can NOT have container with out POD in Kubernetes. The container lives inside the POD
+* A POD can have multiple Containers. The Containers inside the POD share resources and Containers inside the POD can talk to each other using localhost / same host.
+* Pod is a collection of containers that can run on a host. This resource is created by clients and scheduled onto hosts
+* Each Node can have mulitple Pods, and each Pod can have multiple Containers
+* A Node is a worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster
 
 # Features
 * Auto scaling --- can scale up / down the containers
@@ -149,10 +154,10 @@
 # Terminology
 * Kubernetes Cluster = Group of Servers that are managed together
 * Cloud Neutral = 
-* Node = 
+* Node = Virtual Server / Vitual Machine in Kubernetes cluster
 * Cluster = Master Node(s) + Worker Node(s)
 * Container =
-* Pod =  
+* Pod = Smallest Deployable Unit in Kubernetes
 * Deployment =
 * Service = 
 * Replica Set = 
@@ -185,9 +190,12 @@
 * $ kubectl set image deployment
 * $ kubectl get events
 * $ kubectl get pods
+* $ kubectl get pods -o wide
+* $ kubectl explain pods
 * $ kubectl get replicaset
 * $ kubectl get deployment
 * $ kubectl get service
+* $ kubectl describe pod hello-world-rest-api-687d9c7bc7-f4d9g  
 
 #### Commands
 ```
