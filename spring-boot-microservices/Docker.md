@@ -120,3 +120,15 @@
 * [Docker Engine overview](https://docs.docker.com/engine/)
 * [Build and Ship any Application Anywhere](https://hub.docker.com/)
 * [Overview of Docker Compose](https://docs.docker.com/compose/)
+
+# Docker 
+1. Traditional Deployment
+* ![image](https://user-images.githubusercontent.com/7721150/147632231-26e460b4-816c-4c46-9044-c6a8fc778ead.png)
+2. Deployments using Vitual Machine
+* ![image](https://user-images.githubusercontent.com/7721150/147655537-376a6734-4198-4619-9fd2-50a3796d9fa0.png)
+3. Deployments using Docker
+* ![image](https://user-images.githubusercontent.com/7721150/146746723-1cda73c7-4947-4037-9287-5aaf985fe88e.png)
+4. Docker Architecture
+* ![image](https://user-images.githubusercontent.com/7721150/147639688-843209e9-1da1-4f15-81fd-966bed28d59f.png)
+5. Docker
+* ![image](https://user-images.githubusercontent.com/7721150/149747268-b7774451-8380-4ecd-b326-cad03101971c.png)
