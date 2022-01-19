@@ -176,8 +176,8 @@
 * $ kubectl cluster-info
 * $ kubectl cluster-info dump
 * $ kubectl convert --help
-* $ kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
-* $ kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
+* $ kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE === It will create "deployment", "replicaset" & "pod"
+* $ kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080 === It will create "service"
 * $ kubectl scale deployment
 * $ kubectl autoscale deployment
 * $ kubectl delete pod
@@ -349,6 +349,9 @@ docker push in28min/mmv2-currency-exchange-service:0.0.12-SNAPSHOT
 * ![image](https://user-images.githubusercontent.com/7721150/149068045-10c6a55d-63fb-43ee-8ef3-66f6395ce4ab.png)
 4. Kubernetes Architecure
 * ![image](https://user-images.githubusercontent.com/7721150/149761034-4dc61777-9e10-40c0-bfea-4132b257894d.png)
+5. Pods
+* ![image](https://user-images.githubusercontent.com/7721150/150086447-7a6f6d22-7a7b-482a-8e93-a54e8385978a.png)
+
 
 
 
