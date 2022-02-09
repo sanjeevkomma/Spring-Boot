@@ -1,0 +1,110 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "1"
+  creationTimestamp: "2022-02-09T09:48:33Z"
+  generation: 1
+  labels:
+    app: currency-conversion
+  name: currency-conversion
+  namespace: default
+  resourceVersion: "6437985"
+  uid: df63e821-2178-4dd6-bb91-ec47de8347ac
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: currency-conversion
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: currency-conversion
+    spec:
+      containers:
+      - image: sanjeevkomma/mmv2-currency-conversion-service:0.0.11-SNAPSHOT
+        imagePullPolicy: IfNotPresent
+        name: mmv2-currency-conversion-service
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2022-02-09T09:48:37Z"
+    lastUpdateTime: "2022-02-09T09:48:37Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2022-02-09T09:48:33Z"
+    lastUpdateTime: "2022-02-09T09:48:37Z"
+    message: ReplicaSet "currency-conversion-794dd7f58c" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1
+  
+---
+  
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    cloud.google.com/neg: '{"ingress":true}'
+  creationTimestamp: "2022-02-09T09:48:43Z"
+  finalizers:
+  - service.kubernetes.io/load-balancer-cleanup
+  labels:
+    app: currency-conversion
+  name: currency-conversion
+  namespace: default
+  resourceVersion: "6438236"
+  uid: 08df8460-9bb8-4704-bd18-7f859a767e00
+spec:
+  clusterIP: 10.8.11.90
+  clusterIPs:
+  - 10.8.11.90
+  externalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 30033
+    port: 8100
+    protocol: TCP
+    targetPort: 8100
+  selector:
+    app: currency-conversion
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - ip: 35.226.118.172
+  
+---
+
+apiVersion: v1
+data:
+  CURRENCY_EXCHANGE_URI: http://currency-exchange
+kind: ConfigMap
+metadata:
+  name: currency-conversion
+  namespace: default
