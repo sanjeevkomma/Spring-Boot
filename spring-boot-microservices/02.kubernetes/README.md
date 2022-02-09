@@ -16,6 +16,10 @@
 4. $ docker run -p 8100:8100 -t docker.io/sanjeevkomma/mmv2-currency-conversion-service:0.0.11-SNAPSHOT
 5. $ docker push docker.io/sanjeevkomma/mmv2-currency-exchange-service:0.0.11-SNAPSHOT
 6. $ docker push docker.io/sanjeevkomma/mmv2-currency-conversion-service:0.0.11-SNAPSHOT
+7. $ kubectl create deployment currency-exchange --image=sanjeevkomma/mmv2-currency-exchange-service:0.0.11-SNAPSHOT
+8. $ kubectl expose deployment currency-exchange --type=LoadBalancer --port=8000
+9. $ kubectl create deployment currency-conversion --image=sanjeevkomma/mmv2-currency-conversion-service:0.0.11-SNAPSHOT
+10. $ kubectl expose deployment currency-conversion --type=LoadBalancer --port=8100
 
 ## Images
 
