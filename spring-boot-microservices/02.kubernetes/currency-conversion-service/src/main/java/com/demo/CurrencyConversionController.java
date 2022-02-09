@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.currencyconversionservice;
+package com.demo;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
