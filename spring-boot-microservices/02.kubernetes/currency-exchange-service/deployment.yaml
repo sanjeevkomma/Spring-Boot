@@ -30,9 +30,17 @@ spec:
         app: currency-exchange
     spec:
       containers:
-      - image: sanjeevkomma/mmv2-currency-exchange-service:0.0.11-SNAPSHOT
+      - image: sanjeevkomma/mmv2-currency-exchange-service:0.0.12-SNAPSHOT
         imagePullPolicy: IfNotPresent
         name: mmv2-currency-exchange-service
+        readinessProbe:
+          httpGet:
+            port: 8000
+            path: /actuator/health/readiness
+        livenessProbe:
+          httpGet:
+            port: 8000
+            path: /actuator/health/liveness
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
