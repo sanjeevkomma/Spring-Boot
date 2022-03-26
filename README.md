@@ -20,26 +20,31 @@
 # Terminology
 * Rate limiting = Rate limiting is a strategy to limit access to APIs. It restricts the number of API calls that a client can make within a certain timeframe
 * Spirng JCL = Jakarta Commons Logging API
+
 # Tutorial
 * [Spring Projects](https://spring.io/projects)
 * [Spring Boot Versions](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot)
 * [Spring Boot Doc](https://spring.io/projects/spring-boot)
 * [Spring Cloud Doc](https://spring.io/projects/spring-cloud)
+
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
-* @Bean = It will give instance of the class(method return Type) to Spring. It can be applied to a method
-* @Autowired = It will ask the instance of the class ,which was created with @Bean annotation.
-* @Qualifier = It helps to avoid ambiguity of different beans with the same type
-* @Configuration =
-* @ConfigurationProperties = 
-* @ComponentScan =
-* @Retryable =
-* @Recover =
-* @EnableRetry =
-* @SpringBootApplication
-* @Service
-* @EnableAsync =
-* @RestController = 
-* @RequestMapping =
+| #Annotations  | #Discription |
+| :---: | :---: | 
+| @Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
+|@Autowired |It will ask the instance of the class ,which was created with @Bean annotation |
+|@Qualifier |It helps to avoid ambiguity of different beans with the same type |
+|@Configuration | |
+|@ConfigurationProperties | |
+|@ComponentScan | |
+|@Retryable | |
+|@Recover | |
+|@EnableRetry | |
+|@SpringBootApplication | |
+|@Service | |
+|@EnableAsync | |
+|@RestController | |
+|@RequestMapping | |
+
 # Reference
 * [Spring vs Spring Boot vs Spring MVC](https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc)
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
