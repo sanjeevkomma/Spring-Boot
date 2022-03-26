@@ -28,7 +28,7 @@
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
 * @Bean = It will give instance of the class(method return Type) to Spring. It can be applied to a method
 * @Autowired = It will ask the instance of the class ,which was created with @Bean annotation.
-* @Qualifier =
+* @Qualifier = It helps to avoid ambiguity of different beans with the same type
 * @Configuration =
 * @ConfigurationProperties = 
 * @ComponentScan =
