@@ -52,8 +52,3 @@
 * [Create Spring Boot App using Initializr](https://start.spring.io/)
 
 
-
-https://www.baeldung.com/spring-boot-configure-multiple-datasources
-https://unityjdbc.com/
-https://stackoverflow.com/questions/34898269/one-sql-query-to-access-multiple-data-sources-in-java-from-oracle-excel-sql-s
-
