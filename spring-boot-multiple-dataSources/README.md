@@ -1,26 +1,9 @@
 # To Read
 
-# Prerequisite
-* IBM MQ server
 
-# Tech Stack
-* [Spring Boot 2](https://spring.io/projects/spring-boot)
-
-# How To Run
-* $ mvn package spring-boot:run
-
-# Terminology
-
-# MQ Connection Properties
-* ibm.mq.queueManager=QM1
-* ibm.mq.channel=DEV.ADMIN.SVRCONN
-* ibm.mq.connName=localhost(1414)
-* ibm.mq.user=admin
-* ibm.mq.password=passw0rd
-
-# Tutorial
-* [MQ JMS application development with Spring Boot](https://developer.ibm.com/tutorials/mq-jms-application-development-with-spring-boot/)
 
 
 # Reference
-* [How to receive messages from IBM MQ JMS using spring boot continuously?](https://stackoverflow.com/questions/59816883/how-to-receive-messages-from-ibm-mq-jms-using-spring-boot-continuously)
+* [Configure and Use Multiple DataSources in Spring Boot](https://www.baeldung.com/spring-boot-configure-multiple-datasources)
+* [UnityJDBC Solutions](https://unityjdbc.com/)
+* [One SQL query to access multiple data sources in Java (from oracle, excel, sql server)](https://stackoverflow.com/questions/34898269/one-sql-query-to-access-multiple-data-sources-in-java-from-oracle-excel-sql-s)
