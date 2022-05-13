@@ -30,14 +30,16 @@
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
 | #Annotations  | #Discription |
 | :---: | :---: | 
-| @Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
-|@Autowired |It will ask the instance of the class ,which was created with @Bean annotation |
+|@Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
+|@Autowired | It can be applied to Variable / Method for autowiring byType |
 |@Qualifier |It helps to avoid ambiguity of different beans with the same type |
 |@Configuration | It is used in Java-based configuration on Spring framework|
 |@SpringBootApplication | @Configuration + @ComponentScan + @EnableAutoConfiguration|
 |@ConfigurationProperties | |
 |@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository etc |
 |@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})|It is used for auto-configuring beans present in the classpath in Spring Boot application|
+|@EnableWebSecurity ||
+|@PropertySource("classpath:oracledatabase.properties")||
 |@Retryable | |
 |@Recover | |
 |@EnableRetry | |
@@ -46,6 +48,7 @@
 |@EnableAsync | |
 |@RestController | |
 |@RequestMapping | |
+
 
 # Properties
 | #Property  | #Discription |
