@@ -36,7 +36,7 @@
 |@Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
 |@Autowired | It can be applied to Variable / Method for autowiring byType |
 |@Qualifier |It helps to avoid ambiguity of different beans with the same type |
-|@Configuration | It is used in Java-based configuration on Spring framework|
+|[@Configuration](https://stackoverflow.com/questions/39247487/why-spring-boot-application-class-needs-to-have-configuration-annotation) | It is used in Java-based configuration on Spring framework|
 |@SpringBootApplication | @Configuration + @ComponentScan + @EnableAutoConfiguration|
 |@ConfigurationProperties | |
 |@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository , @Configuration, @Component etc |
