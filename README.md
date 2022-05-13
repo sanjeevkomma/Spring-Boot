@@ -17,6 +17,8 @@
 * Versioning =  Multiple Versions of the same Service = 1) Request Param Versioning 2) Header Versioning 3) Produces / Accept / Media type / Accept Header Versioning 4) URI Versioning 
 * Basic Authentication with Sprig Security
 * @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration and @ComponentScan with their default attributes
+* @EnableAutoConfiguration annotation tells Spring Boot to "guess" how you will want to configure Spring, based on the jar dependencies that you have added. For example, If HSQLDB is on your classpath, and you have not manually configured any database connection beans, then Spring will auto-configure an in-memory database.
+* @ComponentScan tells Spring to look for other components, configurations, and services in the specified package. Spring is able to auto scan, detect and register your beans or components from pre-defined project package. If no package is specified current class package is taken as the root package
 
 # Terminology
 * Rate limiting = Rate limiting is a strategy to limit access to APIs. It restricts the number of API calls that a client can make within a certain timeframe
