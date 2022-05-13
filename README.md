@@ -34,6 +34,7 @@
 |@Autowired |It will ask the instance of the class ,which was created with @Bean annotation |
 |@Qualifier |It helps to avoid ambiguity of different beans with the same type |
 |@Configuration | |
+|@SpringBootApplication | |
 |@ConfigurationProperties | |
 |@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository etc |
 |@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})|It is used for auto-configuring beans present in the classpath in Spring Boot application|
