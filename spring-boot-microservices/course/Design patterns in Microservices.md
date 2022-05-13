@@ -13,5 +13,4 @@
 
 * [Microservices Design Patterns](https://www.edureka.co/blog/microservices-design-patterns#DesignPatternsofMicroservices)
 * [Microservices Design Patterns | Microservices Architecture Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
-* [What is API gateway really all about?](https://www.youtube.com/watch?v=1vjOv_f9L8I)
-* [Do you know Distributed transactions?](https://www.youtube.com/watch?v=1vjOv_f9L8I)
+
