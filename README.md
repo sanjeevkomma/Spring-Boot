@@ -36,7 +36,7 @@
 |@Configuration | |
 |@ConfigurationProperties | |
 |@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository etc |
-|@EnableAutoConfiguration|It is used for auto-configuring beans present in the classpath in Spring Boot application|
+|@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})|It is used for auto-configuring beans present in the classpath in Spring Boot application|
 |@Retryable | |
 |@Recover | |
 |@EnableRetry | |
