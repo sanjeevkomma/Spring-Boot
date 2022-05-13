@@ -35,7 +35,8 @@
 |@Qualifier |It helps to avoid ambiguity of different beans with the same type |
 |@Configuration | |
 |@ConfigurationProperties | |
-|@ComponentScan | |
+|@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository etc |
+|@EnableAutoConfiguration|It is used for auto-configuring beans present in the classpath in Spring Boot application|
 |@Retryable | |
 |@Recover | |
 |@EnableRetry | |
