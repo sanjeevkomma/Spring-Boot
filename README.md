@@ -46,10 +46,16 @@
 |@RestController | |
 |@RequestMapping | |
 
+# Properties
+| #Property  | #Discription |
+| :---: | :---: | 
+| spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration | We can control the list of auto-configuration classes to exclude by using this property |
+
 # Reference
 * [Spring vs Spring Boot vs Spring MVC](https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc)
 * [How Spring boot works internally](https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-internally)
 * [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
 * [Create Spring Boot App using Initializr](https://start.spring.io/)
+* [Disable all Database related auto configuration in Spring Boot](https://stackoverflow.com/questions/36387265/disable-all-database-related-auto-configuration-in-spring-boot)
 
 
