@@ -10,3 +10,6 @@
 2. Zipkin Server [Zipkin docker image](https://hub.docker.com/r/openzipkin/zipkin/)
 3. Micro services ( for ex: book service , order service ) 
 4. Zuul API Gateway Server
+
+# Reference
+* [What is API gateway really all about?](https://www.youtube.com/watch?v=1vjOv_f9L8I)
