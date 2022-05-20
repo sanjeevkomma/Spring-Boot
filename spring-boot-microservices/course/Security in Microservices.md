@@ -32,5 +32,9 @@
 5. OAuth
 * ![image](https://user-images.githubusercontent.com/7721150/169543032-9281ab73-a7a6-4911-9888-1035b9af3c4d.png)
 
+# Problems faced in MicroServices
+1. ![image](https://user-images.githubusercontent.com/7721150/169547913-6a5d3b28-d5e6-4160-abbe-d1905a012b43.png)
+2. ![image](https://user-images.githubusercontent.com/7721150/169548038-9860cdff-f02f-4aa8-92df-3ebad48c2887.png)
+3. ![image](https://user-images.githubusercontent.com/7721150/169548386-e8c32d62-2286-4bd9-b85e-3ecb9c3564ed.png)
 
 
