@@ -27,3 +27,5 @@
 | Avilability |  |
 | Continous Delivery through Devops Integration |  |
 | Seamless API Integration & Continous Monitoring |  |
+| Isolation from failures  | | 
+| Auto-Provisioning | |
