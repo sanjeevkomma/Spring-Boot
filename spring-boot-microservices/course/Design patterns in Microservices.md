@@ -8,7 +8,7 @@
 | 5| Database or Shared Database | Database per service / Shared database |
 |6 | Event Sourcing | Creates events regarding the changes in the application state |
 | 7| Branch | In this design pattern, simultaneously process the requests & responses from two or more independant microservices  |
-| 8| Command Query Responsibility Segregator(CQRS) |  |
+| 8| Command Query Responsibility Segregator(CQRS) | The application is divided into 2 parts: Command & Query 1. Command part handles all the requests related to CREATE, UPDATE, DELETE 2. Query part handles Materialized views  |
 |9 | Circuit Breaker |  |
 |10 | Decomposition |  |
 
