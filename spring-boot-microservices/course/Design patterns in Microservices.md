@@ -7,7 +7,7 @@
 | 4| Asynchronous Messaging |All the services can communicate each other, but they do not have to communicate with each other sequentially  |
 | 5| Database or Shared Database | Database per service / Shared database |
 |6 | Event Sourcing | Creates events regarding the changes in the application state |
-| 7| Branch |  |
+| 7| Branch | In this design pattern, simultaneously process the requests & responses from two or more independant microservices  |
 | 8| Command Query Responsibility Segregator |  |
 |9 | Circuit Breaker |  |
 |10 | Decomposition |  |
@@ -24,6 +24,8 @@
 * ![image](https://user-images.githubusercontent.com/7721150/169587146-6d65cdcc-d0a5-4575-9bbe-2884c9260a8c.png)
 6. Event Sourcing
 * ![image](https://user-images.githubusercontent.com/7721150/169587846-f8f69de6-8fb5-47fb-a123-c2f1c79a7caa.png)
+7. Branch
+* ![image](https://user-images.githubusercontent.com/7721150/169588241-e04c4197-0165-4ce5-93c4-f49349c3484c.png)
 
 
 
