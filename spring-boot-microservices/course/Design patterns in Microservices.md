@@ -12,6 +12,9 @@
 |9 | Circuit Breaker |  |
 |10 | Decomposition |  |
 
+1. Aggregator
+* ![image](https://user-images.githubusercontent.com/7721150/169580256-d0a0ed95-cefd-41ec-aa63-c0bf0b33e232.png)
+2. 
 
 
 # Reference
