@@ -1,7 +1,7 @@
 # Design Patterns of Microservices
 |S.No | #Pattern  | #Intent |
 | :---: | :---: | :---: |
-|1 | Aggregator |  |
+|1 | Aggregator | Collects releated items of data and displays them based on DRY principle |
 | 2| API Gateway |  |
 |3 | Chained or Chain of Responsibility |  |
 | 4| Asynchronous Messaging |  |
