@@ -16,3 +16,13 @@
 * [Microservices Design Patterns | Microservices Architecture Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
 * [Microservices Design Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
 
+# Principle behind Microservices
+| #Principle  | #Intent |
+| :---: | :---: | 
+| Independant and Autonoumous Services |  |
+| Scalability |   |
+| Decentralization |  |
+| Resilient Services |   |
+| Realtime Load Balancing |  |
+| Avilability |  |
+| Continous Delivery through Devops Integration |  |
