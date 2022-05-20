@@ -26,3 +26,4 @@
 | Realtime Load Balancing |  |
 | Avilability |  |
 | Continous Delivery through Devops Integration |  |
+| Seamless API Integration & Continous Monitoring |  |
