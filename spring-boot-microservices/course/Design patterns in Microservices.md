@@ -9,7 +9,7 @@
 |6 | Event Sourcing | Creates events regarding the changes in the application state |
 | 7| Branch | In this design pattern, simultaneously process the requests & responses from two or more independant microservices  |
 | 8| Command Query Responsibility Segregator(CQRS) | The application is divided into 2 parts: Command & Query 1. Command part handles all the requests related to CREATE, UPDATE, DELETE 2. Query part handles Materialized views  |
-|9 | Circuit Breaker |  |
+|9 | Circuit Breaker | It used to stop the process of request & response if a service is not working |
 |10 | Decomposition |  |
 
 1. Aggregator
@@ -28,6 +28,8 @@
 * ![image](https://user-images.githubusercontent.com/7721150/169588241-e04c4197-0165-4ce5-93c4-f49349c3484c.png)
 8. Command Query Responsibility Segregator(CQRS)
 * ![image](https://user-images.githubusercontent.com/7721150/169589233-a25b590c-5232-4088-86ee-2085a5037ca4.png)
+9. Circuit Breaker
+* ![image](https://user-images.githubusercontent.com/7721150/169590086-ab663a97-124a-43eb-a3c5-1d8ffb0898eb.png)
 
 
 
