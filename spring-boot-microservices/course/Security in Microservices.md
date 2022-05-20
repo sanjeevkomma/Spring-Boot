@@ -20,6 +20,7 @@
 * ![image](https://user-images.githubusercontent.com/7721150/169539060-32477129-a9f8-45b5-a85c-c53458dcd955.png)
 2. Tokens and API Gateway
 * ![image](https://user-images.githubusercontent.com/7721150/169539533-b0a7f7ec-4c49-418e-be3d-1cb7459ada37.png)
+* ![image](https://user-images.githubusercontent.com/7721150/169544117-47e3ee4d-b991-47ae-a592-f6c4804de872.png)
 3. Distributed Tracing & Session Management
 * ![image](https://user-images.githubusercontent.com/7721150/169540471-a88b6a61-58b5-40bc-bfe1-f3ad5eb2a2ae.png)
 * ![image](https://user-images.githubusercontent.com/7721150/169541054-f8801eb7-9beb-4c31-a5ec-79b9af176b8a.png)
