@@ -1,16 +1,16 @@
 # Design Patterns of Microservices
-| #Pattern  | #Intent |
-| :---: | :---: | 
-| Aggregator |  |
-| API Gateway |  |
-| Chained or Chain of Responsibility |  |
-| Asynchronous Messaging |  |
-| Database or Shared Data |  |
-| Event Sourcing |  |
-| Branch |  |
-| Command Query Responsibility Segregator |  |
-| Circuit Breaker |  |
-| Decomposition |  |
+|S.No | #Pattern  | #Intent |
+| :---: | :---: | :---: |
+|1 | Aggregator |  |
+| 2| API Gateway |  |
+|3 | Chained or Chain of Responsibility |  |
+| | Asynchronous Messaging |  |
+| | Database or Shared Data |  |
+| | Event Sourcing |  |
+| | Branch |  |
+| | Command Query Responsibility Segregator |  |
+| | Circuit Breaker |  |
+| | Decomposition |  |
 
 
 
