@@ -3,7 +3,7 @@
 | :---: | :---: | :---: |
 |1 | Aggregator | Collects releated items of data and displays them based on DRY principle |
 | 2| API Gateway | 1. It can convert the protocol request from one type to other 2. API gateway acts as an entry point to forward the client requests to appropriate microservices  |
-|3 | Chained or Chain of Responsibility |  |
+|3 | Chained or Chain of Responsibility |1. Prodcues a single output which is a combination of multiple chained outputs 2. Use synchronous HTTP request or response for messaging  |
 | 4| Asynchronous Messaging |  |
 | 5| Database or Shared Data |  |
 |6 | Event Sourcing |  |
@@ -16,6 +16,8 @@
 * ![image](https://user-images.githubusercontent.com/7721150/169580256-d0a0ed95-cefd-41ec-aa63-c0bf0b33e232.png)
 2. API Gateway
 * ![image](https://user-images.githubusercontent.com/7721150/169580734-bd6f1be6-0297-4b81-b06f-70be30c74a32.png)
+3. Chained or Chain of Responsibility
+* ![image](https://user-images.githubusercontent.com/7721150/169582599-e61416f6-4876-46bc-b849-ed049c008391.png)
 
 
 
