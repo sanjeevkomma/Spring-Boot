@@ -1,1 +1,2 @@
-
+* Stateless microservices
+* Stateful microservices
