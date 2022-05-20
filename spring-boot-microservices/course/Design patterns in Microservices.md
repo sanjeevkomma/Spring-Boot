@@ -41,7 +41,7 @@
 * [Microservices Design Patterns | Microservices Architecture Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
 * [Microservices Design Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
 
-# Principle behind Microservices
+# Principles behind Microservices
 |S.No | #Principle  | #Intent |
 | :---: | :---: | :---: |
 |1 | Independant and Autonoumous Services |  |
