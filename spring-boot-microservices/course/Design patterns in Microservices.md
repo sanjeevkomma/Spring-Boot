@@ -10,7 +10,7 @@
 | 7| Branch | In this design pattern, simultaneously process the requests & responses from two or more independant microservices  |
 | 8| Command Query Responsibility Segregator(CQRS) | The application is divided into 2 parts: Command & Query 1. Command part handles all the requests related to CREATE, UPDATE, DELETE 2. Query part handles Materialized views  |
 |9 | Circuit Breaker | It used to stop the process of request & response if a service is not working |
-|10 | Decomposition |  |
+|10 | Decomposition | Decomposition of Applications according to 1) sub-domains of application 2) Business capability 3) Strangler or Vine pattern|
 
 1. Aggregator
 * ![image](https://user-images.githubusercontent.com/7721150/169580256-d0a0ed95-cefd-41ec-aa63-c0bf0b33e232.png)
@@ -30,6 +30,8 @@
 * ![image](https://user-images.githubusercontent.com/7721150/169589233-a25b590c-5232-4088-86ee-2085a5037ca4.png)
 9. Circuit Breaker
 * ![image](https://user-images.githubusercontent.com/7721150/169590086-ab663a97-124a-43eb-a3c5-1d8ffb0898eb.png)
+10. Decomposition
+* ![image](https://user-images.githubusercontent.com/7721150/169590507-0229c305-b75d-495b-9ca3-8b1bfcb12137.png)
 
 
 
