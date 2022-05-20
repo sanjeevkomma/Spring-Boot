@@ -11,6 +11,8 @@
 9. Circuit Breaker
 10. Decomposition
 
+# Reference
 * [Microservices Design Patterns](https://www.edureka.co/blog/microservices-design-patterns#DesignPatternsofMicroservices)
 * [Microservices Design Patterns | Microservices Architecture Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
+* [Microservices Design Patterns](https://www.youtube.com/watch?v=xuH81XGWeGQ)
 
