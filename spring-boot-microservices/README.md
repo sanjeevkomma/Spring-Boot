@@ -1,4 +1,5 @@
 # Definition
+* Microservices, aka microservice architecture, is an architectural style that structures an application as a collection of small autonomous services, modeled around a business domain. In a Microservice Architecture, each service is self-contained and implements a single business capability
 
 # [Microservices](https://avinetworks.com/glossary/microservice/) 
 * Microservice is an architectural design for building a distributed application using containers
