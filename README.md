@@ -35,7 +35,7 @@
 | :---: | :---: | 
 |@Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
 |@Autowired | It can be applied to Variable / Method for autowiring byType |
-|@Qualifier |The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type. It helps to avoid ambiguity of different beans with the same type |
+|@Qualifier |1. The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type. 2. It helps to avoid ambiguity of different beans with the same type |
 |[@Configuration](https://stackoverflow.com/questions/39247487/why-spring-boot-application-class-needs-to-have-configuration-annotation) | It is used in Java-based configuration on Spring framework|
 |@SpringBootApplication | @Configuration + @ComponentScan + @EnableAutoConfiguration|
 |@ConfigurationProperties | |
@@ -46,7 +46,6 @@
 |@Retryable | |
 |@Recover | |
 |@EnableRetry | |
-|@SpringBootApplication | |
 |@Service | |
 |@EnableAsync | |
 |@RestController | |
