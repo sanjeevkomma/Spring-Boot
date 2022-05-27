@@ -22,5 +22,16 @@
 # Content Types
 |SNo| #Content Type  | ##Intent |
 | :---: | :---: | :---: |
-| 1 | POST | |
-| 2 | PUT | |
+| 1 | application/json | |
+| 2 | text/html | |
+| 3 | multipart/form-data | |
+| 4 | text/html | |
+| 5 | text/html | |
+| 6 | text/html | |
+
+# HTTP Status Codes
+|SNo| #HTTP Status Code  | ##Intent |
+| :---: | :---: | :---: |
+| 1 | 200 | |
+
+
