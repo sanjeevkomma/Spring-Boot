@@ -1,7 +1,11 @@
 # To Read
 
-# Reference
-* [Best Practices To Secure Microservices](https://www.youtube.com/watch?v=wpA0N7kHaDo)
+# Terminology
+* Bearer Token = 
+* JWT Token = 
+* OAuth 1.0 = 
+* OAuth 2.0 = 
+
 
 # Security Standards
 |SNo| #Approach  | #Intent | #Definition |
@@ -12,6 +16,14 @@
 |4 | JSON Web Token ( JWT ) |  | It is just a token format. JWT tokens are JSON encoded data structures contains information about issuer, subject (claims), expiration time etc. It is signed for tamper proof and authenticity and it can be encrypted to protect the token information using symmetric or asymmetric approach. JWT is simpler than SAML 1.1/2.0 and supported by all devices and it is more powerful than SWT(Simple Web Token)|
 |5 | JSON Web Signature ( JWS ) |  | |
 |6 | CSRF protection |  |You don't need implement the CSRF protection if you do not store token in the browser's cookie|
+
+# Grant Types in OAuth 2.0
+|SNo| #Approach  | #Intent |
+| :---: | :---: | :---: |
+|1 | authorization_code | used in web applications |
+| 2| client_credentials | used in service to service communication |
+|3 | refresh_token | used to refresh your access token on or before expiry |
+|4 | password | use your password for login |
 
 # Best Practices To Secure Microservices
 |SNo| #Approach  | #Intent |
@@ -44,4 +56,5 @@
 2. ![image](https://user-images.githubusercontent.com/7721150/169548038-9860cdff-f02f-4aa8-92df-3ebad48c2887.png)
 3. ![image](https://user-images.githubusercontent.com/7721150/169548386-e8c32d62-2286-4bd9-b85e-3ecb9c3564ed.png)
 
-
+# Reference
+* [Best Practices To Secure Microservices](https://www.youtube.com/watch?v=wpA0N7kHaDo)
