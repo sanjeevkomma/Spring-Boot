@@ -5,7 +5,7 @@
 # Patterns for distributed transactions in microservices
 |SNo| #Transaction  | ##Definition |##Usage |
 | :---: | :---: | :---: |:---: |
-| 1 | 2pc (two-phase commit) | 1. 2PC is Synchronous 2. 2PC has two phases: A Prepare phase and a Commit phase| |
+| 1 | 2pc (two-phase commit) | 2PC is Synchronous. 2PC has two phases: A Prepare phase and a Commit phase| |
 | 2 | Saga |Saga is Asynchronous and Reactive | |
 
 
