@@ -1,4 +1,5 @@
 # Definition
+* Distributed Transaction : A distributed transaction is a set of operations on data that is performed across two or more data repositories (especially databases)
 
 # To Read
 * Because microservices are distributed and microservices communicate with each other by inter-service communication on network level. Each microservice has its own instance and process. Therefore, services must interact using an inter-service communication protocols like HTTP, gRPC or message brokers AMQP protocol
