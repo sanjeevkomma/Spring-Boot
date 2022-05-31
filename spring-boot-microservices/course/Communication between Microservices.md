@@ -7,3 +7,4 @@
 
 # Reference
 * [Design interservice communication for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/interservice-communicationhttps://docs.microsoft.com/en-us/azure/architecture/microservices/design/interservice-communication)
+* [Data Sharing between micro services](https://stackoverflow.com/questions/41640621/data-sharing-between-micro-services)
