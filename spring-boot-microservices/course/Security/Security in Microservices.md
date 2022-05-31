@@ -7,6 +7,15 @@
 1. Secuirty Standards
 * ![image](https://user-images.githubusercontent.com/7721150/169536199-efe6fef0-c40f-4044-89a5-91cf6afa5547.png)
 
+# Security Standards
+|SNo| #Approach  | #Intent |
+| :---: | :---: | :---: |
+|1 | OAuth 2.0 Authentication framework |  |
+| 2| OpenId Connect Core 1.0 |  |
+|3 | OpenId Connect Discovery 1.0 |  |
+|4 | JSON Web Token ( JWT ) |  |
+|5 | JSON Web Signature ( JWS ) |  |
+
 # Best Practices To Secure Microservices
 |SNo| #Approach  | #Intent |
 | :---: | :---: | :---: |
