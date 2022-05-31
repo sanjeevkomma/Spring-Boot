@@ -50,6 +50,7 @@
 |@EnableAsync | |
 |@RestController | |
 |@RequestMapping | |
+|[@RefreshScope](https://boot-microservices.hashnode.dev/how-to-use-refreshscope-with-your-datasource-for-dynamic-property-updates-at-runtime)|@RefreshScope is used with your Datasource for dynamic property updates at runtime |
 
 
 # Properties
