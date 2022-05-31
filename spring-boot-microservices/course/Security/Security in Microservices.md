@@ -6,8 +6,8 @@
 # Security Standards
 |SNo| #Approach  | #Intent |
 | :---: | :---: | :---: |
-|1 | OAuth 2.0 Authentication framework |  |
-| 2| OpenId Connect Core 1.0 |  |
+|1 | OAuth 2.0 Authentication framework |OAuth is used for authorization(ie. to grant access to functionality/data/etc.. without having to deal with the original authentication)  |
+| 2| OpenId Connect Core 1.0 | OpenID is used for authentication(ie. proving who you are) |
 |3 | OpenId Connect Discovery 1.0 |  |
 |4 | JSON Web Token ( JWT ) |  |
 |5 | JSON Web Signature ( JWS ) |  |
