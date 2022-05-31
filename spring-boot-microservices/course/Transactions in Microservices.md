@@ -2,7 +2,7 @@
 
 # To Read
 
-# Transactions
+# Patterns for distributed transactions in microservices
 |SNo| #Transaction  | ##Intent |
 | :---: | :---: | :---: |
 | 1 | 2pc (two-phase commit) | 2PC is Synchronous |
