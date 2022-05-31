@@ -2,6 +2,13 @@
 
 # To Read
 
+# Transactions
+|SNo| #Transaction  | ##Intent |
+| :---: | :---: | :---: |
+| 1 | 2pc (two-phase commit) | 2PC is Synchronous |
+| 2 | Saga |Saga is Asynchronous and Reactive |
+
+
 # Reference
 * https://www.baeldung.com/transactions-across-microservices
 * [Design-Patterns for Using Transactions in a Microservices Environment](https://www.youtube.com/watch?v=HF1RhHx_gu8)
