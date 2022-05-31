@@ -4,13 +4,14 @@
 * [Best Practices To Secure Microservices](https://www.youtube.com/watch?v=wpA0N7kHaDo)
 
 # Security Standards
-|SNo| #Approach  | #Intent |
-| :---: | :---: | :---: |
-|1 | OAuth 2.0 Authentication framework |OAuth is used for authorization( To grant access to functionality/data/etc.. without having to deal with the original authentication)  |
-| 2| OpenId Connect Core 1.0 | OpenID is used for authentication( To prove who you are) |
-|3 | OpenId Connect Discovery 1.0 |  |
-|4 | JSON Web Token ( JWT ) |  |
-|5 | JSON Web Signature ( JWS ) |  |
+|SNo| #Approach  | #Intent | #Definition |
+| :---: | :---: | :---: |:---: |
+|1 | OAuth 2.0 Authentication framework |1. OAuth is used for authorization( To grant access to functionality/data/etc.. without having to deal with the original authentication) 2. OAuth 2.0 is a authorization protocol (that may use a JWT as a token format | |
+| 2| OpenId Connect Core 1.0 | OpenID is used for authentication( To prove who you are) | |
+|3 | OpenId Connect Discovery 1.0 | It defines how clients dynamically discover information about OpenID Providers | |
+|4 | JSON Web Token ( JWT ) |  | It is just a token format. JWT tokens are JSON encoded data structures contains information about issuer, subject (claims), expiration time etc. It is signed for tamper proof and authenticity and it can be encrypted to protect the token information using symmetric or asymmetric approach. JWT is simpler than SAML 1.1/2.0 and supported by all devices and it is more powerful than SWT(Simple Web Token)|
+|5 | JSON Web Signature ( JWS ) |  | |
+|6 | CSRF protection |  |
 
 # Best Practices To Secure Microservices
 |SNo| #Approach  | #Intent |
