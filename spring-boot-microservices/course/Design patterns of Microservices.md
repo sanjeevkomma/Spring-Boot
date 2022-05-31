@@ -6,7 +6,7 @@
 |3 | Chained or Chain of Responsibility |1. Prodcues a single output which is a combination of multiple chained outputs 2. Use synchronous HTTP request or response for messaging  |
 | 4| Asynchronous Messaging |All the services can communicate each other, but they do not have to communicate with each other sequentially  |
 | 5| Database or Shared Database | Database per service / Shared database |
-|6 | Event Sourcing | Creates events regarding the changes in the application state |
+|6 | Event Sourcing | 1. Creates events regarding the changes in the application state 2. used to distribute events and data across micro services in an asynchronous way|
 | 7| Branch | In this design pattern, simultaneously process the requests & responses from two or more independant microservices  |
 | 8| Command Query Responsibility Segregator(CQRS) | The application is divided into 2 parts: Command & Query 1. Command part handles all the requests related to CREATE, UPDATE, DELETE 2. Query part handles Materialized views  |
 |9 | Circuit Breaker | It used to stop the process of request & response if a service is not working |
