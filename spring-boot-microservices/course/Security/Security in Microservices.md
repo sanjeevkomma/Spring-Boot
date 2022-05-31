@@ -6,12 +6,12 @@
 # Security Standards
 |SNo| #Approach  | #Intent | #Definition |
 | :---: | :---: | :---: |:---: |
-|1 | OAuth 2.0 Authentication framework |1. OAuth is used for authorization( To grant access to functionality/data/etc.. without having to deal with the original authentication) 2. OAuth 2.0 is a authorization protocol (that may use a JWT as a token format | |
-| 2| OpenId Connect Core 1.0 | OpenID is used for authentication( To prove who you are) | |
+|1 | OAuth 2.0 Authentication framework |1. OAuth is used for authorization( To grant access to functionality/data/etc.. without having to deal with the original authentication) 2. OAuth 2.0 is a authorization protocol (that may use a JWT as a token format | OAuth2 solve a problem that user wants to access the data using client software like browse based web apps, native mobile apps or desktop apps. OAuth2 is just for authorization, client software can be authorized to access the resources on-behalf of end user using access token |
+| 2| OpenId Connect Core 1.0 | OpenID is used for authentication( To prove who you are) | OpenID Connect builds on top of OAuth2 and add authentication. OpenID Connect add some constraint to OAuth2 like UserInfo Endpoint, ID Token, discovery and dynamic registration of OpenID Connect providers and session management. JWT is the mandatory format for the token|
 |3 | OpenId Connect Discovery 1.0 | It defines how clients dynamically discover information about OpenID Providers | |
 |4 | JSON Web Token ( JWT ) |  | It is just a token format. JWT tokens are JSON encoded data structures contains information about issuer, subject (claims), expiration time etc. It is signed for tamper proof and authenticity and it can be encrypted to protect the token information using symmetric or asymmetric approach. JWT is simpler than SAML 1.1/2.0 and supported by all devices and it is more powerful than SWT(Simple Web Token)|
 |5 | JSON Web Signature ( JWS ) |  | |
-|6 | CSRF protection |  |
+|6 | CSRF protection |  |You don't need implement the CSRF protection if you do not store token in the browser's cookie|
 
 # Best Practices To Secure Microservices
 |SNo| #Approach  | #Intent |
