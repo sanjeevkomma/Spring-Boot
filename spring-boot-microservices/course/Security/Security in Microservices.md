@@ -3,10 +3,6 @@
 # Reference
 * [Best Practices To Secure Microservices](https://www.youtube.com/watch?v=wpA0N7kHaDo)
 
-# Image
-1. Secuirty Standards
-* ![image](https://user-images.githubusercontent.com/7721150/169536199-efe6fef0-c40f-4044-89a5-91cf6afa5547.png)
-
 # Security Standards
 |SNo| #Approach  | #Intent |
 | :---: | :---: | :---: |
