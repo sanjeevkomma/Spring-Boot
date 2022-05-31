@@ -1,10 +1,10 @@
 # To Read
 
 # Terminology
-* Bearer Token = 
-* JWT Token = 
-* OAuth 1.0 = 
-* OAuth 2.0 = 
+* Bearer Token = Bearer token is what we generate and keep on client side and send all the time when api is called to authorize based on bearer token
+* JWT Token = JWT is a library use to generate and verify bearer token
+* OAuth 1.0 = OAuth 1.0 requires client to send two security tokens for each API call, and use both to generate the signature
+* OAuth 2.0 = OAuth 2.0 signatures are not required for the actual API calls once the token has been generated. It has only one security token
 
 
 # Security Standards
