@@ -18,6 +18,8 @@
 | 13 | UNLOCK | | |
 | 14 | PROPFIND | | |
 | 15 | VIEW | | |
+| 16| TRACE | | |
+
 
 # HTTP Headers
 |SNo| #HTTP Header  | ##Intent |
