@@ -3,13 +3,13 @@
 # HTTP Verbs
 |SNo| #HTTP Verb  | Request URI | ##Intent | #Type |
 | :---: | :---: | :---: |:---:|:---:|
-| 1 | GET | | | Safe , Idempotent , Cacheable|
+| 1 | GET | | Request Header, Request Body , Response Header, Response Body| Safe , Idempotent , Cacheable|
 | 2 | POST | | |Not Safe , Not Idempotent , Not Cacheable |
 | 3 | PUT | | | Idempotent , Not Cacheable , Not Safe|
 | 4 | PATCH | | | |
 | 5 | DELETE | | |Idempotent , Not Cacheable , Not Safe |
 | 6 | COPY | | | |
-| 7 | HEAD | | |Safe , Idempotent , Cacheable |
+| 7 | HEAD | | Request Header, Response Header|Safe , Idempotent , Cacheable |
 | 8 | OPTIONS | | | |
 | 9 | LINK | | | |
 | 10 | UNLINK | | | |
