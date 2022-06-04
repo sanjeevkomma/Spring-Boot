@@ -7,7 +7,7 @@
 | 2 | POST | | |Not Safe , Not Idempotent , Not Cacheable |
 | 3 | PUT | | | Idempotent , Not Cacheable , Not Safe|
 | 4 | PATCH | | | |
-| 5 | DELETE | | |Idempotent |
+| 5 | DELETE | | |Idempotent , Not Cacheable , Not Safe |
 | 6 | COPY | | | |
 | 7 | HEAD | | |Safe , Idempotent , Cacheable |
 | 8 | OPTIONS | | | |
