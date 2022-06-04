@@ -4,7 +4,7 @@
 |SNo| #HTTP Verb  | Request URI | ##Intent | #Type |
 | :---: | :---: | :---: |:---:|:---:|
 | 1 | GET | | | Safe , Idempotent , Cacheable|
-| 2 | POST | | | |
+| 2 | POST | | |Not Safe , Not Idempotent , Not Cacheable |
 | 3 | PUT | | | Idempotent|
 | 4 | PATCH | | | |
 | 5 | DELETE | | |Idempotent |
