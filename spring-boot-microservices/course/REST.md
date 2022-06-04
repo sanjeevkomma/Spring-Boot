@@ -10,7 +10,7 @@
 | 5 | DELETE | | |Idempotent , Not Cacheable , Not Safe |
 | 6 | COPY | | | |
 | 7 | HEAD | | Request Header, Response Header|Safe , Idempotent , Cacheable |
-| 8 | OPTIONS | | | |
+| 8 | OPTIONS | |OPTIONS doest invoke any action or any operation on the resource, but it provides necessary information for communicating with that server |Safe , Idempotent , Not Cacheable |
 | 9 | LINK | | | |
 | 10 | UNLINK | | | |
 | 11 | PURGE | | | |
