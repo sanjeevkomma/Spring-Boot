@@ -1,5 +1,6 @@
 # To Read
-* Preflight Request = A preflight request is a small request that is sent by the browser before the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request
+* Preflight Request = A preflight request is a small request that is sent by the browser before the actual request. 
+* In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request
 
 # HTTP Verbs
 |SNo| #HTTP Verb  | Request URI | ##Intent | #Type |
