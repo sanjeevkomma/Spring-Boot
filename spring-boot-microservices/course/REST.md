@@ -18,7 +18,7 @@
 | 13 | UNLOCK | | | |
 | 14 | PROPFIND | | | |
 | 15 | VIEW | | | |
-| 16| TRACE | | | |
+| 16| TRACE | |TRACE method performs a message loop-back test along the path to the target resource, providing a useful debugging mechanism |Safe , Idempotent , Not Cacheable |
 
 
 # HTTP Headers
