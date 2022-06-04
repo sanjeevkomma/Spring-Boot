@@ -5,7 +5,7 @@
 | :---: | :---: | :---: |:---:|:---:|
 | 1 | GET | | | Safe , Idempotent , Cacheable|
 | 2 | POST | | |Not Safe , Not Idempotent , Not Cacheable |
-| 3 | PUT | | | Idempotent|
+| 3 | PUT | | | Idempotent , Not Cacheable , Not Safe|
 | 4 | PATCH | | | |
 | 5 | DELETE | | |Idempotent |
 | 6 | COPY | | | |
