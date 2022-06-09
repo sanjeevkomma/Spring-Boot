@@ -9,3 +9,9 @@
 |4 | Resource limit |   |
 |5 | Monitor |   |
 |6 | Cost effective |   |
+
+# Deployment Patterns
+|S.No | #Pattern  | #Intent | #Advantages | #Disadvantages |
+| :---: | :---: | :---: |:---: |:---: |
+|1 | Multiple Services per Host |  |  | |
+|2 | Reliability & Availability |   | | |
