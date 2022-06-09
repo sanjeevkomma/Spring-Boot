@@ -1,7 +1,7 @@
 # To Read
 
-# Deployment Patterns
-|S.No | #Pattern  | #Intent |
+# Deployment Goals
+|S.No | #Goal  | #Intent |
 | :---: | :---: | :---: |
 |1 | Scalability & Throughput |  |
 |2 | Reliability & Availability |   |
