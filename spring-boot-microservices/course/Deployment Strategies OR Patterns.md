@@ -22,4 +22,9 @@
 | :---: | :---: | :---: |
 |1 | Recreate |  |
 |2 | Rolling update |   |
-|3 | K8s Deployment |   |
+
+# Deployment Types
+|S.No | #Deployment Type  | #Intent |
+| :---: | :---: | :---: |
+|1 | Canary |  |
+|2 | Blue green |   |
