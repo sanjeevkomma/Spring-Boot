@@ -4,8 +4,8 @@
 |S.No | #Pattern  | #Intent |
 | :---: | :---: | :---: |
 |1 | Scalability & Throughput |  |
-|2 | Reliable & Available |   |
+|2 | Reliability & Availability |   |
 |3 | Isolation |   |
-|4 | Restore limit |   |
+|4 | Resource limit |   |
 |5 | Monitor |   |
 |6 | Cost effective |   |
