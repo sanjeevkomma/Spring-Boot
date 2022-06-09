@@ -16,3 +16,10 @@
 |1 | Multiple Services per Host |  | 1. Efficient resource utilization 2. Fast Deployment | 1. Poor Isolation 2. No resourse limit 3. Dependency conflict |
 |2 | One service per VM / Container |   |1. Isolation & Secure 2. Managable 3. Fast ( Containers only ) 4. Auto Scaling ( Docker / Kubernetes ) | 1. Slow ( VM Only ) 2. Not efficient in utilizing resources ( VM only ) 3. Not so secure ( Containers ) |
 |3 | Serverless |   | | |
+
+# Deployment Strategies using K8s
+|S.No | #Deployment Strategy  | #Intent |
+| :---: | :---: | :---: |
+|1 | Recreate |  |
+|2 | Rolling update |   |
+|3 | K8s Deployment |   |
