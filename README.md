@@ -31,26 +31,26 @@
 * [Spring Cloud Doc](https://spring.io/projects/spring-cloud)
 
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
-| #Annotations  | #Discription |
-| :---: | :---: | 
-|@Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
-|@Autowired | It can be applied to Variable / Method for autowiring byType |
-|@Qualifier |1. The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type. 2. It helps to avoid ambiguity of different beans with the same type |
-|[@Configuration](https://stackoverflow.com/questions/39247487/why-spring-boot-application-class-needs-to-have-configuration-annotation) | It is used in Java-based configuration on Spring framework|
-|@SpringBootApplication | @Configuration + @ComponentScan + @EnableAutoConfiguration|
-|@ConfigurationProperties | |
-|@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository , @Configuration, @Component etc |
-|@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})|It is used for auto-configuring beans present in the classpath in Spring Boot application|
-|@EnableWebSecurity ||
-|@PropertySource("classpath:oracledatabase.properties")||
-|@Retryable | |
-|@Recover | |
-|@EnableRetry | |
-|@Service | |
-|@EnableAsync | |
-|@RestController | |
-|@RequestMapping | |
-|[@RefreshScope](https://boot-microservices.hashnode.dev/how-to-use-refreshscope-with-your-datasource-for-dynamic-property-updates-at-runtime)|@RefreshScope is used with your Datasource for dynamic property updates at runtime |
+|SNo| #Annotations  | #Discription |
+|:---: | :---: | :---: | 
+|1 |@Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
+| 2|@Autowired | It can be applied to Variable / Method for autowiring byType |
+| 3|@Qualifier |1. The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type. 2. It helps to avoid ambiguity of different beans with the same type |
+|4 |[@Configuration](https://stackoverflow.com/questions/39247487/why-spring-boot-application-class-needs-to-have-configuration-annotation) | It is used in Java-based configuration on Spring framework|
+| 5|@SpringBootApplication | @Configuration + @ComponentScan + @EnableAutoConfiguration|
+| 6|@ConfigurationProperties | |
+| 7|@ComponentScan | It scans for Spring components such as @Service, @Controller, @Repository , @Configuration, @Component etc |
+| 8|@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})|It is used for auto-configuring beans present in the classpath in Spring Boot application|
+| 9|@EnableWebSecurity ||
+| 10|@PropertySource("classpath:oracledatabase.properties")||
+| 11|@Retryable | |
+|12 |@Recover | |
+|13 |@EnableRetry | |
+|14 |@Service | |
+|15 |@EnableAsync | |
+|16 |@RestController | |
+|17 |@RequestMapping | |
+|18 |[@RefreshScope](https://boot-microservices.hashnode.dev/how-to-use-refreshscope-with-your-datasource-for-dynamic-property-updates-at-runtime)|@RefreshScope is used with your Datasource for dynamic property updates at runtime |
 
 
 # Properties
