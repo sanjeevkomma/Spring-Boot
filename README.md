@@ -64,5 +64,6 @@
 * [Spring Boot Stackoverflow](https://stackoverflow.com/questions/tagged/spring-boot)
 * [Create Spring Boot App using Initializr](https://start.spring.io/)
 * [Disable all Database related auto configuration in Spring Boot](https://stackoverflow.com/questions/36387265/disable-all-database-related-auto-configuration-in-spring-boot)
+* [Spring & Spring Boot Annotations](https://www.youtube.com/watch?v=htyq-mER0AE)
 
 
