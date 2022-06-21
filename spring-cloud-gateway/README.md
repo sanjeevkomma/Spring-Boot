@@ -5,7 +5,7 @@
 2. Authentication = 
 
 # Terminology
-* Gateway Filter = 
+* Gateway Filter for Authentication = 
 * API Composition = 
 * Load balancer = 
 
