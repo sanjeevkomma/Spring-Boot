@@ -4,7 +4,7 @@
 * REST API can be synchronous and asynchronous depends on the implementation. In synchronous, client sends a request and wait for a response, while in asynchronous, client sends a request and moves ahead
 
 # Terminology
-* Idempotent = 
+* Idempotent = ( Multiple requests = Single request )
 * Safe = 
 
 # HTTP Verbs
