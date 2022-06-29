@@ -3,6 +3,10 @@
 * In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request
 * REST API can be synchronous and asynchronous depends on the implementation. In synchronous, client sends a request and wait for a response, while in asynchronous, client sends a request and moves ahead
 
+# Terminology
+* Idempotent = 
+* Safe = 
+
 # HTTP Verbs
 |SNo| #HTTP Verb  | Request URI | ##Intent | #Type |
 | :---: | :---: | :---: |:---:|:---:|
