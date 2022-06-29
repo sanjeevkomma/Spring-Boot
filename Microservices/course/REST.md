@@ -85,3 +85,8 @@
 * [REST API Official Tutorial](https://restfulapi.net/)
 * [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
+
+# Images
+1. REST URIs
+* ![image](https://user-images.githubusercontent.com/7721150/176473420-5b9a3ff9-1766-44e4-98f7-2ca329d27aa4.png)
+
