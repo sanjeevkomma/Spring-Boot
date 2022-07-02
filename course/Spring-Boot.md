@@ -1,9 +1,17 @@
 # To Read
 
+# Design Patterns in Spring
+|S.No | #Pattern  | #Intent |
+| :---: | :---: | :---: |
+|1 | Singleton pattern |  |
+|2 | Factory Method pattern |  |
+|3 | Proxy pattern |  |
+|4 | Template pattern |  |
+
 # Reference
 * [Design Patterns in Spring](https://www.baeldung.com/spring-framework-design-patterns)
 
-
+# Additonal Info 
 * Spring Boot features
 * Spring Boot Auto Configuration
 * Spring Boot vs Spring vs Spring MVC
@@ -15,7 +23,6 @@
        ----Security
        ----- Actuator
        ------ Developer Tools
-      
 * Embedded Servers = Tomcat, Jetty, Undertow
 * We can include Tomcat jar /Tomcat server inside the application jar
 * To build production ready application quickly
@@ -39,7 +46,6 @@
 * @SpringBootApplication = i) It indicates spring context ii) It enables auto configuration iii) it enables auto scan
 * Spring Boot Auto Configuration Jar will enable auto configuration
 -------------------------
-
 * Spring Framework --- Dependency Injection, IOC, Spring Modules ( Spring JDBC, Spring MVC, Spring AOP, Spring ORM, Spring JMS, Spring Test ) , Integration with other Frameworks ( Hibernate for ORM, iBatis for Object Mapping, Junit & Mockito for Unit Testing )
 * Spring MVC  ---- Web Application ( DispatcherServlet, ModelAndView, ViewResolver ), REST API
 * Spring Boot  ---- Auto Configuration ( DispatcherServlet, ViewResolver, Datasource etc ) , Spring Boot starter projects, Embedded servers, Logback & Log4j frameworks
