@@ -1,3 +1,6 @@
+# JPA implementations
+
+# To Read
 * Before JPA --- JDBC, Spring JDBC ( JDBCTemplate , it’s a layer on top of JDBC ) , myBatis Framework ( It maps Objects to Queries with Annotations ) ------ We write SQL queries
 * JDBC(SQL Queries) --> Spring JDBC(JDBCTemplate) --> myBatis(Objects to Queries) --> JPA (Objects to Tables)--> Hibernate(Objects to Tables)
 * JPA ( Interface ) --> Hibernate ( Implementation of JPA )
@@ -19,3 +22,4 @@
 
 # Tutorial
 * [JPA Hibernate Tuutorial](https://www.springboottutorial.com/jpa-hibernate-tutorial-for-beginners)
+* [JPA Implemenation](https://stackoverflow.com/questions/17883971/which-provider-should-be-used-for-the-java-persistence-api-jpa-implemenation)
