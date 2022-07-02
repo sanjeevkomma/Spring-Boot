@@ -1,4 +1,13 @@
 # JPA implementations
+|S.No | #Pattern  | #Intent |
+| :---: | :---: | :---: |
+|1 | Hibernate |The most advanced and widely used. Pay attention for the classpath because a lot of libraries are used, especially when using JBoss. Supports JPA 2.1  |
+|2 | Toplink |Only supports the basic JPA specs. (This was oracle’s free version of the JPA implementation)  |
+|3 | EclipseLink |Is based on TopLink, and is the intended path forward for persistence for Oracle and TopLink. Supports JPA 2.1  |
+|4 | Apache OpenJPA |Best documentation but seems very buggy. Open source implementation for JPA. Supports JPA 2.0  |
+|5 | DataNucleus |Well documented, open source (Apache 2 license), is also a JDO provider. Supports JPA 2.1  |
+|6 | ObjectDB | |
+|7 | CMobileCom JPA |light-weight JPA 2.1 implementation for both Java and Android  |
 
 # To Read
 * Before JPA --- JDBC, Spring JDBC ( JDBCTemplate , it’s a layer on top of JDBC ) , myBatis Framework ( It maps Objects to Queries with Annotations ) ------ We write SQL queries
