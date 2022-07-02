@@ -32,3 +32,4 @@
 # Tutorial
 * [JPA Hibernate Tuutorial](https://www.springboottutorial.com/jpa-hibernate-tutorial-for-beginners)
 * [JPA Implemenation](https://stackoverflow.com/questions/17883971/which-provider-should-be-used-for-the-java-persistence-api-jpa-implemenation)
+* [can we use jpa without hibernate](https://stackoverflow.com/questions/15487631/can-we-use-jpa-without-hibernate#:~:text=JPA%20can%20be%20used%20without,has%20already%20a%20JPA%20implementation.)
