@@ -1,3 +1,9 @@
+# To Read
+
+# Reference
+* [Design Patterns in Spring](https://www.baeldung.com/spring-framework-design-patterns)
+
+
 * Spring Boot features
 * Spring Boot Auto Configuration
 * Spring Boot vs Spring vs Spring MVC
