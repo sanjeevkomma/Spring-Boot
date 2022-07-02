@@ -1,12 +1,5 @@
 # To Read
 
-# Design Patterns in Spring
-|S.No | #Pattern  | #Intent |
-| :---: | :---: | :---: |
-|1 | Singleton pattern |  |
-|2 | Factory Method pattern |  |
-|3 | Proxy pattern |  |
-|4 | Template pattern |  |
 
 # Reference
 * [Design Patterns in Spring](https://www.baeldung.com/spring-framework-design-patterns)
