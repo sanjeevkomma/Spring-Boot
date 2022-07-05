@@ -48,7 +48,7 @@
 |13 |@EnableRetry | |
 |14 |@Service | |
 |15 |@EnableAsync | |
-|16 |@RestController | |
+|16 |@RestController | @Controller + @ResponseBody|
 |17 |@RequestMapping | |
 |18 |[@RefreshScope](https://boot-microservices.hashnode.dev/how-to-use-refreshscope-with-your-datasource-for-dynamic-property-updates-at-runtime)|@RefreshScope is used with your Datasource for dynamic property updates at runtime |
 
