@@ -1,6 +1,6 @@
 # Design Patterns of Microservices
 |S.No | #Pattern  | #Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 |1 | Aggregator | Collects releated items of data and displays them based on DRY principle |
 | 2| API Gateway | 1. It can convert the protocol request from one type to other 2. API gateway acts as an entry point to forward the client requests to appropriate microservices  |
 |3 | Chained or Chain of Responsibility |1. Prodcues a single output which is a combination of multiple chained outputs 2. Use synchronous HTTP request or response for messaging  |
