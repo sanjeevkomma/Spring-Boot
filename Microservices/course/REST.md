@@ -9,7 +9,7 @@
 
 # HTTP Verbs
 |SNo| #HTTP Verb  | Request URI | ##Intent | #Type |
-| :---: | :---: | :---: |:---:|:---:|
+| :--- | :--- | :--- |:---|:---|
 | 1 | GET | | Request Header, Request Body , Response Header, Response Body| 1. Safe <br>2. Idempotent <br>3. Cacheable|
 | 2 | POST | | |Not Safe , Not Idempotent , Not Cacheable |
 | 3 | PUT | | | Idempotent , Not Cacheable , Not Safe|
