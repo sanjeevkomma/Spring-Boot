@@ -29,13 +29,13 @@
 
 # Query Params
 |SNo| #Param  | ##Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 | 1 | application/json | |
 
 
 # Authorization
 |SNo| #Authorization Type  | ##Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 | 1 | Inherit auth from parent | This is the default auth type. In this, authorization type will be the same as the parent, which means whatever the auth type you selected for that collection (parent); the same auth type will be selected for the request, which is under that collection|
 | 2 | No Auth |If you select this type, Postman will not send any auth data with the request |
 | 3 | API key |This is to send the Key and Value along with the API request |
@@ -52,12 +52,12 @@
 
 # HTTP Headers
 |SNo| #HTTP Header  | ##Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 | 1 | application/json | |
 
 # Content Types
 |SNo| #Content Type  | ##Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 | 1 | application/json | |
 | 2 | text/html | |
 | 3 | multipart/form-data | |
@@ -67,12 +67,12 @@
 
 # HTTP Status Codes
 |SNo| #HTTP Status Code  | ##Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 | 1 | 200 | |
 
 # REST Architectural Constraints
 |SNo| #Constraint  | ##Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 | 1 | Uniform interface |Once a developer becomes familiar with one of your APIs, he should be able to follow a similar approach for other APIs |
 | 2 | Client–server |Servers and clients may also be replaced and developed independently, as long as the interface between them is not altered |
 | 3 | Stateless | client context will not be stored on the server between requests. The client is responsible for managing the state of the application |
