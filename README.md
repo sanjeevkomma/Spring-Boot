@@ -32,7 +32,7 @@
 
 # [Annotations](https://www.journaldev.com/16966/spring-annotations)
 |SNo| #Annotations  | #Discription |
-|:---: | :---: | :---: | 
+|:--- | :--- | :--- | 
 |1 |@Bean | It will give instance of the class(method return Type) to Spring. It can be applied to a method |
 | 2|@Autowired | It can be applied to Variable / Method for autowiring byType |
 | 3|@Qualifier |1. The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type. 2. It helps to avoid ambiguity of different beans with the same type |
@@ -55,7 +55,7 @@
 
 # Properties
 | #Property  | #Discription |
-| :---: | :---: | 
+| :--- | :--- | 
 | spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration | We can control the list of auto-configuration classes to exclude by using this property |
 
 # Reference
