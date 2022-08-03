@@ -85,6 +85,7 @@
 * [REST API Official Tutorial](https://restfulapi.net/)
 * [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
+* [REST vs GraphQL vs gRPC](https://blog.bitsrc.io/rest-vs-graphql-vs-grpc-684edfacf810)
 
 # Images
 1. REST URIs
