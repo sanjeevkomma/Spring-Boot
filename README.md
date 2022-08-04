@@ -56,7 +56,7 @@
 # Properties
 | #Property  | #Value |#Discription |
 | :--- | :--- | :--- |
-| spring.autoconfigure.exclude | 1. org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration <br>2.org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration | We can control the list of auto-configuration classes to exclude by using this property |
+| spring.autoconfigure.exclude | 1. org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration  <br> 2. org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration | We can control the list of auto-configuration classes to exclude by using this property |
 
 # Reference
 * [Spring vs Spring Boot vs Spring MVC](https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc)
