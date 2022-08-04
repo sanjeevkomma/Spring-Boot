@@ -1,4 +1,13 @@
 # Components of Microservices 
+|#SNo| #Component  | #Intent |
+| :--- | :--- | :--- | 
+|1| Spring Cloud Config Server | (http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ] |
+|1| Netflix Eureka Naming Server | (http://localhost:8761 |
+|1| Hystrix Server (Circuit Breaker Pattern) | [resilience4j](https://resilience4j.readme.io/docs/getting-started-3). Used for fault tolerance |
+|1| Netflix Zuul API Gateway Server | Spring Cloud API Gateway (http://localhost:8765/service-name/uri) |
+|1| Netflix Ribbon | Spring Cloud LoadBalancer -- Sping Clould Eureka Client internally has load balancer dependant for client side load balancing |
+|1| Zipkin Distributed Tracing Server | (http://localhost:9411/zipkin) |
+
 1. Spring Cloud Config Server -- (http://localhost:8888/service-name/default)  [ Here , default is environment like 'dev','qa','prod' ]
 2. Netflix Eureka Naming Server(http://localhost:8761)
 3. Hystrix Server (Circuit Breaker Pattern)--- [resilience4j](https://resilience4j.readme.io/docs/getting-started-3). Used for fault tolerance
