@@ -68,5 +68,6 @@
 * [Spring Boot Interview Questions for SDE I/II](https://medium.com/shoutloudz/spring-boot-interview-questions-4a6066968488)
 * [Pagination and Sorting using Spring Boot](https://medium.com/shoutloudz/pagination-and-sorting-using-spring-boot-103bba7bc4d7)
 * [Spring “Magic” with Proxy Design Pattern](https://medium.com/programming-for-beginners/spring-magic-with-proxy-design-pattern-8cfc1246d16a)
+* [Spring boot autowiring an interface with multiple implementations](https://stackoverflow.com/questions/51766013/spring-boot-autowiring-an-interface-with-multiple-implementations)
 
 
