@@ -5,7 +5,7 @@
 
 # To Read
 * In general, httpd should not be invoked directly, but rather should be invoked as either of below
-1. apachectl / systemctl on Unix-based systems 
+1. apachectl or systemctl on Unix-based systems 
 2. as a service on Windows NT, 2000 and XP 
 3. as a console application on Windows 9x and ME
 
