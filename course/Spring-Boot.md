@@ -1,8 +1,10 @@
 # To Read
+* Circular Dependency =  Circular Dependency occurs when a bean A depends on another bean B, and the bean B depends on bean A as well
 
 
 # Reference
 * [Design Patterns in Spring](https://www.baeldung.com/spring-framework-design-patterns)
+* [Circular Dependencies in Spring](https://www.baeldung.com/circular-dependencies-in-spring)
 
 # Additonal Info 
 * Spring Boot features
