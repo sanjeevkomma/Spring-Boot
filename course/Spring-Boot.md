@@ -5,6 +5,7 @@
 # Reference
 * [Design Patterns in Spring](https://www.baeldung.com/spring-framework-design-patterns)
 * [Circular Dependencies in Spring](https://www.baeldung.com/circular-dependencies-in-spring)
+* [Spring Transaction Propagation in a Nutshell](https://dzone.com/articles/spring-transaction-propagation)
 
 # Additonal Info 
 * Spring Boot features
