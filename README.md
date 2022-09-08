@@ -56,10 +56,10 @@
 # Spring Boot Dependencies
 |SNo| #Dependancy  | #Maven Syntax |#Intent |
 |:--- | :--- | :--- | :--- |
-|1 |Spring Boot Actuator | <dependency>
+|1 |Spring Boot Actuator | ```<dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-actuator</artifactId>
-</dependency> | eee|
+</dependency>``` | eee|
 
 
 # Properties
