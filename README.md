@@ -53,6 +53,14 @@
 |17 |@RequestMapping | |
 |18 |[@RefreshScope](https://boot-microservices.hashnode.dev/how-to-use-refreshscope-with-your-datasource-for-dynamic-property-updates-at-runtime)|@RefreshScope is used with your Datasource for dynamic property updates at runtime |
 
+# Spring Boot Dependencies
+|SNo| #Dependancy  | #Maven Syntax |#Intent |
+|:--- | :--- | :--- | :--- |
+|1 |Spring Boot Actuator | <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency> | eee|
+
 
 # Properties
 | #Property  | #Value |#Discription |
