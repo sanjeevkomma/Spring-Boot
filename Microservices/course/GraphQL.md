@@ -1,0 +1,25 @@
+# To Read
+What is GraphQL? Is it a replacement for the REST API?
+
+The diagram below shows the quick comparison between REST and GraphQL.
+
+🔹GraphQL is a query language for APIs developed by Meta. It provides a complete description of the data in the API and gives clients the power to ask for exactly what they need.
+
+🔹GraphQL servers sit in between the client and the backend services.
+
+🔹GraphQL can aggregate multiple REST requests into one query. GraphQL server organizes the resources in a graph.
+
+🔹GraphQL supports queries, mutations (applying data modifications to resources), and subscriptions (receiving notifications on schema modifications).
+
+We talked about the REST API in last week’s video and will compare REST vs. GraphQL vs. gRPC in a separate post/video.
+
+Over to you:
+1). Is GraphQL a database technology?
+2). Do you recommend GraphQL? Why/why not?
+
+# Reference
+* [GraphQL Official](https://graphql.org/)
+
+# Images
+1. REST VS GraphQL
+* ![image](https://user-images.githubusercontent.com/7721150/189479636-e280c43d-6338-4112-8979-b0cdd852bc8c.png)
