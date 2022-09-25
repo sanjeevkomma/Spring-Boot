@@ -35,6 +35,10 @@
 | :--- | :--- | :--- |
 |1 | .pem file<br> ec2_key_pair.pem | | 
 |2 | .ppk file<br> ec2_key_pair.pem | | 
+|3 | .jks file<br> itt_keystore.jks <br>itt_truststore.jks | | 
+|4 | .cer, .crt, .der | | 
+|5 | .p12 | |
+|6 | .pfx | |
 
 # Reference
 * [trustStore VS keyStore in Java](https://www.geeksforgeeks.org/difference-between-truststore-and-keystore-in-java/)  
