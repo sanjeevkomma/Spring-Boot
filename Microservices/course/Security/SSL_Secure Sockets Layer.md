@@ -32,7 +32,7 @@
 
 # File Types & Usage
 |SNo| #File Type  | #Usage |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 |1 | .pem file<br> ec2_key_pair.pem | | 
 |2 | .ppk file<br> ec2_key_pair.pem | | 
 
