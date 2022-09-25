@@ -30,6 +30,12 @@
 * .pfx = PFX, predecessor of PKCS#12 (usually contains data in PKCS#12 format, e.g., with PFX files generated in IIS)
 * .pem file is Private Key
 
+# File Types & Usage
+|SNo| #File Type  | #Usage |
+| :---: | :---: | :---: |
+|1 | .pem file<br> ec2_key_pair.pem | | 
+|2 | .ppk file<br> ec2_key_pair.pem | | 
+
 # Reference
 * [trustStore VS keyStore in Java](https://www.geeksforgeeks.org/difference-between-truststore-and-keystore-in-java/)  
 * [How to add or list certificates from keystore or trustStore in Java](https://javarevisited.blogspot.com/2012/03/add-list-certficates-java-keystore.html#axzz7DEFkCZ2t) 
