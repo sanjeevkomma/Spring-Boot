@@ -28,6 +28,7 @@
 * .p7b, .p7c = PKCS#7 SignedData structure without data, just certificate(s) or CRL(s)
 * .p12 = PKCS#12, may contain certificate(s) (public) and private keys (password protected)
 * .pfx = PFX, predecessor of PKCS#12 (usually contains data in PKCS#12 format, e.g., with PFX files generated in IIS)
+* .pem file is Private Key
 
 # Reference
 * [trustStore VS keyStore in Java](https://www.geeksforgeeks.org/difference-between-truststore-and-keystore-in-java/)  
