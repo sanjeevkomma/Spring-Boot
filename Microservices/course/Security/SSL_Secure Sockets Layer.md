@@ -33,7 +33,7 @@
 # File Types & Usage
 |SNo| #File Type  | #Usage |
 | :--- | :--- | :--- |
-|1 | .pem file<br> ec2_key_pair.pem | | 
+|1 | .pem file<br> ec2_key_pair.pem | Its Private Key| 
 |2 | .ppk file<br> ec2_key_pair.pem | | 
 |3 | .jks file<br> itt_keystore.jks <br>itt_truststore.jks | | 
 |4 | .cer, .crt, .der | | 
