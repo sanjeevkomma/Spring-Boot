@@ -1,18 +1,20 @@
 # Definition
 * SSL =
+* TLS =
 * JKS = 
 
 # Prerequisite
-1. keytool
+1. [Keytool installation](https://keystore-explorer.org/downloads.html)
 
 
 # Commands
-* keytool -list -keystore [jks_file_name]
-* keytool -list -keystore kafka.keystore.jks
+* $ keytool -list -v -keystore [jks_file_name]
+* $ keytool -list -v -keystore kafka.keystore.jks
 
 # Terminology
 * SSL = Secure Sockets Layer
 * TLS = Transport Layer Security
+* JKS = Java Key Store
 * HTTPS is HTTP sent over an SSL encrypted connection
 * keystores =
 * truststores = 
@@ -30,6 +32,12 @@
 * .pfx = PFX, predecessor of PKCS#12 (usually contains data in PKCS#12 format, e.g., with PFX files generated in IIS)
 * .pem file is Private Key
 
+# SSL Certificates Type
+1. Private Certificate / File -- KeyStore
+2. Public Certificate / File -- TrustStore
+3. Self Signed Certificate / File -- 
+
+
 # File Types & Usage
 |SNo| #File Type  | #Usage |
 | :--- | :--- | :--- |
@@ -45,3 +53,4 @@
 * [How to add or list certificates from keystore or trustStore in Java](https://javarevisited.blogspot.com/2012/03/add-list-certficates-java-keystore.html#axzz7DEFkCZ2t) 
 * [Difference between trustStore and keyStore in Java](https://javarevisited.blogspot.com/2012/09/difference-between-truststore-vs-keyStore-Java-SSL.html#axzz7DEFkCZ2t) 
 * [Download PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
