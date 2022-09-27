@@ -12,6 +12,8 @@
 * $ keytool -list -v -keystore [jks_file_name]
 * $ keytool -list -v -keystore kafka.keystore.jks
 * $ keytool -genkey -v -keystore myapp.keystore -alias myapp === To generate Self Signed Certificate
+* $ keytool -genkey -v -keystore myapp.jks -alias myapp
+* $ keytool -importkeystore -srckeystore myapp.jks -destkeystore myapp.jks -deststoretype pkcs12 === To migrate to PKCS12 format
 
 # Terminology
 * SSL = Secure Sockets Layer
