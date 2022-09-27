@@ -3,7 +3,7 @@
 * JKS = 
 
 # Prerequisite
-1. keytool
+1. [Keytool installation](https://keystore-explorer.org/downloads.html)
 
 
 # Commands
