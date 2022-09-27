@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootSslApplication {
+public class SpringBootSSLApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootSslApplication.class, args);
+		SpringApplication.run(SpringBootSSLApplication.class, args);
 	}
 
 }
