@@ -4,7 +4,8 @@
 * JKS = 
 
 # Prerequisite
-1. [Keytool installation](https://keystore-explorer.org/downloads.html)
+1. Keytool is part of the Java SDK. We can find it in Java SDK directory e.g. C:\Program Files\Java\jdk1.6.0_14\bin
+2. [KeyStore Explorer(KSE) installation](https://keystore-explorer.org/downloads.html)
 
 
 # Commands
