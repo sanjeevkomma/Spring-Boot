@@ -55,4 +55,5 @@
 * [How to add or list certificates from keystore or trustStore in Java](https://javarevisited.blogspot.com/2012/03/add-list-certficates-java-keystore.html#axzz7DEFkCZ2t) 
 * [Difference between trustStore and keyStore in Java](https://javarevisited.blogspot.com/2012/09/difference-between-truststore-vs-keyStore-Java-SSL.html#axzz7DEFkCZ2t) 
 * [Download PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+* [KSE Releases on GitHub](https://github.com/kaikramer/keystore-explorer/releases)
 
