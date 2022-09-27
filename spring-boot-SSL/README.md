@@ -7,8 +7,8 @@
 
 
 # Commands
-* keytool -list -keystore [jks_file_name]
-* keytool -list -keystore kafka.keystore.jks
+* $ keytool -list -v -keystore [jks_file_name]
+* $ keytool -list -v -keystore kafka.keystore.jks
 
 # Terminology
 * SSL = Secure Sockets Layer
