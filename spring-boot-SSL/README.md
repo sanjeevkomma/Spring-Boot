@@ -1,5 +1,6 @@
 # Definition
 * SSL =
+* TLS =
 * JKS = 
 
 # Prerequisite
@@ -30,6 +31,12 @@
 * .p12 = PKCS#12, may contain certificate(s) (public) and private keys (password protected)
 * .pfx = PFX, predecessor of PKCS#12 (usually contains data in PKCS#12 format, e.g., with PFX files generated in IIS)
 * .pem file is Private Key
+
+# SSL Certificates Type
+1. Private Certificate / File -- KeyStore
+2. Public Certificate / File -- TrustStore
+3. Self Signed Certificate / File -- 
+
 
 # File Types & Usage
 |SNo| #File Type  | #Usage |
