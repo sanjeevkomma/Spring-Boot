@@ -10,6 +10,7 @@
 # Commands
 * $ keytool -list -v -keystore [jks_file_name]
 * $ keytool -list -v -keystore kafka.keystore.jks
+* $ keytool -genkey -v -keystore myapp.keystore -alias myapp === To generate Self Signed Certificate
 
 # Terminology
 * SSL = Secure Sockets Layer
