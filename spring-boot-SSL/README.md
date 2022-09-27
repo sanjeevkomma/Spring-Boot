@@ -13,6 +13,7 @@
 # Terminology
 * SSL = Secure Sockets Layer
 * TLS = Transport Layer Security
+* JKS = Java Key Store
 * HTTPS is HTTP sent over an SSL encrypted connection
 * keystores =
 * truststores = 
