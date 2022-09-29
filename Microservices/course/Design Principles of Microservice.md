@@ -1,6 +1,6 @@
 # Design Principles of Microservices
 |S.No | #Principle  | #Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 |1 | Independant and Autonoumous Services |  |
 |2 | Scalability |   |
 | 3| Decentralization |  |
