@@ -10,14 +10,14 @@
 # HTTP Verbs
 |SNo| #HTTP Verb  | Request URI | ##Intent | #Type |
 | :--- | :--- | :--- |:---|:---|
-| 1 | GET | | Request Header<br> Request Body <br> Response Header<br> Response Body| Safe <br> Idempotent <br> Cacheable|
-| 2 | POST | | |Not Safe <br> Not Idempotent <br> Not Cacheable |
-| 3 | PUT | | | Idempotent <br> Not Cacheable <br> Not Safe|
+| 1 | GET | | Request Header<br> Request Body <br> Response Header<br> Response Body| Safe<br>Idempotent<br>Cacheable|
+| 2 | POST | | |Not Safe<br>Not Idempotent<br>Not Cacheable |
+| 3 | PUT | | | Idempotent<br>Not Cacheable<br>Not Safe|
 | 4 | PATCH | | | |
-| 5 | DELETE | | |Idempotent <br> Not Cacheable <br> Not Safe |
+| 5 | DELETE | | |Idempotent<br>Not Cacheable<br>Not Safe |
 | 6 | COPY | | | |
-| 7 | HEAD | | Request Header<br> NO Request Body <br> Response Header<br> NO Response Body|Safe <br> Idempotent <br> Cacheable |
-| 8 | OPTIONS | |OPTIONS doest invoke any action or any operation on the resource, but it provides necessary information for communicating with that server |Safe <br> Idempotent <br> Not Cacheable |
+| 7 | HEAD | | Request Header<br>NO Request Body<br>Response Header<br>NO Response Body|Safe<br>Idempotent<br>Cacheable |
+| 8 | OPTIONS | |OPTIONS doest invoke any action or any operation on the resource, but it provides necessary information for communicating with that server |Safe<br>Idempotent<br>Not Cacheable|
 | 9 | LINK | | | |
 | 10 | UNLINK | | | |
 | 11 | PURGE | | | |
@@ -25,7 +25,7 @@
 | 13 | UNLOCK | | | |
 | 14 | PROPFIND | | | |
 | 15 | VIEW | | | |
-| 16| TRACE | |TRACE method performs a message loop-back test along the path to the target resource, providing a useful debugging mechanism |Safe <br> Idempotent <br> Not Cacheable |
+| 16| TRACE | |TRACE method performs a message loop-back test along the path to the target resource, providing a useful debugging mechanism |Safe<br>Idempotent<br>Not Cacheable |
 
 # Query Params
 |SNo| #Param  | ##Intent |
