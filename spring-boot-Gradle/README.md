@@ -24,3 +24,17 @@
 8. $ gradlew properties == To display the properties of root project
 9. $ gradlew dependencies == To display all dependencies declared in root project
 10. $ gradlew projects == To display the sub-projects of root project
+
+# How to Start : 
+1. git clone https://github.com/sanjeevkomma/spring-boot.git
+2. mvn spring-boot:run
+3. Access H2 Console ( http://localhost:8080/h2-console/login.jsp ) 
+
+# REST API : 
+1. Get All User : GET : http://localhost:8080/user
+2. Get User : GET : http://localhost:8080/user/{id}
+3. Delete User : DELETE : http://localhost:8080/user/{id}
+4. Save User : POST : http://localhost:8080/user
+    
+## cURL ( Client URL ) :
+1. Get All User : GET : curl -v localhost:8080/user
