@@ -8,6 +8,11 @@
 * [Gradle Distributions](https://services.gradle.org/distributions/)
 * [Gradle Releases](https://gradle.org/releases/)
 
+# Gradle supports the following repository formats
+1. Ivy repositories
+2. Maven repository
+3. Flat directory repository
+
 # Commands
 1. $ gradlew --version == To know Gradle version
 2. $ gradlew build == To build
