@@ -5,6 +5,7 @@
 
 # Installation
 * [Gradle Installation](https://gradle.org/install/)
+* [Gradle Distributions](https://services.gradle.org/distributions/)
 * [Gradle Releases](https://gradle.org/releases/)
 
 # Commands
