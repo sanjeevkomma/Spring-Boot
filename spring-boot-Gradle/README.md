@@ -12,3 +12,5 @@
 2. $ gradlew clean == To clean
 3. $ gradlew help ==
 4. $ gradlew tasks ==
+5. $ gradlew check == To run all checks
+6. $ gradlew test == To the test suite
