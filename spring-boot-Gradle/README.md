@@ -38,3 +38,6 @@
     
 ## cURL ( Client URL ) :
 1. Get All User : GET : curl -v localhost:8080/user
+
+# Reference
+* [Using the Gradle build system in the Eclipse IDE - Tutorial](https://www.vogella.com/tutorials/EclipseGradle/article.html#how-to-create-a-new-gradle-powered-spring-boot-application-with-eclipse)
