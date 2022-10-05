@@ -8,7 +8,7 @@
 * [Gradle Distributions](https://services.gradle.org/distributions/)
 * [Gradle Releases](https://gradle.org/releases/)
 
-# Gradle supports the following repository formats
+# [Gradle supports the following repository formats](https://www.javatpoint.com/gradle-repository)
 1. Ivy repositories
 2. Maven repository
 3. Flat directory repository
