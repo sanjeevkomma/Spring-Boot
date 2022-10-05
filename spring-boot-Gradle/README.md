@@ -20,7 +20,7 @@
 4. $ gradlew help ==
 5. $ gradlew tasks ==
 6. $ gradlew check == To run all checks
-7. $ gradlew test == To the test suite
+7. $ gradlew test == To run the test suite
 8. $ gradlew properties == To display the properties of root project
 9. $ gradlew dependencies == To display all dependencies declared in root project
 10. $ gradlew projects == To display the sub-projects of root project
