@@ -9,9 +9,10 @@
 * [Gradle Releases](https://gradle.org/releases/)
 
 # Commands
-1. $ gradlew build == To build
-2. $ gradlew clean == To clean
-3. $ gradlew help ==
-4. $ gradlew tasks ==
-5. $ gradlew check == To run all checks
-6. $ gradlew test == To the test suite
+1. $ gradlew --version == To know Gradle version
+2. $ gradlew build == To build
+3. $ gradlew clean == To clean
+4. $ gradlew help ==
+5. $ gradlew tasks ==
+6. $ gradlew check == To run all checks
+7. $ gradlew test == To the test suite
