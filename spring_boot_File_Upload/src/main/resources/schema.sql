@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS ImageData;  
+CREATE TABLE ImageData (  
+id INT AUTO_INCREMENT PRIMARY KEY,  
+name VARCHAR(50) NOT NULL,  
+image_type VARCHAR(50) NOT NULL,
+imagedata BLOB NOT NULL
+);  
