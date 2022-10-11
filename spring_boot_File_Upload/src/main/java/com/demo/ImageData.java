@@ -8,20 +8,24 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "ImageData")
+@Table(name = "image_data")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 public class ImageData {
-    @Id
+    
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+	
+	@Column(name="name")
     private String name;
-    @Column(name="image_type")
+    
+	@Column(name="image_type")
     private String type;
-    @Lob
-    @Column(name = "imagedata",length = 1000)
+    
+	@Lob
+    @Column(name = "data",length = 1000)
     private byte[] imageData;
 }
