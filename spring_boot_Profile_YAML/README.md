@@ -1,9 +1,9 @@
 Spring boot Profile YAML
 
-How to build :
+# How to build :
     1. mvn clean install -Dmaven.test.skip=true
 
-How to start : 
+# How to start : 
 
     1. In Eclipse, Run as java applicaton by setting dev OR prod profile : ( -Dspring.profiles.active=prod,hk -Dperson.name=Test ) 
     OR
