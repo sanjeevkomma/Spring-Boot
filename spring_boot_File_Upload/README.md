@@ -5,7 +5,7 @@
 
 # How to start : 
 
-    1. Run as java applicaton by setting dev OR prod profile : ( -Dspring.profiles.active=dev,SG ) 
+    1. In Eclipse, Run as java applicaton by setting dev OR prod profile : ( -Dspring.profiles.active=dev,SG ) 
     OR
     2. mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=dev,SG"
     OR
