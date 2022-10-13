@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>spring_boot_File_Upload</groupId>
 	<artifactId>spring_boot_File_Upload</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>spring-boot-file-upload</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
