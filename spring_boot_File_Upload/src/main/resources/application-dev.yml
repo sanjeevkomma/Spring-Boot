@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://localhost:3306/userdb
-    password: password123
+    password: ${DB_PASSWORD}
   jpa:
     properties:
       hibernate:
@@ -23,7 +23,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://localhost:3306/userdb
-    password: password123
+    password: ${DB_PASSWORD}
   jpa:
     properties:
       hibernate:
