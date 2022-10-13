@@ -9,7 +9,7 @@
     OR
     2. mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=dev,SG --user.name=Tom --DB_PASSWORD=password123"
     OR
-    3. java -jar -Dspring.profiles.active=dev,SG -Duser.name=Tom -DDB_PASSWORD=password123 target/spring_boot_File_Upload-0.0.1-SNAPSHOT.jar 
+    3. java -jar -Dspring.profiles.active=dev,SG -Duser.name=Tom -DDB_PASSWORD=password123 target/spring_boot_File_Upload.jar 
     
 # Commands
 1. $ java -jar lombok-1.18.24.jar
