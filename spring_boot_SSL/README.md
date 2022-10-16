@@ -54,6 +54,7 @@
 |6 | .pfx | |
 
 # Reference
+* [Spring Boot SSL GitHub example](https://github.com/mkyong/spring-boot/tree/master/spring-boot-ssl)
 * [trustStore VS keyStore in Java](https://www.geeksforgeeks.org/difference-between-truststore-and-keystore-in-java/)  
 * [How to add or list certificates from keystore or trustStore in Java](https://javarevisited.blogspot.com/2012/03/add-list-certficates-java-keystore.html#axzz7DEFkCZ2t) 
 * [Difference between trustStore and keyStore in Java](https://javarevisited.blogspot.com/2012/09/difference-between-truststore-vs-keyStore-Java-SSL.html#axzz7DEFkCZ2t) 
