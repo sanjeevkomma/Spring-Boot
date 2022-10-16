@@ -5,7 +5,7 @@
     <springProfile name="default">
         <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
 
-        <root level="INFO">
+        <root level="DEBUG">
             <appender-ref ref="CONSOLE"/>
         </root>
     </springProfile>
@@ -13,7 +13,7 @@
     <springProfile name="dev">
 
         <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
-            <file>app.log</file>
+            <file>app_file_upload.log</file>
 
             <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
                 <fileNamePattern>logs/archived/app.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
@@ -30,9 +30,9 @@
             </encoder>
         </appender>
 
-        <logger name="org.springframework" level="INFO"/>
+        <logger name="org.springframework" level="ERROR"/>
         <logger name="com.demo" level="DEBUG"/>
-        <root level="ERROR">
+        <root level="DEBUG">
             <appender-ref ref="FILE-ROLLING"/>
         </root>
     </springProfile>

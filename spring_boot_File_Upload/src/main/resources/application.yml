@@ -1,8 +1,8 @@
 logging:
   level:
-    org.springframework: INFO
-    com.demo: INFO
+    org.springframework: ERROR
+    com.demo: DEBUG
   pattern:
     console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
     file: "%d %p %c{1.} [%t] %m%n"
-  file: app.log
+  file: app_file_upload.log
