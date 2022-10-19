@@ -10,7 +10,12 @@
     2. mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=dev,SG --user.name=Tom --DB_PASSWORD=password123"
     OR
     3. java -jar -Dspring.profiles.active=dev,SG -Duser.name=Tom -DDB_PASSWORD=password123 target/spring_boot_File_Upload-0.0.1.jar 
-    
+
+# Docker image Build , Run & Push   
+* -Dspring.profiles.active=dev,SG -Duser.name=Tom -DDB_PASSWORD=password123
+* docker build -t sanjeevkomma/spring_boot_file_upload:0.0.1.RELEASE .
+* docker run -p 8080:8080 -t sanjeevkomma/spring_boot_file_upload:0.0.1.RELEASE -Dspring.profiles.active=dev,SG -Duser.name=Tom -DDB_PASSWORD=password123
+
 # Commands
 1. $ java -jar lombok-1.18.24.jar
 
