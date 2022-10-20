@@ -8,8 +8,8 @@ import org.springframework.boot.CommandLineRunner;
 @SpringBootApplication
 public class SpringBootFileUploadApplication implements CommandLineRunner {
 	
-	@Value("${user.name}")
-    private String name;
+	@Value("${userName}")
+    private String userName;
 
 	public static void main(String[] args) {
 		
@@ -20,7 +20,7 @@ public class SpringBootFileUploadApplication implements CommandLineRunner {
 	 @Override
 	    public void run(String... args) {
 	    	
-	        System.out.println("user name is :: " + name);
+	        System.out.println("userName is :: " + userName);
 	        
 	    }
 	
