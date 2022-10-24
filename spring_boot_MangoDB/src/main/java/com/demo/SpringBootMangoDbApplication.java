@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootNoSqlApplication {
+public class SpringBootMangoDbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootNoSqlApplication.class, args);
+		SpringApplication.run(SpringBootMangoDbApplication.class, args);
 	}
 
 }
