@@ -6,6 +6,10 @@
 * They get their name because each function of the application operates as an independent service
 * This architecture allows for each service to scale or update without disrupting other services in the application
 
+# Monolith to Microservice
+* Strangler Pattern
+* [Pattern: Strangler application](https://microservices.io/patterns/refactoring/strangler-application.html)
+
 # Spring Cloud 
 
 # Microservices with Spring Cloud
