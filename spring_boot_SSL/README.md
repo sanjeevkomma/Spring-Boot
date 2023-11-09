@@ -53,6 +53,11 @@
 |5 | .p12 | |
 |6 | .pfx | |
 
+# Files
+1. key.pem = Private key in PEM format
+2. pkcs8.pem = Private key, Public key, Certificate
+3. public.pem = Public key in PEM format
+
 # Reference
 * [Spring Boot SSL GitHub example](https://github.com/mkyong/spring-boot/tree/master/spring-boot-ssl)
 * [trustStore VS keyStore in Java](https://www.geeksforgeeks.org/difference-between-truststore-and-keystore-in-java/)  
