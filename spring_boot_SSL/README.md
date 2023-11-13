@@ -66,3 +66,8 @@
 * [Download PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * [KSE Releases on GitHub](https://github.com/kaikramer/keystore-explorer/releases)
 
+# Image
+1. How HTTPS works?
+* ![image](https://github.com/sanjeevkomma/Spring-Boot/assets/7721150/2baadb01-e634-4492-b2bf-2d60219d85f7)
+
+
