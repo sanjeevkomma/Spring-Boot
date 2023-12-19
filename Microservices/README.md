@@ -97,6 +97,7 @@
 * fault tolerance = fallback
 # Image
 1. Monolithic vs Microservice
+* ![image](https://github.com/sanjeevkomma/Spring-Boot/assets/7721150/79745c69-ff01-4482-8671-94e33fb4e6d4)
 * ![image](https://user-images.githubusercontent.com/7721150/144594924-f512b8e3-0c1c-4a1f-b5ff-b6361ed657f9.png)
 2. Distributed Tracing
 * ![image](https://user-images.githubusercontent.com/7721150/147667459-992831e5-cfbd-4e61-92a5-ec068705587a.png)
