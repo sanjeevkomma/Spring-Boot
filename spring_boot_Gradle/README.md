@@ -14,17 +14,17 @@
 3. Flat directory repository
 
 # Commands
-1. $ gradlew --version == To know Gradle version
-2. $ gradlew build == To build
-3. $ gradlew build -x test == To build , skip test
-4. $ gradlew clean == To clean
-5. $ gradlew tasks ==
-6. $ gradlew check == To run all checks
-7. $ gradlew test == To run the test suite
-8. $ gradlew properties == To display the properties of root project
-9. $ gradlew dependencies == To display all dependencies declared in root project
-10. $ gradlew projects == To display the sub-projects of root project
-11. $ gradlew help ==
+1. $ ./gradlew --version == To know Gradle version
+2. $ ./gradlew build == To build
+3. $ ./gradlew build -x test == To build , skip test
+4. $ ./gradlew clean == To clean
+5. $ ./gradlew tasks ==
+6. $ ./gradlew check == To run all checks
+7. $ ./gradlew test == To run the test suite
+8. $ ./gradlew properties == To display the properties of root project
+9. $ ./gradlew dependencies == To display all dependencies declared in root project
+10. $ ./gradlew projects == To display the sub-projects of root project
+11. $ ./gradlew help ==
 
 # How to Start : 
 1. git clone https://github.com/sanjeevkomma/spring-boot.git
