@@ -15,6 +15,8 @@ Output :
 ![image](https://user-images.githubusercontent.com/7721150/146057008-24ecc099-91a1-4aca-ac31-293d80c0f94d.png)
 
     
-    
+# Data
+* --spring.profiles.active=QA
+* -Dspring.profiles.active=prod,hk
     
     
