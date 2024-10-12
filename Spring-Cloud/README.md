@@ -4,7 +4,7 @@
 * Spring Cloud integrates seamlessly with the Spring ecosystem, making it easier to implement cloud-native applications
 * [Spring Cloud Official Doc](https://spring.io/projects/spring-cloud)
 
-# Uses and Benefits of Spring Cloud
+# Features
 # 1. Distributed Configuration Management
 # 2. Service Discovery
 # 3. Load Balancing
