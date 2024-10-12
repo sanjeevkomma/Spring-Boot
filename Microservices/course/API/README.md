@@ -53,18 +53,7 @@
 
 
 
-# 𝗔𝗣𝗜 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹𝘀
-* ![image](https://github.com/sanjeevkomma/Spring-Boot/assets/7721150/6becdbf5-2063-4a3d-9b97-6f3ef3850c49)
 
-
-
-
-# API Security
-* ![image](https://github.com/sanjeevkomma/Spring-Boot/assets/7721150/660f7bed-0c28-4864-8a8a-4e1d28a9f00d)
-
-
-# API Testing
-* ![image](https://github.com/sanjeevkomma/Spring-Boot/assets/7721150/454806db-3d82-4702-807e-ef0cf633e52b)
 
 
 
@@ -139,27 +128,7 @@
 12. Designing APIs with Postman- https://lnkd.in/ezue3d4B
 13. Testing APIs with Postman - https://lnkd.in/eCPnGTGi
 
-# Methods to improove API performance
-1. Pagination:
- Implement server-side pagination to limit the amount of data transferred in a single request/response. Allow clients to request a specific page or range of data.
- Use query parameters like `page` and `pageSize` to control the pagination, and ensure your API documentation is clear on how to use it.
-2. Asynchronous Logging:
- Log asynchronously to avoid introducing latency to API responses. Use a message queue or a dedicated logging service to process logs in the background.
- This decouples the logging process from the request/response cycle, improving API responsiveness.
-3. Connection Pooling:
- Use connection pooling for database and other resource intensive operations. Connection pooling helps efficiently manage and reuse database connections, reducing overhead.
-4. Caching:
- Implement caching mechanisms to store frequently requested data. Consider using in memory caching systems like Redis or Memcached to speed up data retrieval.
- Utilise HTTP caching headers (e.g., `CacheControl`, `ETag`) to instruct clients and intermediaries to cache responses, reducing the load on your API.
-5. Load Balancing:
- Set up load balancers to distribute incoming traffic across multiple API servers or instances. This ensures even load distribution and redundancy.
- Consider using dynamic load balancing algorithms to adapt to changing server loads.
-6. Payload Compression:
- Compress API responses before sending them to clients. Use popular compression algorithms like GZIP, Brotli, or Zstandard to reduce data transfer times.
- Ensure that clients support decompression of compressed payloads.
-* Remember that the effectiveness of these methods depends on the specific requirements of your API and the technologies you are using. Monitoring and performance testing are crucial to fine tune and optimise your API further. Additionally, consider using content delivery networks (CDNs) to distribute static content, and use API gateways to manage and secure your API endpoints effectively.
-Activate to view larger image,
-* ![image](https://github.com/sanjeevkomma/Spring-Boot/assets/7721150/4d03bd11-53e4-4433-b1a1-5f0806ebe503)
+
 
 
 
