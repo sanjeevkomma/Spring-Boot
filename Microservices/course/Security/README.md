@@ -19,7 +19,7 @@
 
 # Grant Types in OAuth 2.0
 |SNo| #Approach  | #Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 |1 | authorization_code | used in web applications |
 | 2| client_credentials | used in service to service communication |
 |3 | refresh_token | used to refresh your access token on or before expiry |
@@ -27,7 +27,7 @@
 
 # Best Practices To Secure Microservices
 |SNo| #Approach  | #Intent |
-| :---: | :---: | :---: |
+| :--- | :--- | :--- |
 |1 | Defense in Depth Mechanism |  |
 | 2| Tokens and API Gateway |  |
 |3 | Distributed Tracing |  |
