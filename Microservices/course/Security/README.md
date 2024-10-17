@@ -9,7 +9,7 @@
 
 # Security Standards
 |SNo| #Approach  | #Intent | #Definition |
-| :---: | :---: | :---: |:---: |
+| :--- | :--- | :--- |:--- |
 |1 | OAuth 2.0 Authentication framework |1. OAuth is used for authorization( To grant access to functionality/data/etc.. without having to deal with the original authentication) 2. OAuth 2.0 is a authorization protocol (that may use a JWT as a token format | OAuth2 solve a problem that user wants to access the data using client software like browse based web apps, native mobile apps or desktop apps. OAuth2 is just for authorization, client software can be authorized to access the resources on-behalf of end user using access token |
 | 2| OpenId Connect Core 1.0 | OpenID is used for authentication( To prove who you are) | OpenID Connect builds on top of OAuth2 and add authentication. OpenID Connect add some constraint to OAuth2 like UserInfo Endpoint, ID Token, discovery and dynamic registration of OpenID Connect providers and session management. JWT is the mandatory format for the token|
 |3 | OpenId Connect Discovery 1.0 | It defines how clients dynamically discover information about OpenID Providers | |
