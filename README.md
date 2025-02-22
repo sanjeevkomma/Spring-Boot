@@ -52,6 +52,10 @@
 |16 |@RestController | @Controller + @ResponseBody|
 |17 |@RequestMapping | |
 |18 |[@RefreshScope](https://boot-microservices.hashnode.dev/how-to-use-refreshscope-with-your-datasource-for-dynamic-property-updates-at-runtime)|@RefreshScope is used with your Datasource for dynamic property updates at runtime |
+|19 |@Transactional | 1. @Transactional
+<br>2. @Transactional(rollbackFor = Exception.class)
+<br>3. @Transactional(readOnly = true)
+<br>4. @Transactional(propagation = Propagation.REQUIRES_NEW, isolation = Isolation.SERIALIZABLE) |
 
 # Spring Boot Dependencies
 |SNo| #Dependancy  | #Intent |#Maven |
