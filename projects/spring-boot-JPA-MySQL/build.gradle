@@ -21,6 +21,25 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// Spring Boot Web
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// Spring Boot JPA (For Hibernate + Spring Data)
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// MySQL Connector (Latest)
+	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// Lombok (Optional - Reduces Boilerplate Code)
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// DevTools (Optional - Auto Restart)
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	// Testing
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 tasks.named('test') {
