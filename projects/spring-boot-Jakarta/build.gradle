@@ -39,6 +39,13 @@ dependencies {
 	implementation 'jakarta.jms:jakarta.jms-api:3.1.0'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// Lombok (Optional - Reduces Boilerplate Code)
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// MySQL Connector (Latest)
+	runtimeOnly 'com.mysql:mysql-connector-j'
 }
 
 tasks.named('test') {
