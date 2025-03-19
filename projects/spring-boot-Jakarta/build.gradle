@@ -36,6 +36,7 @@ dependencies {
 	implementation 'jakarta.security.enterprise:jakarta.security.enterprise-api:3.0.0'
 	implementation 'jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:3.0.0'
 	implementation 'jakarta.batch:jakarta.batch-api:2.1.0'
+	implementation 'jakarta.jms:jakarta.jms-api:3.1.0'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
