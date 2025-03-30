@@ -80,7 +80,7 @@
 * [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 * [REST vs GraphQL vs gRPC](https://blog.bitsrc.io/rest-vs-graphql-vs-grpc-684edfacf810)
 * [How to Choose HTTP or gRPC for Your Next API](https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/)
-* [REST vs GraphQL](https://blog.algomaster.io/p/rest-vs-graphql?utm_source=substack&utm_medium=email)
+* [algomaster.io--REST vs GraphQL](https://blog.algomaster.io/p/rest-vs-graphql?utm_source=substack&utm_medium=email)
 
 # Images
 1. REST URIs
