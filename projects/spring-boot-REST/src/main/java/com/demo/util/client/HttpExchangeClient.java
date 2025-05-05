@@ -1,4 +1,4 @@
-package com.demo.util;
+package com.demo.util.client;
 
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.service.annotation.GetExchange;

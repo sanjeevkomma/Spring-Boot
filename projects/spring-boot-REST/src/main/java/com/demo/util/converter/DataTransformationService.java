@@ -1,4 +1,4 @@
-package com.demo.util;
+package com.demo.util.converter;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.stereotype.Service;

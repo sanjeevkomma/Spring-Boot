@@ -1,7 +1,7 @@
 package com.demo.controller;
 
-import com.demo.service.*;
-import com.demo.util.DataTransformationService;
+import com.demo.service.client.*;
+import com.demo.util.converter.DataTransformationService;
 import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,20 +9,20 @@ import java.util.List;
 
 @RestController
 public class ApiController {
-    private final ApiService apiService;
+    private final RestTemplateService restTemplateService;
     private final DataTransformationService transformationService;
     private final FeignClientService feignClientService;
     private final WebClientService webClientService;
     private final HttpExchangeService httpExchangeService;
     private final RestClientService restClientService;
 
-    public ApiController(ApiService apiService,
+    public ApiController(RestTemplateService restTemplateService,
                          DataTransformationService transformationService,
                          FeignClientService feignClientService,
                          WebClientService webClientService,
                          HttpExchangeService httpExchangeService,
                          RestClientService restClientService) {
-        this.apiService = apiService;
+        this.restTemplateService = restTemplateService;
         this.transformationService = transformationService;
         this.feignClientService = feignClientService;
         this.webClientService = webClientService;
@@ -32,7 +32,7 @@ public class ApiController {
 
     @GetMapping("/api/data")
     public @ResponseBody List<String> getTransformedData() {
-        JsonNode jsonNode = apiService.fetchData();
+        JsonNode jsonNode = restTemplateService.fetchData();
         return transformationService.extractTitles(jsonNode);
     }
 

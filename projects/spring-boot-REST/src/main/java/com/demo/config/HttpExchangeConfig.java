@@ -1,6 +1,6 @@
 package com.demo.config;
 
-import com.demo.util.HttpExchangeClient;
+import com.demo.util.client.HttpExchangeClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestClient;

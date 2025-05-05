@@ -1,6 +1,6 @@
-package com.demo.service;
+package com.demo.service.client;
 
-import com.demo.util.HttpExchangeClient;
+import com.demo.util.client.HttpExchangeClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

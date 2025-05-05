@@ -1,6 +1,6 @@
-package com.demo.service;
+package com.demo.service.client;
 
-import com.demo.util.FeignClientUtil;
+import com.demo.util.client.FeignClientUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

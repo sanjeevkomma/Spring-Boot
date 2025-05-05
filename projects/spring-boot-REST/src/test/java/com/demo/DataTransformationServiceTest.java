@@ -1,6 +1,6 @@
 package com.demo;
 
-import com.demo.util.DataTransformationService;
+import com.demo.util.converter.DataTransformationService;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
