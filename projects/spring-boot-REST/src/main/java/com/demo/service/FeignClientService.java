@@ -10,6 +10,7 @@ public class FeignClientService {
     @Autowired
     private FeignClientUtil feignClientUtil;
 
+
     public String fetchData() {
 
         return feignClientUtil.getData();
