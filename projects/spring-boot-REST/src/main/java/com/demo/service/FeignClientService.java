@@ -11,6 +11,7 @@ public class FeignClientService {
     private FeignClientUtil feignClientUtil;
 
     public String fetchData() {
+
         return feignClientUtil.getData();
     }
 }
