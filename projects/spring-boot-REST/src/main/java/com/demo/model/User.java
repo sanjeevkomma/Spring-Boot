@@ -1,13 +1,16 @@
 package com.demo.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true)
+@Getter
+@AllArgsConstructor
 public class User {
-    private int id;
+
+    private Integer id;
     private String name;
     private String email;
-    private String phone;
+
 }

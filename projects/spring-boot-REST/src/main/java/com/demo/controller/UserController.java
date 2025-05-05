@@ -2,13 +2,11 @@ package com.demo.controller;
 
 import com.demo.model.User;
 import com.demo.service.UserService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
 public class UserController {
 
     private final UserService userService;
@@ -17,8 +15,15 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/users")
-    public List<User> getUsers() {
-        return userService.fetchUsers();
+    @GetMapping("/api/users")
+    public @ResponseBody List<User> getAllUsers() {
+        return userService.getAllUsers();
     }
+
+    @PostMapping("/api/users")
+    public @ResponseBody String createUser(@RequestBody User user) {
+        userService.createUser(user);
+        return "User created: " + user.getName();
+    }
+
 }

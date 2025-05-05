@@ -2,29 +2,30 @@ package com.demo.service;
 
 import com.demo.model.User;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
-import java.util.Arrays;
+
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class UserService {
 
-    private final RestTemplate restTemplate = new RestTemplate();
-    private final String API_URL = "https://jsonplaceholder.typicode.com/users";
+    private List<User> list = new ArrayList<>();
 
-    public List<User> fetchUsers() {
-        // Call the public API
-        User[] users = restTemplate.getForObject(API_URL, User[].class);
+    public List<User> getAllUsers() {
 
-        // Transform the response
-        return users != null ? transformResponse(Arrays.asList(users)) : List.of();
+        User u1 = new User(1,"name1","email1@gmail.com");
+        User u2 = new User(2,"name2","email2@gmail.com");
+        User u3 = new User(3,"name3","email3@gmail.com");
+
+        list.add(u1);
+        list.add(u2);
+        list.add(u3);
+
+        return list;
     }
 
-    private List<User> transformResponse(List<User> users) {
-        return users.stream()
-                .peek(user -> user.setName(user.getName().toUpperCase())) // Example: Convert names to uppercase
-                .collect(Collectors.toList());
+    public void createUser(User user) {
+        list.add(user);
     }
+
 }
-

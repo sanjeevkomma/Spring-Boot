@@ -1,1 +1,2 @@
-https://jsonplaceholder.typicode.com/users
+api:
+  url: "https://jsonplaceholder.typicode.com/posts"

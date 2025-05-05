@@ -2,14 +2,12 @@ package com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients
-public class SpringBootRestApplication {
+public class SpringBootTelemetryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRestApplication.class, args);
+		SpringApplication.run(SpringBootTelemetryApplication.class, args);
 	}
 
 }
