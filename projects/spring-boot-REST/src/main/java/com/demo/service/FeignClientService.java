@@ -1,4 +1,4 @@
-package com.demo.service.client;
+package com.demo.service;
 
 import com.demo.util.client.FeignClientUtil;
 import org.springframework.beans.factory.annotation.Autowired;

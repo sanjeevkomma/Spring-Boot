@@ -1,6 +1,6 @@
 package com.demo;
 
-import com.demo.service.client.RestTemplateService;
+import com.demo.service.RestTemplateService;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

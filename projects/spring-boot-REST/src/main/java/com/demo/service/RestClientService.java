@@ -1,7 +1,8 @@
-package com.demo.service.client;
+package com.demo.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
+import org.springframework.web.util.UriBuilder;
 
 @Service
 public class RestClientService {
@@ -12,8 +13,9 @@ public class RestClientService {
     }
 
     public String getCryptoMarkets(String currency) {
+
         return restClient.get()
-                .uri(uriBuilder -> uriBuilder.path("/coins/markets")
+                .uri((UriBuilder uriBuilder) -> uriBuilder.path("/coins/markets")
                         .queryParam("vs_currency", currency)
                         .build())
                 .retrieve()

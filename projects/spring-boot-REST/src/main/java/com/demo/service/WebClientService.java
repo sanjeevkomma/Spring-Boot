@@ -1,7 +1,8 @@
-package com.demo.service.client;
+package com.demo.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
+import org.springframework.web.util.UriBuilder;
 
 @Service
 public class WebClientService {
@@ -13,8 +14,9 @@ public class WebClientService {
     }
 
     public String fetchData(String param) {
+
         return webClient.get()
-                .uri(uriBuilder -> uriBuilder.path("/markets").
+                .uri((UriBuilder uriBuilder) -> uriBuilder.path("/markets").
                         queryParam("vs_currency", param).build())
                 .retrieve()
                 .bodyToMono(String.class)
