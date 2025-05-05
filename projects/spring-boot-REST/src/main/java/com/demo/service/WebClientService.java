@@ -23,4 +23,3 @@ public class WebClientService {
                 .block(); // Blocking call (Use only if you are not in a reactive app)
     }
 }
-

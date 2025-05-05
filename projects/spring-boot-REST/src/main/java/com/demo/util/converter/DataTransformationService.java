@@ -18,4 +18,3 @@ public class DataTransformationService {
         return titles;
     }
 }
-
