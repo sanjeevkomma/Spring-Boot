@@ -1,10 +1,18 @@
 package com.demo.controller;
 
-import com.demo.service.*;
+
+import com.demo.service.FeignClientService;
+import com.demo.service.HttpExchangeService;
+import com.demo.service.RestClientService;
+import com.demo.service.RestTemplateService;
+import com.demo.service.WebClientService;
 import com.demo.util.converter.DataTransformationService;
 import com.fasterxml.jackson.databind.JsonNode;
-import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController

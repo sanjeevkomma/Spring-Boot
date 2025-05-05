@@ -12,7 +12,8 @@ public class RestTemplateService {
     private final ObjectMapper objectMapper;
     private final String apiUrl;
 
-    public RestTemplateService(RestTemplate restTemplate, ObjectMapper objectMapper, @Value("${api.url}") String apiUrl) {
+    public RestTemplateService(RestTemplate restTemplate, ObjectMapper objectMapper,
+                               @Value("${api.url}") String apiUrl) {
         this.restTemplate = restTemplate;
         this.objectMapper = objectMapper;
         this.apiUrl = apiUrl;
