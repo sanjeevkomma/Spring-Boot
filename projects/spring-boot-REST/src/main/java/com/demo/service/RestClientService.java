@@ -16,8 +16,8 @@ public class RestClientService {
 
         return restClient.get()
                 .uri((UriBuilder uriBuilder) -> uriBuilder.path("/coins/markets")
-                        .queryParam("vs_currency", currency)
-                        .build())
+                .queryParam("vs_currency", currency)
+                .build())
                 .retrieve()
                 .body(String.class);
     }

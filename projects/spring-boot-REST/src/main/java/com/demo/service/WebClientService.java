@@ -16,8 +16,8 @@ public class WebClientService {
     public String fetchData(String param) {
 
         return webClient.get()
-                .uri((UriBuilder uriBuilder) -> uriBuilder.path("/markets").
-                        queryParam("vs_currency", param).build())
+                .uri((UriBuilder uriBuilder) -> uriBuilder.path("/markets")
+                .queryParam("vs_currency", param).build())
                 .retrieve()
                 .bodyToMono(String.class)
                 .block(); // Blocking call (Use only if you are not in a reactive app)
