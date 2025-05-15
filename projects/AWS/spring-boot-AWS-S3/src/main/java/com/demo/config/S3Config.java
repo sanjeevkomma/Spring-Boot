@@ -7,7 +7,7 @@ import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;
 
 @Configuration
-public class AwsConfig {
+public class S3Config {
 
     @Bean
     public S3Client s3Client() {

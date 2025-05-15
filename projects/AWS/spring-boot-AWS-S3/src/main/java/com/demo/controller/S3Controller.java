@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class AwsController {
+public class S3Controller {
 
     private final S3Service s3Service;
 
-    public AwsController(S3Service s3Service) {
+    public S3Controller(S3Service s3Service) {
         this.s3Service = s3Service;
     }
 
