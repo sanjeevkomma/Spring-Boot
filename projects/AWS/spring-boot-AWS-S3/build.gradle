@@ -19,8 +19,13 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	implementation platform('software.amazon.awssdk:bom:2.25.18') // Use the latest BOM version
+	implementation 'software.amazon.awssdk:s3'
+	implementation 'software.amazon.awssdk:auth' // Required for credentials classes
 }
 
 tasks.named('test') {
