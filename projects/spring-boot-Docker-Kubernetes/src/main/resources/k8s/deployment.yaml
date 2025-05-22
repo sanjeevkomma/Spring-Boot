@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-boot-Docker-Kubernetes-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spring-boot-Docker-Kubernetes-app
+  template:
+    metadata:
+      labels:
+        app: spring-boot-Docker-Kubernetes-app
+    spec:
+      containers:
+        - name: spring-boot-Docker-Kubernetes-container
+          image: sanjeevkomma/spring-boot-Docker-Kubernetes-app:latest
+          ports:
+            - containerPort: 8080
