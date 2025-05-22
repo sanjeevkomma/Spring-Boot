@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootHibernateMySqlApplication {
+public class SpringBootJpaHibernateMySqlApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootHibernateMySqlApplication.class, args);
+		SpringApplication.run(SpringBootJpaHibernateMySqlApplication.class, args);
 	}
 
 }
