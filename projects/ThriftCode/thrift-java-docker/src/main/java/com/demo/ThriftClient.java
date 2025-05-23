@@ -6,7 +6,9 @@ import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
 
 public class ThriftClient {
+
     public static void main(String[] args) {
+
         try (TTransport transport = new TSocket("localhost", 9090)) {
             transport.open();
             TProtocol protocol = new TBinaryProtocol(transport);
@@ -16,5 +18,6 @@ public class ThriftClient {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 }
