@@ -13,6 +13,7 @@ import org.apache.thrift.transport.TTransport;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 public class HelloServiceTest {
 
@@ -47,5 +48,20 @@ public class HelloServiceTest {
         Assertions.assertEquals(response, result);
 
         transport.close();
+    }
+
+    @Test
+    void testSayHelloViaThrift_Using_ThriftClient_Mocking() throws Exception {
+
+        HelloService.Client mockClient = Mockito.mock(HelloService.Client.class);
+
+        String name = "John Doe";
+        String response = "Hello, There, John Doe!!!!";
+
+        Mockito.when(mockClient.sayHello(name)).thenReturn(response);
+
+        String result = mockClient.sayHello(name);
+        Assertions.assertEquals(response, result);
+
     }
 }
