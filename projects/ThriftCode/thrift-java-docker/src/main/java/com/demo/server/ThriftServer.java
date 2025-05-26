@@ -1,5 +1,7 @@
-package com.demo;
+package com.demo.server;
 
+import com.demo.HelloService;
+import com.demo.HelloServiceImpl;
 import org.apache.thrift.server.TServer;
 import org.apache.thrift.server.TSimpleServer;
 import org.apache.thrift.transport.TServerSocket;

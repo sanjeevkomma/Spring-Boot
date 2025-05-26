@@ -1,5 +1,6 @@
-package com.demo;
+package com.demo.client;
 
+import com.demo.HelloService;
 import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TSocket;
