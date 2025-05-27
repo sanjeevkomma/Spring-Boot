@@ -1,5 +1,6 @@
 package com.demo;
 
+import com.demo.service.HelloServiceImpl;
 import org.apache.thrift.TException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;

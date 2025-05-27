@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.service;
 
 import org.apache.thrift.TException;
 

@@ -1,7 +1,7 @@
 package com.demo.integration;
 
-import com.demo.HelloService;
-import com.demo.HelloServiceImpl;
+import com.demo.service.HelloService;
+import com.demo.service.HelloServiceImpl;
 import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.server.TServer;

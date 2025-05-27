@@ -1,12 +1,12 @@
 package com.demo.client;
 
-import com.demo.HelloService;
+import com.demo.service.HelloService;
 import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
 
-public class ThriftClient {
+public class HelloServiceThriftClient {
 
     public static void main(String[] args) {
 

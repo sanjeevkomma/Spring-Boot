@@ -1,13 +1,13 @@
 package com.demo.server;
 
-import com.demo.HelloService;
-import com.demo.HelloServiceImpl;
+import com.demo.service.HelloService;
+import com.demo.service.HelloServiceImpl;
 import org.apache.thrift.server.TServer;
 import org.apache.thrift.server.TSimpleServer;
 import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TServerTransport;
 
-public class ThriftServer {
+public class HelloServiceThriftServer {
 
     public static void main(String[] args) throws Exception {
 
