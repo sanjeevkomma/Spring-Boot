@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Assertions;
 public class HelloServiceImplTest {
 
     @Test
-    void testAddUser() throws TException {
+    void testSayHello() throws TException {
         HelloServiceImpl helloService = new HelloServiceImpl();
         String name = "John Doe";
         String response = "Hello, There, John Doe!!!!";
