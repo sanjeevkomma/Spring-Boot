@@ -19,6 +19,5 @@ public class HelloServiceThriftClient {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }
