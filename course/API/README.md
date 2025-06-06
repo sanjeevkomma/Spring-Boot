@@ -1,5 +1,3 @@
-
-
 # Info
 # Reliability of a REST API
 * Availability
@@ -13,19 +11,10 @@
 * Versioning
 * Testing
 
-
-
-
-
 # Query Params
 |SNo| #Param  | ##Intent |
 | :--- | :--- | :--- |
 | 1 | application/json | |
-
-
-
-
-
 
 # HTTP Headers
 |SNo| #HTTP Header  | ##Intent |
@@ -42,22 +31,6 @@
 | 5 | text/html | |
 | 6 | text/html | |
 
-# HTTP Status Codes
-|SNo| #HTTP Status Code  | ##Intent |
-| :--- | :--- | :--- |
-| 1 | 200 | |
-* ![image](https://user-images.githubusercontent.com/7721150/229872458-44606c57-b0d4-4d33-a25c-789d8f9d4306.png)
-
-
-
-
-
-
-
-
-
-
-
 2. [What does API do?](https://www.linkedin.com/posts/bytebytego_systemdesign-coding-interviewtips-activity-7054685582408441856-UXkH?utm_source=share&utm_medium=member_android)
 * ![image](https://user-images.githubusercontent.com/7721150/234066254-58ae591c-7bd8-4a27-b72d-d93c14412778.png)
 * 1 receives HTTP request from client<br>
@@ -72,7 +45,6 @@
   · deal with faults (circuit break). <br>
   · log and monitor the request<br>
   · cache data
-
 
 # Reference
 * [REST API Official Tutorial](https://restfulapi.net/)
@@ -106,8 +78,6 @@
 17. 𝗔𝗣𝗜𝘀 𝗳𝗼𝗿 𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲: https://lnkd.in/e4WGDffA
 ============================================================================================
 
-
-
 # Request Types
 |SNo| #Type  | ##Intent |
 | :--- | :--- | :--- |
@@ -128,8 +98,5 @@
 11. Designing and Developing Robust APIs - https://lnkd.in/eBXzbFyg
 12. Designing APIs with Postman- https://lnkd.in/ezue3d4B
 13. Testing APIs with Postman - https://lnkd.in/eCPnGTGi
-
-
-
 
 
