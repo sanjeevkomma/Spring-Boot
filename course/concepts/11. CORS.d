@@ -1,1 +1,50 @@
+# Handling CORS with a Large Number of IPs and DNS Names
+# 1. Dynamic Origin Whitelisting  
 
+When managing **CORS (Cross-Origin Resource Sharing)** for services accessed by a **large number of IP addresses and domains**, maintaining a static list becomes inefficient. Below are best practices for scalable and manageable CORS configuration.
+
+---
+
+## 🔧 1. Dynamic Origin Whitelisting
+
+Use a dynamic validation function to check if the `Origin` header is allowed, instead of hardcoding.
+
+### ✅ Example (Spring Boot - Java)
+
+```java
+@Configuration
+public class CorsConfig implements WebMvcConfigurer {
+
+    @Value("${cors.allowed.origins:}")
+    private String[] allowedOrigins;
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+            .allowedOrigins(allowedOrigins)
+            .allowedMethods("GET", "POST", "PUT", "DELETE")
+            .allowCredentials(true);
+    }
+}
+
+Or using a dynamic source:
+```java
+@Bean
+public CorsConfigurationSource corsConfigurationSource() {
+    CorsConfiguration configuration = new CorsConfiguration();
+    configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE"));
+    configuration.setAllowCredentials(true);
+
+    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+
+    source.registerCorsConfiguration("/**", new CorsConfiguration() {
+        @Override
+        public List<String> getAllowedOrigins() {
+            return fetchAllowedOriginsFromDatabaseOrCache();
+        }
+    });
+
+    return source;
+}
+```  
+# 2. Store Allowed Origins Dynamically  
