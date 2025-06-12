@@ -52,7 +52,12 @@ byte[] signatureBytes = hmac.doFinal(unsignedToken.getBytes());
 String signature = Base64.getUrlEncoder().withoutPadding().encodeToString(signatureBytes);
 ```
 * Result : dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
-
+# Final JWT Token
+```java
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+eyJzdWIiOiJ1c2VyMTIzIiwibmFtZSI6IkpvaG4gRG9lIiwicm9sZSI6ImFkbWluIn0.
+dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
+```
 
 
 
