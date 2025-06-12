@@ -20,7 +20,7 @@ dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
 ```
 
 # This JWT has three parts, separated by dots (.)
-1. Header : Base64URL decoded
+1. **Header** : Base64URL decoded
 ```json
 {
   "alg": "HS256",
@@ -29,7 +29,7 @@ dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
 ```
 * alg: Algorithm used to sign the token (e.g., HS256 = HMAC + SHA-256).
 * typ: Token type — always "JWT"
-2. Payload (Claims) : Base64URL decoded
+2. **Payload (Claims)** : Base64URL decoded
 ```json
 {
   "sub": "user123",
@@ -42,7 +42,7 @@ dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
 * name: Custom claim (can be anything).
 * iat: Issued At (timestamp in seconds).
 * role: Another custom claim (e.g., user role)
-3. Signature
+3. **Signature**
 * Use HMAC-SHA256 with a secret key, e.g., "secret123"  
 ```java
 Mac hmac = Mac.getInstance("HmacSHA256");
