@@ -52,6 +52,49 @@
 
 # #######################################
 # How OAuth 2.0 Relates to [JWT](https://github.com/sanjeevkomma/Spring-Boot/tree/main/course/Spring-Security/JWT_ECDSA)
+* OAuth 2.0 defines how to get tokens, not what the token looks like. JWT is a format for those tokens.
+* In many systems:
+    * The **OAuth server issues JWTs** as access tokens or ID tokens
+    * The **client uses the JWT** to access the resource server
+    * The **resource server validates** the JWT's signature and reads the claims
+ 
+* Example:
+    1. User logs into your app via Google (OAuth 2.0).
+    2. Google returns an access token (usually a JWT).
+    3. Your app uses that JWT to call your backend API.
+    4. Backend verifies the JWT and grants access.
   
+# Why Use JWT in OAuth?
+| Feature       | Benefit                                                   |
+| ------------- | --------------------------------------------------------- |
+| **Stateless** | No need to store token in a DB — self-contained           |
+| **Compact**   | Easy to transmit via headers                              |
+| **Secure**    | Signed and optionally encrypted                           |
+| **Flexible**  | Can contain custom claims (e.g., user roles, email, etc.) |
+
+# Visual Flow:
+```plaintext
+[User] ────> [Client App]
+                  │
+                  │ (redirects)
+                  ▼
+           [OAuth Server]
+                  │
+        Issues Access Token (JWT)
+                  ▼
+           [Client App] ────> [API Server]
+                         (passes JWT)
+                  │
+           Validates & Authorizes
+```
+
+# Summary
+| Concept  | OAuth 2.0                | JWT                          |
+| -------- | ------------------------ | ---------------------------- |
+| Purpose  | Authorization framework  | Token format                 |
+| Defines  | Flows, scopes, roles     | Claims, signing, structure   |
+| Relation | OAuth **can issue JWTs** | JWT **can be used in OAuth** |
+
+
 # References
 * [OAuth 2.0 Official](https://oauth.net/2/)
