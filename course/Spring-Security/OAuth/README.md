@@ -30,9 +30,11 @@
 * ![image](https://github.com/user-attachments/assets/18d7475d-8fd9-4fad-85ba-4de999e05b55)
 
 # Summary
-* OAuth 2.0 is a protocol / authorization framework specification.
+* OAuth 2.0 is a protocol / authorization framework specification, not a codebase
 * It tells developers what to do, not how to do it in code.
-* Frameworks like Spring Security, Passport.js, or Django OAuth Toolkit are software implementations of this protocol.
+* It is language-agnostic and can be implemented in any language
+* Frameworks like Spring Security, Passport.js, or Django OAuth Toolkit are software implementations of this protocol
+* OAuth 2.0 is a protocol, not a codebase
 
 # References
 * [OAuth 2.0 Official](https://oauth.net/2/)
