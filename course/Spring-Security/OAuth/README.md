@@ -51,8 +51,7 @@
 * Frameworks like Spring Security, Passport.js, or Django OAuth Toolkit are software implementations of this protocol
 
 # #######################################
-# What is JWT (JSON Web Token)?
-* JWT is a compact, URL-safe token format often used to represent claims (like identity, permissions). It’s not tied to OAuth 2.0 but is commonly used with it.
+# How OAuth 2.0 Relates to [JWT](https://github.com/sanjeevkomma/Spring-Boot/tree/main/course/Spring-Security/JWT_ECDSA)
   
 # References
 * [OAuth 2.0 Official](https://oauth.net/2/)
