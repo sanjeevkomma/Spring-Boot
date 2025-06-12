@@ -29,6 +29,12 @@
 # Analogy
 * ![image](https://github.com/user-attachments/assets/18d7475d-8fd9-4fad-85ba-4de999e05b55)
 
+# Why OAuth 2.0 is used:
+* **Secure authorization** without exposing credentials
+* **Delegated access**: e.g., let a travel app access your Google calendar
+* **Granular access control** (scopes): only allow specific actions
+* **Supports multiple flows** for different types of clients (web, mobile, service-to-service)
+
 # Summary
 * OAuth 2.0 is a protocol / authorization framework specification, not a codebase
 * It tells developers what to do, not how to do it in code.
