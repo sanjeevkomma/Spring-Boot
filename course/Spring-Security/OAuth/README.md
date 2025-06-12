@@ -9,6 +9,10 @@
 * RFC = Request for Comments
 
 # ToRead
+* ![image](https://github.com/user-attachments/assets/b9a9159d-4b46-428a-a7b6-6ab34f4449be)
+* ![image](https://github.com/user-attachments/assets/70f69887-1914-44b5-8520-ee5198faa133)
+
+# Implementations of OAuth
 * OAuth 2.0 is not tied to a specific programming language—it's a protocol (authorization framework) defined in a specification (RFC 6749), which is written in plain English technical standards (not code).
 * However, implementations of OAuth 2.0 exist in many programming languages, including:
 | Language                 | Popular OAuth 2.0 Libraries / Frameworks                  |
@@ -23,21 +27,6 @@
 | **Rust**                 | `oxide-auth`                                              |
 | **C++**                  | Custom integrations via liboauth or Boost libraries       |
 
-* ![image](https://github.com/user-attachments/assets/b9a9159d-4b46-428a-a7b6-6ab34f4449be)
-* ![image](https://github.com/user-attachments/assets/70f69887-1914-44b5-8520-ee5198faa133)
-
-# Implementations of OAuth
-| Language                 | Popular OAuth 2.0 Libraries / Frameworks                  |
-| ------------------------ | --------------------------------------------------------- |
-| **Java**                 | Spring Security OAuth, Apache Oltu (deprecated), Keycloak |
-| **JavaScript / Node.js** | `passport.js`, `node-oauth2-server`, `grant`              |
-| **Python**               | `oauthlib`, `Authlib`, Django OAuth Toolkit               |
-| **C# / .NET**            | IdentityServer, ASP.NET Core Identity                     |
-| **Go**                   | `golang.org/x/oauth2`, `osin`                             |
-| **PHP**                  | `league/oauth2-server`                                    |
-| **Ruby**                 | `doorkeeper`, `omniauth`                                  |
-| **Rust**                 | `oxide-auth`                                              |
-| **C++**                  | Custom integrations via liboauth or Boost libraries       |
 
   
 
