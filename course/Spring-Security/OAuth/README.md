@@ -22,6 +22,7 @@
 | **Ruby**                 | `doorkeeper`, `omniauth`                                  |
 | **Rust**                 | `oxide-auth`                                              |
 | **C++**                  | Custom integrations via liboauth or Boost libraries       |
+
 * ![image](https://github.com/user-attachments/assets/b9a9159d-4b46-428a-a7b6-6ab34f4449be)
 * ![image](https://github.com/user-attachments/assets/70f69887-1914-44b5-8520-ee5198faa133)
   
