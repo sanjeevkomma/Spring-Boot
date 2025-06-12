@@ -35,6 +35,15 @@
 * **Granular access control** (scopes): only allow specific actions
 * **Supports multiple flows** for different types of clients (web, mobile, service-to-service)
 
+# OAuth 2.0 Key Roles:
+| Role                     | Description                                        |
+| ------------------------ | -------------------------------------------------- |
+| **Resource Owner**       | The user who owns the data (you)                   |
+| **Client**               | The app requesting access (e.g., a mobile app)     |
+| **Authorization Server** | Issues tokens (e.g., Google, GitHub)               |
+| **Resource Server**      | Hosts the protected APIs (e.g., your calendar API) |
+
+
 # Summary
 * OAuth 2.0 is a protocol / authorization framework specification, not a codebase
 * It tells developers what to do, not how to do it in code.
