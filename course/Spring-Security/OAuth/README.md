@@ -3,6 +3,10 @@
 * OAuth 2.0 is a protocol
 * OAuth 2.0 is not a framework like Spring or Django
 
+# Terminology
+* OAuth = Open Authorization
+* RFC = Request for Comments
+
 # ToRead
 
 # References
