@@ -12,6 +12,50 @@
 2. **Payload** : Payload contains the claims. Claims are statements about an entity (typically, the user) and additional metadata. There are three types of claims: reserved, public, and private claims
 3. **Signature** : To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that
 
+# Example JWT
+```java
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+eyJzdWIiOiJ1c2VyMTIzIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNjU0NzE5MzAwLCJyb2xlIjoiYWRtaW4ifQ.
+dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
+```
+
+# This JWT has three parts, separated by dots (.)
+1. Header : Base64URL decoded
+```json
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+```
+* alg: Algorithm used to sign the token (e.g., HS256 = HMAC + SHA-256).
+* typ: Token type — always "JWT"
+2. Payload (Claims) : Base64URL decoded
+```json
+{
+  "sub": "user123",
+  "name": "John Doe",
+  "iat": 1654719300,
+  "role": "admin"
+}
+```
+* sub: Subject (who the token is about).
+* name: Custom claim (can be anything).
+* iat: Issued At (timestamp in seconds).
+* role: Another custom claim (e.g., user role)
+3. Signature
+* Use HMAC-SHA256 with a secret key, e.g., "secret123"  
+```java
+Mac hmac = Mac.getInstance("HmacSHA256");
+SecretKeySpec secretKey = new SecretKeySpec("secret123".getBytes(), "HmacSHA256");
+hmac.init(secretKey);
+byte[] signatureBytes = hmac.doFinal(unsignedToken.getBytes());
+String signature = Base64.getUrlEncoder().withoutPadding().encodeToString(signatureBytes);
+```
+* Result : dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
+
+
+
+
 # What is JWT (JSON Web Token)?
 * JWT is a compact, URL-safe token format often used to represent claims (like identity, permissions). It’s not tied to OAuth 2.0 but is commonly used with it
 # Structure:
