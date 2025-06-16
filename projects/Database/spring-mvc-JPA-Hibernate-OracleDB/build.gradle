@@ -4,8 +4,9 @@ plugins {
 }
 
 group = 'org.example'
-version = '1'
-description = 'springmvcapp'
+description = 'spring-mvc-JPA-Hibernate-OracleDB'
+
+apply plugin: 'war'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -37,8 +38,8 @@ dependencies {
     // JPA API
     implementation 'jakarta.persistence:jakarta.persistence-api:2.2.3'
 
-    // Oracle JDBC driver
-    implementation 'com.oracle.database.jdbc:ojdbc8:19.3.0.0'
+    // MySQL JDBC driver
+    implementation 'mysql:mysql-connector-java:8.0.33'
 
     // Commons DBCP2
     implementation 'org.apache.commons:commons-dbcp2:2.9.0'
@@ -49,8 +50,7 @@ tasks.withType(JavaCompile) {
 }
 
 war {
-    archiveBaseName = 'springmvcapp'
-    archiveVersion = '1'
+    archiveBaseName = 'spring-mvc-JPA-Hibernate-OracleDB'
 }
 
 // Add this to ensure webapp resources are included
