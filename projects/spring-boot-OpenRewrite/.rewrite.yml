@@ -1,3 +1,5 @@
-rewrite:
-  activeRecipes:
-    - org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
+recipeList:
+  - org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
