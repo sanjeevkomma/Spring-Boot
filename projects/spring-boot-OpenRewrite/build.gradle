@@ -1,0 +1,34 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.2.0'
+	id 'io.spring.dependency-management' version '1.1.0'
+	id 'org.openrewrite.rewrite' version '7.8.0'
+}
+
+group = 'spring-boot-OpenRewrite'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	rewrite 'org.openrewrite.recipe:rewrite-spring:5.2.0'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+rewrite {
+	configFile = file(".rewrite.yml")
+}
