@@ -2,4 +2,8 @@
 type: specs.openrewrite.org/v1beta/recipe
 name: org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
 recipeList:
+  - org.openrewrite.java.spring.boot2.SpringBoot2To3Migration
   - org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
+  - org.openrewrite.java.logging.Log4jToLogback
+  - org.openrewrite.java.migrate.UpgradeToJava17
+  - org.openrewrite.maven.RemoveUnusedDependencies
