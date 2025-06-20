@@ -1,12 +1,7 @@
 plugins {
     id 'java'
     id 'application'
-    // id("org.openrewrite.rewrite") version("7.6.2") -- OpenRewrite plugin for Gradle
-}
-/* rewrite { // Uncomment to enable OpenRewrite
-    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2")
-    setExportDatatables(true)
-} */
+    }
 
 jar {
     manifest {
@@ -40,7 +35,6 @@ dependencies {
     testImplementation 'org.mockito:mockito-core:5.18.0'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2' // If using JUnit 5
 
-    // rewrite("org.openrewrite.recipe:rewrite-spring:6.7.0") // Uncomment to enable OpenRewrite
 }
 
 test {
