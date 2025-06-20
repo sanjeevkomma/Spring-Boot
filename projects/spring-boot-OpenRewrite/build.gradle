@@ -1,8 +1,8 @@
 plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.6.8'
-	id 'io.spring.dependency-management' version '1.1.4'
-	id 'org.openrewrite.rewrite' version '7.6.2'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'org.openrewrite.rewrite' version '6.5.3'
 }
 
 group = 'spring-boot-OpenRewrite'
@@ -18,13 +18,11 @@ repositories {
 }
 
 dependencies {
-	implementation platform('org.springframework.boot:spring-boot-dependencies:3.2.3')
 	implementation 'org.springframework.boot:spring-boot-starter'
-
-	rewrite platform('org.openrewrite:rewrite-bom:8.21.0')
-	rewrite 'org.openrewrite.recipe:rewrite-spring:6.7.0'
-
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	rewrite platform('org.openrewrite:rewrite-bom:7.40.5')
+	rewrite 'org.openrewrite.recipe:rewrite-spring:6.7.0'
 }
 
 tasks.named('test') {
@@ -33,4 +31,5 @@ tasks.named('test') {
 
 rewrite {
 	configFile = file(".rewrite.yml")
+	activeRecipe('org.openrewrite.java.spring.boot2.SpringBoot2BestPractices')
 }
