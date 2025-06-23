@@ -2,7 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.6.8'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-	id 'org.openrewrite.rewrite' version '6.5.3'
+	id 'org.openrewrite.rewrite' version '7.8.0'
 }
 
 group = 'spring-boot-OpenRewrite'
@@ -21,8 +21,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	rewrite platform('org.openrewrite:rewrite-bom:7.40.5')
-	rewrite 'org.openrewrite.recipe:rewrite-spring:6.7.0'
+	// OpenRewrite dependencies
+	rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:latest.release"))
+	rewrite("org.openrewrite.recipe:rewrite-migrate-java")
+
+
 }
 
 tasks.named('test') {
@@ -30,6 +33,5 @@ tasks.named('test') {
 }
 
 rewrite {
-	configFile = file(".rewrite.yml")
-	activeRecipe('org.openrewrite.java.spring.boot2.SpringBoot2BestPractices')
+	activeRecipe("org.openrewrite.java.migrate.UpgradeToJava17")
 }

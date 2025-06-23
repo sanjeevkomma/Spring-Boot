@@ -1,0 +1,16 @@
+diff --git a/projects/spring-boot-OpenRewrite/build.gradle b/projects/spring-boot-OpenRewrite/build.gradle
+index b5f9302..c7083e9 100644
+--- a/projects/spring-boot-OpenRewrite/build.gradle
++++ b/projects/spring-boot-OpenRewrite/build.gradle
+@@ -9,8 +9,8 @@ org.openrewrite.java.migrate.UpgradeToJava17
+ version = '0.0.1-SNAPSHOT'
+ 
+ java {
+-	sourceCompatibility = JavaVersion.VERSION_1_8
+-	targetCompatibility = JavaVersion.VERSION_1_8
++	sourceCompatibility = JavaVersion.VERSION_17
++	targetCompatibility = JavaVersion.VERSION_17
+ }
+ 
+ repositories {
+
