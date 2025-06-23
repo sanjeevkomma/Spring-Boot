@@ -1,8 +1,18 @@
 diff --git a/projects/spring-boot-OpenRewrite/build.gradle b/projects/spring-boot-OpenRewrite/build.gradle
-index b5f9302..c7083e9 100644
+index 483b088..15b51f1 100644
 --- a/projects/spring-boot-OpenRewrite/build.gradle
 +++ b/projects/spring-boot-OpenRewrite/build.gradle
-@@ -9,8 +9,8 @@ org.openrewrite.java.migrate.UpgradeToJava17
+@@ -1,7 +1,7 @@ org.openrewrite.config.CompositeRecipe
+ plugins {
+ 	id 'java'
+-	id 'org.springframework.boot' version '2.6.8'
+-	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
++	id 'org.springframework.boot' version '3.4.7'
++	id 'io.spring.dependency-management' version '1.1.7'
+ 	id 'org.openrewrite.rewrite' version '7.8.0' // OpenRewrite plugin for Gradle
+ }
+ 
+@@ -9,8 +9,8 @@
  version = '0.0.1-SNAPSHOT'
  
  java {
