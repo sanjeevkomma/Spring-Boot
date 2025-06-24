@@ -13,13 +13,21 @@ java {
 	targetCompatibility = JavaVersion.VERSION_1_8
 }
 
+// Ensure all tasks use Java 8
+tasks.withType(JavaCompile).configureEach {
+	sourceCompatibility = JavaVersion.VERSION_1_8.toString()
+	targetCompatibility = JavaVersion.VERSION_1_8.toString()
+	options.encoding = 'UTF-8'
+}
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation(platform('org.springframework.boot:spring-boot-dependencies:2.6.8'))
+	implementation 'org.springframework.boot:spring-boot-starter:2.6.8'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.8'
 
 	// OpenRewrite dependencies
 	rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:latest.release"))

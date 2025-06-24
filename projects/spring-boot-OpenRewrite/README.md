@@ -9,3 +9,7 @@
 ```bash
 ./gradlew rewriteDiscover
 ```
+# To delete gradle cache in mac Local
+```bash
+rm -rf ~/.gradle/caches/modules-2/files-2.1/org.springframework.boot
+```
