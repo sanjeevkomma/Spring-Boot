@@ -2,7 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.6.8'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-	id 'org.openrewrite.rewrite' version '7.8.0' // OpenRewrite plugin for Gradle
+	// id 'org.openrewrite.rewrite' version '7.8.0' // OpenRewrite plugin for Gradle
 }
 
 group = 'spring-boot-OpenRewrite'
@@ -29,23 +29,41 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter:2.6.8'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.8'
 
+	// Spring Boot Web
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// Spring Boot JPA (For Hibernate + Spring Data)
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// MySQL Connector (Latest)
+	// runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// Use mysql-connector-java instead of mysql-connector-j
+	implementation 'mysql:mysql-connector-java:8.0.28'
+
+	// Lombok (Optional - Reduces Boilerplate Code)
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// DevTools (Optional - Auto Restart)
+	// developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
 	// OpenRewrite dependencies
-	rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:latest.release"))
+	/* rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:latest.release"))
 	rewrite("org.openrewrite.recipe:rewrite-migrate-java")
-	rewrite("org.openrewrite.recipe:rewrite-spring")
-
-
+	rewrite("org.openrewrite.recipe:rewrite-spring") */
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
 
-rewrite {
-	activeRecipe("org.openrewrite.java.migrate.UpgradeToJava21")
+
+/* rewrite {
+	 activeRecipe("org.openrewrite.java.migrate.UpgradeToJava17")
 	activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
 	activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_1")
 	activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2")
 	activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_3")
 	activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_4")
-}
+} */
