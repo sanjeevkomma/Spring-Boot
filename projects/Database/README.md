@@ -1,3 +1,7 @@
+# ToRead
+* We can not use EntityManager with JDBC
+* We can use TransactionManager with out EntityManager
+
 # JDBC vs JPA — Key Differences
 | Feature                 | **JDBC**                           | **JPA (e.g., Hibernate)**                     |
 | ----------------------- | ---------------------------------- | --------------------------------------------- |
