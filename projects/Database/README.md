@@ -56,6 +56,20 @@
 | `JtaTransactionManager`                                  | For **distributed transactions** across multiple resources | Atomikos, Bitronix, or app servers   | ✅ Yes                        | Useful in microservices, XA transactions                          |
 | `ChainedTransactionManager` *(from Spring Data Commons)* | For **combining multiple transaction managers**            | Multi-DB or DB + messaging systems   | ✅ Yes                        | Executes in order; rollback happens in reverse                    |
 
+# Entity Manager vs Transaction Manager
+| **Aspect**                | **EntityManager**                              | **TransactionManager**                                       |
+| ------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| **Belongs To**            | JPA (Java Persistence API)                     | Spring Framework (Spring TX module)                          |
+| **Purpose**               | Handles **entity persistence operations**      | Handles **transaction boundaries**                           |
+| **Controls**              | Entity lifecycle, queries, persistence context | Begin, commit, rollback of transactions                      |
+| **Typical Class**         | `javax.persistence.EntityManager`              | `org.springframework.transaction.PlatformTransactionManager` |
+| **Spring Integration**    | Injected via `@PersistenceContext`             | Auto-wired or configured via `@Bean`                         |
+| **Usage Layer**           | DAO / Repository layer                         | Service layer (with `@Transactional`)                        |
+| **Common Implementation** | Hibernate’s `Session`                          | `JpaTransactionManager`, `DataSourceTransactionManager`      |
+
+
+# When to use which Entity Manager
+
 # When to Use which Transaction Manager
 | Situation                                 | Use This                       |
 | ----------------------------------------- | ------------------------------ |
