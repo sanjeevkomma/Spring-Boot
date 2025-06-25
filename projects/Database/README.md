@@ -16,7 +16,18 @@
 | Fast development, object mapping | Use **JPA**                                   |
 | Want both flexibility and ease   | Combine **JPA + JDBC** (Spring supports both) |
 
-# Templates in Spring framework for Database Access
+# 1. Datasources in Spring framework for Database Access
+| **Type**                           | **Class / Library**                         | **Usage**                               |
+| ---------------------------------- | ------------------------------------------- | --------------------------------------- |
+| **Basic JDBC**                     | `DriverManagerDataSource` (Spring)          | Simple, no connection pooling           |
+| **Apache Commons DBCP**            | `BasicDataSource`                           | Adds connection pooling                 |
+| **HikariCP** (Spring Boot default) | `HikariDataSource`                          | Fast and preferred pool in modern apps  |
+| **C3P0**                           | `ComboPooledDataSource`                     | Older pool implementation               |
+| **Tomcat JDBC Pool**               | `org.apache.tomcat.jdbc.pool.DataSource`    | Often used in embedded Tomcat apps      |
+| **JNDI**                           | Lookup via JNDI in `applicationContext.xml` | For enterprise containers like WebLogic |
+
+
+# 2. Templates in Spring framework for Database Access
 | **Template**                 | **Purpose / Use Case**                                        | **Supports Named Parameters?** | **Recommended?**            | **Typical Usage**                        |
 | ---------------------------- | ------------------------------------------------------------- | ------------------------------ | --------------------------- | ---------------------------------------- |
 | `JdbcTemplate`               | Simplifies raw **SQL with JDBC**                              | ❌ No                           | ✅ Yes (widely used)         | Simple SQL queries, inserts, updates     |
@@ -27,17 +38,7 @@
 | `JpaTemplate`                | JPA integration (Spring 2.x, **deprecated**)                  | ❌ No                           | ❌ Deprecated                | Replaced by Spring Data JPA              |
 
 
-# Datasources in Spring framework for Database Access
-| **Type**                           | **Class / Library**                         | **Usage**                               |
-| ---------------------------------- | ------------------------------------------- | --------------------------------------- |
-| **Basic JDBC**                     | `DriverManagerDataSource` (Spring)          | Simple, no connection pooling           |
-| **Apache Commons DBCP**            | `BasicDataSource`                           | Adds connection pooling                 |
-| **HikariCP** (Spring Boot default) | `HikariDataSource`                          | Fast and preferred pool in modern apps  |
-| **C3P0**                           | `ComboPooledDataSource`                     | Older pool implementation               |
-| **Tomcat JDBC Pool**               | `org.apache.tomcat.jdbc.pool.DataSource`    | Often used in embedded Tomcat apps      |
-| **JNDI**                           | Lookup via JNDI in `applicationContext.xml` | For enterprise containers like WebLogic |
-
-# Entity Managers in Spring for Database Access
+# 3. Entity Managers in Spring for Database Access
 | **Component**          | **Type**                | **What It Is**                                                                  | **When to Use**                            | **Managed By**                   |
 | ---------------------- | ----------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------- |
 | `EntityManager`        | JPA API                 | Interface for managing **JPA entities** and performing CRUD/JPQL/native queries | When using **Spring Data JPA** or JPA APIs | Spring via `@PersistenceContext` |
@@ -47,7 +48,7 @@
 | `@Transactional`       | Spring annotation       | Wraps DB operations in a **transaction**; required for `EntityManager` to work  | Every method using EntityManager           | Spring AOP                       |
 
 
-# Transaction Managers in Spring for Database Access
+# 4. Transaction Managers in Spring for Database Access
 | **Transaction Manager**                                  | **Use Case**                                               | **Typical With**                     | **Supports @Transactional?** | **Notes**                                                         |
 | -------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------ | ---------------------------- | ----------------------------------------------------------------- |
 | `DataSourceTransactionManager`                           | For plain **JDBC**-based transactions                      | `JdbcTemplate`, raw JDBC             | ✅ Yes                        | Default for JDBC in Spring (non-JPA)                              |
