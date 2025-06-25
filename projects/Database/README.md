@@ -56,4 +56,11 @@
 | `JtaTransactionManager`                                  | For **distributed transactions** across multiple resources | Atomikos, Bitronix, or app servers   | ✅ Yes                        | Useful in microservices, XA transactions                          |
 | `ChainedTransactionManager` *(from Spring Data Commons)* | For **combining multiple transaction managers**            | Multi-DB or DB + messaging systems   | ✅ Yes                        | Executes in order; rollback happens in reverse                    |
 
-
+# When to Use which Transaction Manager
+| Situation                                 | Use This                       |
+| ----------------------------------------- | ------------------------------ |
+| Simple app using `JdbcTemplate`           | `DataSourceTransactionManager` |
+| App using Spring Data JPA / Hibernate     | `JpaTransactionManager`        |
+| Hibernate without JPA                     | `HibernateTransactionManager`  |
+| Distributed transactions (e.g., DB + JMS) | `JtaTransactionManager`        |
+| Multiple data sources in one service      | `ChainedTransactionManager`    |
