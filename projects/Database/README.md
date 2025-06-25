@@ -37,3 +37,23 @@
 | **Tomcat JDBC Pool**               | `org.apache.tomcat.jdbc.pool.DataSource`    | Often used in embedded Tomcat apps      |
 | **JNDI**                           | Lookup via JNDI in `applicationContext.xml` | For enterprise containers like WebLogic |
 
+# Entity Managers in Spring for Database Access
+| **Component**          | **Type**                | **What It Is**                                                                  | **When to Use**                            | **Managed By**                   |
+| ---------------------- | ----------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------- |
+| `EntityManager`        | JPA API                 | Interface for managing **JPA entities** and performing CRUD/JPQL/native queries | When using **Spring Data JPA** or JPA APIs | Spring via `@PersistenceContext` |
+| `EntityManagerFactory` | JPA API                 | Factory for creating `EntityManager` instances                                  | In low-level config or custom setups       | Spring or manually               |
+| `JpaRepository`        | Spring Data abstraction | Provides **auto-generated queries** & CRUD using `EntityManager` internally     | Most modern Spring JPA projects            | Spring Data                      |
+| `@PersistenceContext`  | JPA annotation          | Injects a **container-managed EntityManager**                                   | Used in DAO or service layer               | Spring Container                 |
+| `@Transactional`       | Spring annotation       | Wraps DB operations in a **transaction**; required for `EntityManager` to work  | Every method using EntityManager           | Spring AOP                       |
+
+
+# Transaction Managers in Spring for Database Access
+| **Transaction Manager**                                  | **Use Case**                                               | **Typical With**                     | **Supports @Transactional?** | **Notes**                                                         |
+| -------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------ | ---------------------------- | ----------------------------------------------------------------- |
+| `DataSourceTransactionManager`                           | For plain **JDBC**-based transactions                      | `JdbcTemplate`, raw JDBC             | ✅ Yes                        | Default for JDBC in Spring (non-JPA)                              |
+| `JpaTransactionManager`                                  | For **JPA** (Java Persistence API) with ORM                | `EntityManager`, `JpaRepository`     | ✅ Yes                        | Commonly used with **Hibernate**, EclipseLink via Spring Data JPA |
+| `HibernateTransactionManager`                            | For **Hibernate** (native) without JPA                     | `SessionFactory` + HibernateTemplate | ✅ Yes                        | Rare today; use `JpaTransactionManager` for new projects          |
+| `JtaTransactionManager`                                  | For **distributed transactions** across multiple resources | Atomikos, Bitronix, or app servers   | ✅ Yes                        | Useful in microservices, XA transactions                          |
+| `ChainedTransactionManager` *(from Spring Data Commons)* | For **combining multiple transaction managers**            | Multi-DB or DB + messaging systems   | ✅ Yes                        | Executes in order; rollback happens in reverse                    |
+
+
