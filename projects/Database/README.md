@@ -16,9 +16,18 @@
 | Fast development, object mapping | Use **JPA**                                   |
 | Want both flexibility and ease   | Combine **JPA + JDBC** (Spring supports both) |
 
-# Templates in Spring framework to connect to Database
+# Templates in Spring framework for Database Access
+| **Template**                 | **Purpose / Use Case**                                        | **Supports Named Parameters?** | **Recommended?**            | **Typical Usage**                        |
+| ---------------------------- | ------------------------------------------------------------- | ------------------------------ | --------------------------- | ---------------------------------------- |
+| `JdbcTemplate`               | Simplifies raw **SQL with JDBC**                              | ❌ No                           | ✅ Yes (widely used)         | Simple SQL queries, inserts, updates     |
+| `NamedParameterJdbcTemplate` | SQL queries using **named parameters** for better readability | ✅ Yes                          | ✅ Yes                       | Dynamic queries, maps, named SQL values  |
+| `SimpleJdbcInsert`           | Simplified inserts without writing SQL                        | ❌ No (but easier setup)        | ✅ For basic insert ops      | Auto-infers table/columns from metadata  |
+| `SimpleJdbcCall`             | Calling stored procedures/functions                           | ❌ No                           | ✅ For legacy SP use         | Used in enterprise DBs with stored procs |
+| `HibernateTemplate`          | Hibernate ORM integration (pre-Spring Data JPA)               | ❌ No                           | ⚠️ Legacy (not recommended) | Older Hibernate-based codebases          |
+| `JpaTemplate`                | JPA integration (Spring 2.x, **deprecated**)                  | ❌ No                           | ❌ Deprecated                | Replaced by Spring Data JPA              |
 
-# Datasources in Spring framework to connect to Database
+
+# Datasources in Spring framework for Database Access
 | **Type**                           | **Class / Library**                         | **Usage**                               |
 | ---------------------------------- | ------------------------------------------- | --------------------------------------- |
 | **Basic JDBC**                     | `DriverManagerDataSource` (Spring)          | Simple, no connection pooling           |
