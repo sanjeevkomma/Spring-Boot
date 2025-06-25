@@ -70,7 +70,7 @@
 
 # When to use which Entity Manager
 
-# When to Use which Transaction Manager
+# When to use which Transaction Manager
 | Situation                                 | Use This                       |
 | ----------------------------------------- | ------------------------------ |
 | Simple app using `JdbcTemplate`           | `DataSourceTransactionManager` |
