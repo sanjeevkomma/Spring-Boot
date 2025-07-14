@@ -104,13 +104,44 @@ Test compression and connection settings
 Update deployment scripts to deploy JAR instead of WAR
 
 
+# testing the embedded Tomcat configuration
+* To test the embedded Tomcat configuration in your Spring Boot application, you can write an integration test using Spring's @SpringBootTest annotation. Here's an example:
+# Explanation
+* The test starts the application context with the embedded Tomcat server.
+It uses TestRestTemplate to send HTTP requests and verify the server's response.
 
+# Code Example:
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.boot.test.web.client.TestRestTemplate;
 
+import static org.assertj.core.api.Assertions.assertThat;
 
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class EmbeddedTomcatTest {
 
+    @LocalServerPort
+    private int port;
 
+    @Autowired
+    private TestRestTemplate restTemplate;
 
+    @Test
+    void testTomcatIsRunning() {
+        String url = "http://localhost:" + port + "/actuator/health";
+        String response = this.restTemplate.getForObject(url, String.class);
+        assertThat(response).contains("\"status\":\"UP\"");
+    }
+}
 
+# Key Points:
+* @SpringBootTest: Boots up the application with the embedded Tomcat.
+@LocalServerPort: Injects the random port assigned to the server.
+TestRestTemplate: Sends HTTP requests to the running server.
+Actuator Endpoint: Verifies the health endpoint to ensure the server is running.
+Make sure the spring-boot-starter-actuator dependency is included in your build.gradle.
 
 
 
