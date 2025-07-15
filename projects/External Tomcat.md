@@ -103,6 +103,8 @@ Update any custom Tomcat configurations through Spring Boot properties
 Test compression and connection settings
 Update deployment scripts to deploy JAR instead of WAR
 
+# configure SSL for the embedded Tomcat in my Spring Boot application
+* Add SSL properties to application.yml or application.properties:
 
 # testing the embedded Tomcat configuration
 * To test the embedded Tomcat configuration in your Spring Boot application, you can write an integration test using Spring's @SpringBootTest annotation. Here's an example:
