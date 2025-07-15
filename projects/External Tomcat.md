@@ -68,12 +68,12 @@ public class MediaServiceApplication {
 }
 
 # Remove Tomcat-specific files:
-Delete src/main/tomcat directory
-Delete src/main/web/WEB-INF/web.xml
+* Delete src/main/tomcat directory
+* Delete src/main/web/WEB-INF/web.xml
 
 # Move static resources:
-Move from src/main/web to src/main/resources/static
-Move JSPs to src/main/resources/templates (consider migrating to Thymeleaf)
+* Move from src/main/web to src/main/resources/static
+* Move JSPs to src/main/resources/templates (consider migrating to Thymeleaf)
 
 # Update your logging configuration in application.yml:
 logging:
@@ -89,11 +89,11 @@ dependencies {
 
 # key changes
 * Removed external Tomcat configuration
-Switched from WAR to JAR packaging
-Moved Tomcat configuration to Spring Boot properties
-Embedded Tomcat configuration in the application
-Removed web.xml in favor of Java configuration
-Updated dependencies to Spring Boot 3.5.3
+* Switched from WAR to JAR packaging
+* Moved Tomcat configuration to Spring Boot properties
+* Embedded Tomcat configuration in the application
+* Removed web.xml in favor of Java configuration
+* Updated dependencies to Spring Boot 3.5.3
 
 
 # Remeber to
@@ -140,10 +140,10 @@ class EmbeddedTomcatTest {
 
 # Key Points:
 * @SpringBootTest: Boots up the application with the embedded Tomcat.
-@LocalServerPort: Injects the random port assigned to the server.
-TestRestTemplate: Sends HTTP requests to the running server.
-Actuator Endpoint: Verifies the health endpoint to ensure the server is running.
-Make sure the spring-boot-starter-actuator dependency is included in your build.gradle.
+* @LocalServerPort: Injects the random port assigned to the server.
+* TestRestTemplate: Sends HTTP requests to the running server.
+* Actuator Endpoint: Verifies the health endpoint to ensure the server is running.
+* Make sure the spring-boot-starter-actuator dependency is included in your build.gradle.
 
 
 
