@@ -1,5 +1,6 @@
 package com.demo.tools;
 
+import com.demo.entity.CartItem;
 import com.demo.respository.CartItemRepository;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
