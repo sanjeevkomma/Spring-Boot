@@ -9,6 +9,8 @@ import com.demo.util.converter.DataTransformationService;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,12 +21,15 @@ import java.util.List;
 
 @RestController
 public class ApiController {
+
     private final RestTemplateService restTemplateService;
     private final DataTransformationService transformationService;
     private final FeignClientService feignClientService;
     private final WebClientService webClientService;
     private final HttpExchangeService httpExchangeService;
     private final RestClientService restClientService;
+
+    private static final Logger log = LogManager.getLogger(ApiController.class);
 
     public ApiController(RestTemplateService restTemplateService,
                          DataTransformationService transformationService,
@@ -43,6 +48,7 @@ public class ApiController {
     @GetMapping("/api/data")
     public @ResponseBody List<String> getTransformedData() {
         JsonNode jsonNode = restTemplateService.fetchData();
+        log.info("getTransformedData method :: Fetched JSON Data::");
         return transformationService.extractTitles(jsonNode);
     }
 
