@@ -17,3 +17,8 @@
 2025-09-12 22:25:43 [restartedMain] INFO  com.demo.SpringBootRestApplication - Started SpringBootRestApplication in 6.247 seconds (process running for 7.805)
 2025-09-12 22:26:02 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-09-12 22:26:03 [http-nio-8080-exec-1] INFO  com.demo.controller.ApiController - getTransformedData method :: Fetched JSON Data::
+2025-09-12 22:32:31 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Starting SpringBootRestApplicationTests using Java 21.0.5 with PID 41668 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
+2025-09-12 22:32:31 [Test worker] DEBUG c.d.SpringBootRestApplicationTests - Running with Spring Boot v3.4.9, Spring v6.2.10
+2025-09-12 22:32:31 [Test worker] INFO  c.d.SpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-09-12 22:32:33 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9828b676-61ef-33ef-be9c-d59d569f9465
+2025-09-12 22:32:35 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Started SpringBootRestApplicationTests in 4.797 seconds (process running for 7.205)

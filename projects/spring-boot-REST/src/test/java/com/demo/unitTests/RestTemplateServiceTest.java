@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.unitTests;
 
 import com.demo.service.RestTemplateService;
 
