@@ -4,6 +4,10 @@ api:
 
 logging:
   level:
-    root: ERROR
-    org.springframework: ERROR
+    root: INFO
+    com.example: DEBUG   # your package logs at DEBUG
+    org.springframework.web: WARN
     com.demo: DEBUG
+  file:
+    path: logs           # base log directory
+    name: app.log        # main log file name
