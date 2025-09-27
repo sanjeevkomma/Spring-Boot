@@ -13,4 +13,3 @@ logging:
   file:
     path: logs           # base log directory
     name: app.log        # main log file name
-    #name: /app/logs/app.log
