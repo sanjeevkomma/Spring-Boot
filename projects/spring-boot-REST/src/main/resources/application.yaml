@@ -1,6 +1,8 @@
 api:
   url: "https://jsonplaceholder.typicode.com/posts"
 
+server:
+  port: 7200
 
 logging:
   level:

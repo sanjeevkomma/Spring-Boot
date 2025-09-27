@@ -4,10 +4,10 @@ services:
   springboot-app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: deploy/Dockerfile
     container_name: springboot-deploy
     ports:
-      - "8080:8080"
+      - "7200:7200"
     restart: unless-stopped
     volumes:
       - ./deploy:/app/deploy

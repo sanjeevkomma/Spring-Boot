@@ -1,11 +1,1 @@
-2025-09-27 12:27:43 [http-nio-8080-exec-7] INFO  com.demo.controller.ApiController - getTransformedData method :: Fetched JSON Data::
-2025-09-27 13:17:43 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Starting SpringBootRestApplicationTests using Java 21.0.5 with PID 43036 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
-2025-09-27 13:17:43 [Test worker] DEBUG c.d.SpringBootRestApplicationTests - Running with Spring Boot v3.4.7, Spring v6.2.8
-2025-09-27 13:17:43 [Test worker] INFO  c.d.SpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-09-27 13:17:45 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e4676bdd-0e24-3c2c-b653-b5d0f9f28b48
-2025-09-27 13:17:47 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Started SpringBootRestApplicationTests in 4.513 seconds (process running for 7.48)
-2025-09-27 14:08:01 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Starting SpringBootRestApplicationTests using Java 21.0.5 with PID 10628 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
-2025-09-27 14:08:01 [Test worker] DEBUG c.d.SpringBootRestApplicationTests - Running with Spring Boot v3.4.7, Spring v6.2.8
-2025-09-27 14:08:01 [Test worker] INFO  c.d.SpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-09-27 14:08:03 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e4676bdd-0e24-3c2c-b653-b5d0f9f28b48
-2025-09-27 14:08:05 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Started SpringBootRestApplicationTests in 4.106 seconds (process running for 6.619)
+asdadad
