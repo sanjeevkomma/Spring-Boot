@@ -2,7 +2,10 @@
 FROM eclipse-temurin:21-jdk-alpine
 
 # Set working directory
-WORKDIR /app/deploy
+WORKDIR /app
+
+# Create logs directory
+RUN mkdir -p logs
 
 # Copy the built JAR into deploy/
 COPY ../build/libs/spring-boot-REST-0.0.1-SNAPSHOT.jar ./spring-boot-REST-0.0.1-SNAPSHOT.jar
