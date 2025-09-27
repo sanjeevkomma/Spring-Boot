@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  springboot-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: springboot-deploy
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      - ./deploy:/app/deploy
