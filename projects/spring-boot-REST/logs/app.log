@@ -1,24 +1,5 @@
-2025-09-12 22:24:34 [http-nio-8080-exec-5] INFO  com.demo.controller.ApiController - getTransformedData method :: Fetched JSON Data::
-2025-09-12 22:25:38 [restartedMain] INFO  com.demo.SpringBootRestApplication - Starting SpringBootRestApplication using Java 21.0.5 with PID 54840 (C:\Codebase\Spring-Boot\projects\spring-boot-REST\build\classes\java\main started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
-2025-09-12 22:25:38 [restartedMain] DEBUG com.demo.SpringBootRestApplication - Running with Spring Boot v3.4.9, Spring v6.2.10
-2025-09-12 22:25:38 [restartedMain] INFO  com.demo.SpringBootRestApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-12 22:25:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-12 22:25:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-12 22:25:40 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=329833b6-c40b-359a-9b30-32c22bbb23d5
-2025-09-12 22:25:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-12 22:25:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-12 22:25:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-12 22:25:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-12 22:25:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-12 22:25:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2850 ms
-2025-09-12 22:25:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-09-12 22:25:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-12 22:25:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-12 22:25:43 [restartedMain] INFO  com.demo.SpringBootRestApplication - Started SpringBootRestApplication in 6.247 seconds (process running for 7.805)
-2025-09-12 22:26:02 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-12 22:26:03 [http-nio-8080-exec-1] INFO  com.demo.controller.ApiController - getTransformedData method :: Fetched JSON Data::
-2025-09-12 22:32:31 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Starting SpringBootRestApplicationTests using Java 21.0.5 with PID 41668 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
-2025-09-12 22:32:31 [Test worker] DEBUG c.d.SpringBootRestApplicationTests - Running with Spring Boot v3.4.9, Spring v6.2.10
-2025-09-12 22:32:31 [Test worker] INFO  c.d.SpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-09-12 22:32:33 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9828b676-61ef-33ef-be9c-d59d569f9465
-2025-09-12 22:32:35 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Started SpringBootRestApplicationTests in 4.797 seconds (process running for 7.205)
+2025-09-27 12:23:00 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Starting SpringBootRestApplicationTests using Java 21.0.5 with PID 14932 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
+2025-09-27 12:23:00 [Test worker] DEBUG c.d.SpringBootRestApplicationTests - Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-09-27 12:23:00 [Test worker] INFO  c.d.SpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-09-27 12:23:02 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e4676bdd-0e24-3c2c-b653-b5d0f9f28b48
+2025-09-27 12:23:04 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Started SpringBootRestApplicationTests in 4.423 seconds (process running for 8.08)
