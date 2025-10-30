@@ -3,7 +3,8 @@ spring:
     name: spring-boot-MCP-Shopping-Cart
   data:
     mongodb:
-      uri: mongodb://localhost:27017/cart-db
+      #uri: mongodb://localhost:27017/cart-db
+      uri: mongodb://root:secret@localhost:27017/mydb?authSource=admin
   ai:
     mcp:
       server:
