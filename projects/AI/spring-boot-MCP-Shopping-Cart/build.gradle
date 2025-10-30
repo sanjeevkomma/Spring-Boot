@@ -28,15 +28,18 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'org.springframework.ai:spring-ai-starter-mcp-server'
+	implementation platform("org.springframework.ai:spring-ai-bom:${springAiVersion}")
+	implementation "org.springframework.ai:spring-ai-autoconfigure-model-tool"
+
 	compileOnly 'org.projectlombok:lombok'
+
 	annotationProcessor 'org.projectlombok:lombok'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
-	implementation platform("org.springframework.ai:spring-ai-bom:${springAiVersion}")
-	implementation "org.springframework.ai:spring-ai-autoconfigure-model-tool"
 }
 
 dependencyManagement {
