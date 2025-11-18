@@ -1,6 +1,6 @@
 # ToRead
 * Shopping Cart MCP Server using Spring Boot, integrated with Claude Desktop.
-  * We will expose these tools:
+  * We will expose these tools:<br>
      ➤ addToCart (Add product to cart)
      ➤ removeCart (Remove product from cart)
      ➤ getCart (Get product from cart)
