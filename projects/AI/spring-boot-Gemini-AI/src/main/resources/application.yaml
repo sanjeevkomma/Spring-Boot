@@ -1,14 +1,13 @@
 spring:
   application:
     name: spring-boot-Gemini-AI
-
   ai:
-    model:
-      name: Gemini-1.5
-      chat: google-genai
-      google:
-        genai:
-          api-key: AIzaSyD28oPZwlRDbFERVWOWLkrssr7ZvvI6u8M
+    google:
+      genai:
+        project-id: GIVE_PROJECT_ID
+        api-key: AIzaSyD28oPZwlRDbFERVWOWLkrssr7ZvvI6u8M
+        location: us-central1
+        model: gemini-1.5-flash
 
 server:
   port: 9191
