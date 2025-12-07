@@ -4,8 +4,8 @@ spring:
   ai:
     google:
       genai:
-        project-id: my-first-tech-project
-        api-key: AIzaSyD28oPZwlRDbFERVWOWLkrssr7ZvvI6u8M
+        project-id: GIVE_PROJECT_ID_HERE
+        api-key: GIVE_API_KEY_HERE
         location: us-central1
         model:
           chat: google-genai

@@ -11,6 +11,7 @@ class ChatServiceTest {
 
     @Test
     void testAskReturnsExpectedContent() {
+
         ChatClient.Builder builder = Mockito.mock(ChatClient.Builder.class);
         ChatClient chatClient = Mockito.mock(ChatClient.class);
 
@@ -26,7 +27,6 @@ class ChatServiceTest {
         ChatService chatService = new ChatService(builder);
 
         String result = chatService.ask("Hello");
-
         assertEquals("Hi there!", result);
     }
 }
