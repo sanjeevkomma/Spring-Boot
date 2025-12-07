@@ -13,7 +13,8 @@ public class ChatService {
     }
 
     public String ask(String prompt){
-        return chatClient.prompt(prompt)
+        return chatClient.prompt()
+                .user(prompt)
                 .call()
                 .content();
     }

@@ -4,10 +4,11 @@ spring:
   ai:
     google:
       genai:
-        project-id: GIVE_PROJECT_ID
+        project-id: my-first-tech-project
         api-key: AIzaSyD28oPZwlRDbFERVWOWLkrssr7ZvvI6u8M
         location: us-central1
-        model: gemini-1.5-flash
+        model:
+          chat: google-genai
 
 server:
   port: 9191
