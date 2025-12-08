@@ -1,0 +1,10 @@
+services:
+  spring-boot-gemini-ai:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: spring-boot-gemini-ai
+    ports:
+      - "9191:9191"   # App port
+      - "5005:5005"   # Debug port
+    restart: unless-stopped

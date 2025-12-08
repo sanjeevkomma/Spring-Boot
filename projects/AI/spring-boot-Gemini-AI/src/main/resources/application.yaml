@@ -12,3 +12,12 @@ spring:
 
 server:
   port: 9191
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: WARN
+    com.demo: DEBUG
+  file:
+    path: logs           # base log directory
+    name: app.log        # main log file name
