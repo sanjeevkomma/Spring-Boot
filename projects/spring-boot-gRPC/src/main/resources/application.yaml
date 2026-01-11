@@ -1,3 +1,7 @@
 spring:
   application:
     name: spring-boot-gRPC
+
+grpc:
+  server:
+    port: 9090
