@@ -14,6 +14,13 @@ java {
 		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
+kotlin {
+	jvmToolchain(21)
+	compilerOptions {
+		jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
+		freeCompilerArgs.add("-Xjsr305=strict")
+	}
+}
 
 repositories {
 	mavenCentral()
@@ -21,6 +28,8 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
