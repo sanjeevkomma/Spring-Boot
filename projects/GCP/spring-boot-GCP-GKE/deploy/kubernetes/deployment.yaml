@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-gke-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: spring-gke
+  template:
+    metadata:
+      labels:
+        app: spring-gke
+    spec:
+      containers:
+        - name: app
+          image: asia-south1-docker.pkg.dev/<PROJECT_ID>/spring-repo/spring-gke-demo:1.0
+          ports:
+            - containerPort: 8080
