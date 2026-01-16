@@ -1,0 +1,8 @@
+spring:
+  application:
+  name: spring-boot-GCP-Pub-Sub
+  cloud:
+    gcp:
+      project-id: your-gcp-project-id
+      pubsub:
+        emulator-host: ""

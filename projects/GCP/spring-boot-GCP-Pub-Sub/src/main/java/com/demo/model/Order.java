@@ -1,6 +1,5 @@
 package com.demo.model;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
