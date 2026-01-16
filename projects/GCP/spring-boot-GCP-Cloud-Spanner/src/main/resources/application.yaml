@@ -1,3 +1,12 @@
 spring:
   application:
     name: spring-boot-GCP-Cloud-Spanner
+
+  cloud:
+    gcp:
+      project-id: my-gcp-project
+      spanner:
+        instance-id: my-spanner-instance
+        database: my-database
+
+# No credentials here — ADC is used
