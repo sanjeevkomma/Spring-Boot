@@ -6,4 +6,4 @@ spring:
     gcp:
       project-id: your-gcp-project-id
       credentials:
-        location: classpath:service-account.json
+        location: classpath:service-account.example.json
