@@ -1,6 +1,7 @@
 package com.demo.service;
 
 import com.google.cloud.spring.pubsub.core.subscriber.PubSubSubscriberTemplate;
+
 import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;

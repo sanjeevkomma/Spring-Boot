@@ -5,4 +5,5 @@ spring:
     gcp:
       project-id: your-gcp-project-id
       pubsub:
-        emulator-host: ""
+        enabled: true
+#        emulator-host: ""
