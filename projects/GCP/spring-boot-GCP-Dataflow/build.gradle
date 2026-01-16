@@ -16,10 +16,17 @@ java {
 
 repositories {
 	mavenCentral()
+	maven { url "https://packages.confluent.io/maven/" }  // Only if using Kafka IO
+	maven { url "https://maven.google.com" }             // Google Cloud artifacts
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+
+	// Apache Beam for Dataflow
+	implementation 'org.apache.beam:beam-sdks-java-core:2.49.0'
+	implementation 'org.apache.beam:beam-runners-google-cloud-dataflow-java:2.49.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

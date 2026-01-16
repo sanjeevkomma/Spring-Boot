@@ -1,3 +1,9 @@
 spring:
   application:
     name: spring-boot-GCP-Dataflow
+
+  cloud:
+    gcp:
+      project-id: your-gcp-project-id
+      credentials:
+        location: classpath:service-account.json
