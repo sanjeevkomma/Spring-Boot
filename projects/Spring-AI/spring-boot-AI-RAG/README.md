@@ -16,5 +16,7 @@ Context + Question → LLM → Answer
 | Build        | Gradle             |
 
 
-# Test
-* http://localhost:8080/rag/ask?q=What is RAG?
+# Swagger UI
+* http://localhost:8080/swagger-ui.html
+# OpenAPI JSON
+* http://localhost:8080/v3/api-docs
