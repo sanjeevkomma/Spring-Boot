@@ -1,3 +1,9 @@
 spring:
   application:
     name: spring-boot-AI-RAG
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
