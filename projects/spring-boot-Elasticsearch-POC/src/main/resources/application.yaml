@@ -1,3 +1,5 @@
 spring:
   application:
     name: spring-boot-Elasticsearch-POC
+  elasticsearch:
+    uris: http://localhost:9200
