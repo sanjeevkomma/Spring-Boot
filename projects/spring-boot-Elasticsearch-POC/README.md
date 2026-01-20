@@ -5,12 +5,7 @@ Controller  →  Service  →  Elasticsearch Repository  →  ES
 # Prerequisites
 # Elasticsearch (Docker – Recommended)
 ```bash
-docker run -d \
-  --name es8 \
-  -p 9200:9200 \
-  -e "discovery.type=single-node" \
-  -e "xpack.security.enabled=false" \
-  docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "xpack.security.enabled=false" -e "ES_JAVA_OPTS=-Xms256m -Xmx256m" elasticsearch:8.17.4
 ```
 # Verify:
 ```arduino
