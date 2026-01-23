@@ -15,7 +15,7 @@ public class UserController {
 
     @GetMapping("/user/{id}")
     public Mono<User> getUser(@PathVariable Long id) {
-        return Mono.just(new User(id, "Sanjeev"))
+        return Mono.just(new User(id, "John"))
                 .delayElement(Duration.ofSeconds(1));
     }
 
