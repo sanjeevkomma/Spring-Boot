@@ -14,3 +14,7 @@
 * <img width="1065" height="857" alt="image" src="https://github.com/user-attachments/assets/f462d3cd-845b-4fca-b572-bafe275ad786" />
 
 
+# Swagger UI
+* http://localhost:7200/swagger-ui.html
+# OpenAPI JSON
+* http://localhost:7200/v3/api-docs
