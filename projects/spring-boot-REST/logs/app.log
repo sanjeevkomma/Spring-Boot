@@ -138,3 +138,9 @@ Original Stack Trace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-01-23 12:47:14 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Starting SpringBootRestApplicationTests using Java 21.0.5 with PID 34480 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\spring-boot-REST)
+2026-01-23 12:47:14 [Test worker] DEBUG c.d.SpringBootRestApplicationTests - Running with Spring Boot v3.4.7, Spring v6.2.8
+2026-01-23 12:47:14 [Test worker] INFO  c.d.SpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-23 12:47:16 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=191c92a6-62f2-3660-8f14-9e883f19ea69
+2026-01-23 12:47:17 [Test worker] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-01-23 12:47:18 [Test worker] INFO  c.d.SpringBootRestApplicationTests - Started SpringBootRestApplicationTests in 4.235 seconds (process running for 6.073)

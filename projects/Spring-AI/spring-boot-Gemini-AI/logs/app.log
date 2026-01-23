@@ -1,0 +1,4 @@
+2026-01-23 21:01:27 [Test worker] INFO  c.d.SpringBootGeminiAiApplicationTests - Starting SpringBootGeminiAiApplicationTests using Java 21.0.5 with PID 37832 (started by Sanjeev in C:\Codebase\Spring-Boot\projects\Spring-AI\spring-boot-Gemini-AI)
+2026-01-23 21:01:27 [Test worker] INFO  c.d.SpringBootGeminiAiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-23 21:01:28 [Test worker] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-01-23 21:01:29 [Test worker] INFO  c.d.SpringBootGeminiAiApplicationTests - Started SpringBootGeminiAiApplicationTests in 2.324 seconds (process running for 3.561)
