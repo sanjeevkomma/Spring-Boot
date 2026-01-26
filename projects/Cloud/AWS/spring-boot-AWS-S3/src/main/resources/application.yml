@@ -1,7 +1,0 @@
-server:
-  port: 8080
-
-aws:
-  region: ap-south-1
-  s3:
-    bucket-name: my-demo-bucket
