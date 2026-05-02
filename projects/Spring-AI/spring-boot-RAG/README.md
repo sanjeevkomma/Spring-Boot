@@ -13,7 +13,9 @@ Context + Question → LLM → Answer
 
 # ToRead
 * embedding = vector
+* embeddings = vectors = lists of numbers(floats / doubles)
 * Vector DB = It stores data as embeddings (vectors) so we can search by meaning, not just exact text.
+* Similar meaning → similar numbers → easy to match
 
 # Vector DB = search by meaning, not words
 * Semantic search = searching by meaning, not just exact words
@@ -39,6 +41,10 @@ Context + Question → LLM → Answer
 3. Convert query → vector
 4. Find similar vectors
 
+# Embedding Model
+* An embedding model (a type of AI model) generates these numbers(vectors)
+* A specialized AI model trained to convert text → vectors
+* A model that converts text → numbers (vectors)
 
 # Tech Stack
 | Layer        | Choice             |
@@ -58,6 +64,9 @@ Context + Question → LLM → Answer
 * The data is stored in the vector database by the developer’s application during the ingestion process, where documents are converted into embeddings and saved; the LLM itself does not store or manage this data.
 2. What exactly does the LLM (AI model) do in RAG?
 * In RAG, the LLM reads the retrieved data and generates the final answer in natural language.
+3. who generates these numbers ?
+* An embedding model (a type of AI model) generates these numbers
+
 
 # Swagger UI
 * http://localhost:8080/swagger-ui.html

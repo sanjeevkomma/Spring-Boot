@@ -20,6 +20,11 @@ public class RagService {
         this.vectorStore = vectorStore;
     }
 
+    // Ingestion
+    public void addDocument(String text) {
+        vectorStore.add(List.of(new Document(text)));
+    }
+
     public String ask(String question) {
 
         List<Document> docs = vectorStore.similaritySearch(
