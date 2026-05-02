@@ -20,3 +20,11 @@
 -e MONGO_INITDB_ROOT_PASSWORD=secret \
 mongo:latest
 
+# REST API vs MCP
+| Feature          | REST API   | MCP Tool      |
+| ---------------- | ---------- | ------------- |
+| Entry point      | Controller | Tool method   |
+| Input format     | JSON       | Method params |
+| Discovery        | Manual     | Automatic     |
+| AI understanding | ❌ Hard     | ✅ Easy        |
+| Coupling         | Tight      | Loose         |
