@@ -31,3 +31,5 @@ mongo:latest
 
 # Images
 * <img width="1195" height="1025" alt="image" src="https://github.com/user-attachments/assets/004a8785-bee3-4852-b892-1030494b19f9" />
+* <img width="627" height="378" alt="image" src="https://github.com/user-attachments/assets/d6cf7754-d00c-4dff-84b7-7be871c3f2f7" />
+
