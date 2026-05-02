@@ -28,3 +28,6 @@ mongo:latest
 | Discovery        | Manual     | Automatic     |
 | AI understanding | ❌ Hard     | ✅ Easy        |
 | Coupling         | Tight      | Loose         |
+
+# Images
+* <img width="1195" height="1025" alt="image" src="https://github.com/user-attachments/assets/004a8785-bee3-4852-b892-1030494b19f9" />
